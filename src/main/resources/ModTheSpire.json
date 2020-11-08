@@ -1,0 +1,10 @@
+{
+  "modid": "ojb_MobInfo",
+  "name": "Mob Info",
+  "author_list": ["ojb"],
+  "description": "Displays mob AI and movesets",
+  "version": "0.0.1",
+  "sts_version": "06-22-2020",
+  "mts_version": "2.6.0",
+  "dependencies": ["basemod"]
+}
