@@ -3,15 +3,15 @@
     {
       "name": "Fat Gremlin",
       "id": "GremlinFat",
-      "hp": "(14 - 18 HP)",
-      "movesets": [
+      "ai": [
         {
           "min_asc": 0,
-          "ai": "#wSmash every turn.",
+          "desc": "#wSmash every turn.",
+          "hp": "(14 - 18 HP)",
           "moves": [
             {
               "name": "Smash",
-              "effects": [
+              "moves": [
                 {
                   "name": "5",
                   "color": "e83839ff"
@@ -33,15 +33,15 @@
     {
       "name": "Shield Gremlin",
       "id": "GremlinTsundere",
-      "hp": "(13 - 17 HP)",
-      "movesets": [
+      "ai": [
         {
           "min_asc": 0,
-          "ai": "#wProtects random allies until none remain, and then uses #wShield #wBash.",
+          "desc": "#wProtects random allies until none remain, and then uses #wShield #wBash.",
+          "hp": "(13 - 17 HP)",
           "moves": [
             {
               "name": "Protect",
-              "effects": [
+              "moves": [
                 {
                   "name": "Ally Block 11",
                   "color": "559cd6ff"
@@ -50,7 +50,7 @@
             },
             {
               "name": "Shield Bash",
-              "effects": [
+              "moves": [
                 {
                   "name": "8",
                   "color": "e83839ff"
@@ -64,15 +64,15 @@
     {
       "name": "Spire Shield",
       "id": "SpireShield",
-      "hp": "(125 HP)",
-      "movesets": [
+      "ai": [
         {
           "min_asc": 0,
-          "ai": "Every 3 turns starting from turn 3, uses #wSmash. Otherwise, has an equal chance of either using #wBash followed by #wFortify or #wFortify followed by #wBash.",
+          "desc": "Every 3 turns starting from turn 3, uses #wSmash. Otherwise, has an equal chance of either using #wBash followed by #wFortify or #wFortify followed by #wBash.",
+          "hp": "(125 HP)",
           "moves": [
             {
               "name": "Bash",
-              "effects": [
+              "moves": [
                 {
                   "name": "14",
                   "color": "e83839ff"
@@ -85,7 +85,7 @@
             },
             {
               "name": "Fortify",
-              "effects": [
+              "moves": [
                 {
                   "name": "Team Block 30",
                   "color": "559cd6ff"
@@ -94,7 +94,7 @@
             },
             {
               "name": "Smash",
-              "effects": [
+              "moves": [
                 {
                   "name": "38",
                   "color": "e83839ff"
@@ -112,15 +112,15 @@
     {
       "name": "The Guardian",
       "id": "TheGuardian",
-      "hp": "(250 HP)",
-      "movesets": [
+      "ai": [
         {
           "min_asc": 0,
-          "ai": "Always cycles in the order of #wCharge #wUp -> #wFierce #wBash -> #wVent #wSteam -> #wWhirlwind. The fight always begins with #wCharge #wUp. After using #wTwin #wSlam in defensive mode, #wWhirlwind is used next. NL NL Upon entering defensive mode, it uses #wClose #wUp (not shown), which gives #uSharp #uHide #u4. Then, it proceeds to #wRoll #wAttack -> #wTwin #wSlam and return to offensive mode with #wWhirlwind.",
+          "desc": "Always cycles in the order of #wCharge #wUp -> #wFierce #wBash -> #wVent #wSteam -> #wWhirlwind. The fight always begins with #wCharge #wUp. After using #wTwin #wSlam in defensive mode, #wWhirlwind is used next. NL NL Upon entering defensive mode, it uses #wClose #wUp (not shown), which gives #uSharp #uHide #u4. Then, it proceeds to #wRoll #wAttack -> #wTwin #wSlam and return to offensive mode with #wWhirlwind.",
+          "hp": "(250 HP)",
           "moves": [
             {
               "name": "Charge Up",
-              "effects": [
+              "moves": [
                 {
                   "name": "Block 9",
                   "color": "559cd6ff"
@@ -129,7 +129,7 @@
             },
             {
               "name": "Fierce Bash",
-              "effects": [
+              "moves": [
                 {
                   "name": "36",
                   "color": "e83839ff"
@@ -138,7 +138,7 @@
             },
             {
               "name": "Vent Steam",
-              "effects": [
+              "moves": [
                 {
                   "name": "Weak 2",
                   "color": "ff7e00ff"
@@ -151,7 +151,7 @@
             },
             {
               "name": "Whirlwind",
-              "effects": [
+              "moves": [
                 {
                   "name": "5x4",
                   "color": "e83839ff"
@@ -160,7 +160,7 @@
             },
             {
               "name": "Roll Attack",
-              "effects": [
+              "moves": [
                 {
                   "name": "10",
                   "color": "e83839ff"
@@ -169,7 +169,7 @@
             },
             {
               "name": "Twin Slam",
-              "effects": [
+              "moves": [
                 {
                   "name": "Enter Offensive Mode",
                   "color": "4dae49ff"
@@ -191,15 +191,15 @@
     {
       "name": "Acid Slime (L)",
       "id": "AcidSlime_L",
-      "hp": "(68 - 72 HP)",
-      "movesets": [
+      "ai": [
         {
           "min_asc": 0,
-          "ai": "When not splitting, approximately a 40-30-30 probability split between #wCorrosive #wSpit, #wTackle, and #wLick. #wLick cannot be used twice in a row, and the other moves cannot be used three times in a row.",
+          "desc": "When not splitting, approximately a 40-30-30 probability split between #wCorrosive #wSpit, #wTackle, and #wLick. #wLick cannot be used twice in a row, and the other moves cannot be used three times in a row.",
+          "hp": "(68 - 72 HP)",
           "moves": [
             {
               "name": "Corrosive Split",
-              "effects": [
+              "moves": [
                 {
                   "name": "12",
                   "color": "e83839ff"
@@ -212,7 +212,7 @@
             },
             {
               "name": "Lick",
-              "effects": [
+              "moves": [
                 {
                   "name": "Weak 2",
                   "color": "ff7e00ff"
@@ -221,7 +221,7 @@
             },
             {
               "name": "Tackle",
-              "effects": [
+              "moves": [
                 {
                   "name": "18",
                   "color": "e83839ff"
@@ -230,7 +230,7 @@
             },
             {
               "name": "Split",
-              "effects": []
+              "moves": []
             }
           ]
         }
@@ -239,15 +239,15 @@
     {
       "name": "Donu",
       "id": "Donu",
-      "hp": "(265 HP)",
-      "movesets": [
+      "ai": [
         {
           "min_asc": 0,
-          "ai": "Starts with #wCircle #wOf #wPower, and then alternates between the two moves.",
+          "desc": "Starts with #wCircle #wOf #wPower, and then alternates between the two moves.",
+          "hp": "(265 HP)",
           "moves": [
             {
               "name": "Circle of Power",
-              "effects": [
+              "moves": [
                 {
                   "name": "Team Str +3",
                   "color": "974ea2ff"
@@ -256,7 +256,7 @@
             },
             {
               "name": "Beam",
-              "effects": [
+              "moves": [
                 {
                   "name": "12x2",
                   "color": "e83839ff"
@@ -270,15 +270,15 @@
     {
       "name": "Acid Slime (M)",
       "id": "AcidSlime_M",
-      "hp": "(29 - 34 HP)",
-      "movesets": [
+      "ai": [
         {
           "min_asc": 0,
-          "ai": "When not splitting, approximately a 40-40-20 probability split between #wCorrosive #wSpit, #wTackle, and #wLick. #wLick cannot be used twice in a row, and the other moves cannot be used three times in a row.",
+          "desc": "When not splitting, approximately a 40-40-20 probability split between #wCorrosive #wSpit, #wTackle, and #wLick. #wLick cannot be used twice in a row, and the other moves cannot be used three times in a row.",
+          "hp": "(29 - 34 HP)",
           "moves": [
             {
               "name": "Corrosive Split",
-              "effects": [
+              "moves": [
                 {
                   "name": "8",
                   "color": "e83839ff"
@@ -291,7 +291,7 @@
             },
             {
               "name": "Lick",
-              "effects": [
+              "moves": [
                 {
                   "name": "Weak 1",
                   "color": "ff7e00ff"
@@ -300,7 +300,7 @@
             },
             {
               "name": "Tackle",
-              "effects": [
+              "moves": [
                 {
                   "name": "12",
                   "color": "e83839ff"
@@ -314,15 +314,15 @@
     {
       "name": "Book of Stabbing",
       "id": "BookOfStabbing",
-      "hp": "(168 - 172 HP)",
-      "movesets": [
+      "ai": [
         {
           "min_asc": 0,
-          "ai": "15% chance to #wSingle #wAttack except the #wMulti-Attack cannot be used 3 times in a row, and the #wSingle #wAttack cannot be used twice in a row",
+          "desc": "15% chance to #wSingle #wAttack except the #wMulti-Attack cannot be used 3 times in a row, and the #wSingle #wAttack cannot be used twice in a row",
+          "hp": "(168 - 172 HP)",
           "moves": [
             {
               "name": "Multi-Attack",
-              "effects": [
+              "moves": [
                 {
                   "name": "7xT",
                   "color": "e83839ff"
@@ -331,7 +331,7 @@
             },
             {
               "name": "Single Attack",
-              "effects": [
+              "moves": [
                 {
                   "name": "24",
                   "color": "e83839ff"
@@ -345,15 +345,15 @@
     {
       "name": "Sneaky Gremlin",
       "id": "GremlinThief",
-      "hp": "(11 - 15 HP)",
-      "movesets": [
+      "ai": [
         {
           "min_asc": 0,
-          "ai": "Always uses #wPuncture.",
+          "desc": "Always uses #wPuncture.",
+          "hp": "(11 - 15 HP)",
           "moves": [
             {
               "name": "Puncture",
-              "effects": [
+              "moves": [
                 {
                   "name": "10",
                   "color": "e83839ff"
@@ -367,15 +367,15 @@
     {
       "name": "Acid Slime (S)",
       "id": "AcidSlime_S",
-      "hp": "(9 - 13 HP)",
-      "movesets": [
+      "ai": [
         {
           "min_asc": 0,
-          "ai": "Always starts with #wLick, and then alternates between the two moves.",
+          "desc": "Always starts with #wLick, and then alternates between the two moves.",
+          "hp": "(9 - 13 HP)",
           "moves": [
             {
               "name": "Tackle",
-              "effects": [
+              "moves": [
                 {
                   "name": "4",
                   "color": "e83839ff"
@@ -384,7 +384,7 @@
             },
             {
               "name": "Lick",
-              "effects": [
+              "moves": [
                 {
                   "name": "Weak 1",
                   "color": "ff7e00ff"
@@ -398,15 +398,15 @@
     {
       "name": "Sentry",
       "id": "Sentry",
-      "hp": "(39 - 45 HP)",
-      "movesets": [
+      "ai": [
         {
           "min_asc": 0,
-          "ai": "In a 3-Sentry encounter, the Sentries start with #wBolt / #wBeam / #wBolt. In the Sentry + Spheric Guardian encounter, the Sentry starts with #wBolt. Always alternates between the two moves.",
+          "desc": "In a 3-Sentry encounter, the Sentries start with #wBolt / #wBeam / #wBolt. In the Sentry + Spheric Guardian encounter, the Sentry starts with #wBolt. Always alternates between the two moves.",
+          "hp": "(39 - 45 HP)",
           "moves": [
             {
               "name": "Beam",
-              "effects": [
+              "moves": [
                 {
                   "name": "10",
                   "color": "e83839ff"
@@ -415,7 +415,7 @@
             },
             {
               "name": "Bolt",
-              "effects": [
+              "moves": [
                 {
                   "name": "Daze 3",
                   "color": "ff7e00ff"
@@ -429,15 +429,15 @@
     {
       "name": "Spire Spear",
       "id": "SpireSpear",
-      "hp": "(180 HP)",
-      "movesets": [
+      "ai": [
         {
           "min_asc": 0,
-          "ai": "Always starts with #wBurn #wStrike. Every 3 turns starting with turn 2, uses #wSkewer. Otherwise, has an equal chance to either use #wBurn #wStrike followed by #wPiercer or #wPiercer followed by #wBurn #wStrike.",
+          "desc": "Always starts with #wBurn #wStrike. Every 3 turns starting with turn 2, uses #wSkewer. Otherwise, has an equal chance to either use #wBurn #wStrike followed by #wPiercer or #wPiercer followed by #wBurn #wStrike.",
+          "hp": "(180 HP)",
           "moves": [
             {
               "name": "Burn Strike",
-              "effects": [
+              "moves": [
                 {
                   "name": "6x2",
                   "color": "e83839ff"
@@ -450,7 +450,7 @@
             },
             {
               "name": "Piercer",
-              "effects": [
+              "moves": [
                 {
                   "name": "Team Str +2",
                   "color": "974ea2ff"
@@ -459,7 +459,7 @@
             },
             {
               "name": "Skewer",
-              "effects": [
+              "moves": [
                 {
                   "name": "10x4",
                   "color": "e83839ff"
@@ -473,15 +473,15 @@
     {
       "name": "Snake Plant",
       "id": "SnakePlant",
-      "hp": "(78 - 82 HP)",
-      "movesets": [
+      "ai": [
         {
           "min_asc": 0,
-          "ai": "65% chance of #wChomp and 35% chance of #wEnfeebling #wSpores, until #wEnfeebling #wSpores is used. Then, cycles in the order of #wChomp -> #wChomp -> #wEnfeebling #wSpores.",
+          "desc": "65% chance of #wChomp and 35% chance of #wEnfeebling #wSpores, until #wEnfeebling #wSpores is used. Then, cycles in the order of #wChomp -> #wChomp -> #wEnfeebling #wSpores.",
+          "hp": "(78 - 82 HP)",
           "moves": [
             {
               "name": "Enfeebling Spores",
-              "effects": [
+              "moves": [
                 {
                   "name": "Frail 2",
                   "color": "ff7e00ff"
@@ -494,7 +494,7 @@
             },
             {
               "name": "Chomp",
-              "effects": [
+              "moves": [
                 {
                   "name": "8x3",
                   "color": "e83839ff"
@@ -508,15 +508,15 @@
     {
       "name": "Bronze Orb",
       "id": "BronzeOrb",
-      "hp": "(54 - 60 HP)",
-      "movesets": [
+      "ai": [
         {
           "min_asc": 0,
-          "ai": "Has a 75% chance of using #wStasis until it has been used. Otherwise, has a 70% chance of using #wSupport #wBeam and a 30% chance of using #wBeam, but cannot use the same move three times in a row.",
+          "desc": "Has a 75% chance of using #wStasis until it has been used. Otherwise, has a 70% chance of using #wSupport #wBeam and a 30% chance of using #wBeam, but cannot use the same move three times in a row.",
+          "hp": "(54 - 60 HP)",
           "moves": [
             {
               "name": "Support Beam",
-              "effects": [
+              "moves": [
                 {
                   "name": "Block Bronze Automaton 12",
                   "color": "559cd6ff"
@@ -525,7 +525,7 @@
             },
             {
               "name": "Beam",
-              "effects": [
+              "moves": [
                 {
                   "name": "8",
                   "color": "e83839ff"
@@ -534,7 +534,7 @@
             },
             {
               "name": "Stasis",
-              "effects": [
+              "moves": [
                 {
                   "name": "Steal Card",
                   "color": "ff7e00ff"
@@ -548,15 +548,15 @@
     {
       "name": "Deca",
       "id": "Deca",
-      "hp": "(265 HP)",
-      "movesets": [
+      "ai": [
         {
           "min_asc": 0,
-          "ai": "Starts with #wBeam, and then alternates between the two moves.",
+          "desc": "Starts with #wBeam, and then alternates between the two moves.",
+          "hp": "(265 HP)",
           "moves": [
             {
               "name": "Square of Protection",
-              "effects": [
+              "moves": [
                 {
                   "name": "Team Block 16",
                   "color": "559cd6ff"
@@ -569,7 +569,7 @@
             },
             {
               "name": "Beam",
-              "effects": [
+              "moves": [
                 {
                   "name": "12x2",
                   "color": "e83839ff"
@@ -587,15 +587,15 @@
     {
       "name": "Cultist",
       "id": "Cultist",
-      "hp": "(50 - 56 HP)",
-      "movesets": [
+      "ai": [
         {
           "min_asc": 0,
-          "ai": "Always starts with #wIncantation. Then repeats #wDark #wStrike.",
+          "desc": "Always starts with #wIncantation. Then repeats #wDark #wStrike.",
+          "hp": "(50 - 56 HP)",
           "moves": [
             {
               "name": "Incantation",
-              "effects": [
+              "moves": [
                 {
                   "name": "Ritual 5",
                   "color": "974ea2ff"
@@ -604,7 +604,7 @@
             },
             {
               "name": "Dark Strike",
-              "effects": [
+              "moves": [
                 {
                   "name": "6",
                   "color": "e83839ff"
@@ -618,15 +618,15 @@
     {
       "name": "Snecko",
       "id": "Snecko",
-      "hp": "(120 - 125 HP)",
-      "movesets": [
+      "ai": [
         {
           "min_asc": 0,
-          "ai": "Starts with #wPerplexing #wGlare. Then, 40% chance of #wTail #wWhip and 60% chance of #wBite, but cannot #wBite three times in a row.",
+          "desc": "Starts with #wPerplexing #wGlare. Then, 40% chance of #wTail #wWhip and 60% chance of #wBite, but cannot #wBite three times in a row.",
+          "hp": "(120 - 125 HP)",
           "moves": [
             {
               "name": "Perplexing Glare",
-              "effects": [
+              "moves": [
                 {
                   "name": "Confuse",
                   "color": "ff7e00ff"
@@ -635,7 +635,7 @@
             },
             {
               "name": "Tail Whip",
-              "effects": [
+              "moves": [
                 {
                   "name": "10",
                   "color": "e83839ff"
@@ -652,7 +652,7 @@
             },
             {
               "name": "Bite",
-              "effects": [
+              "moves": [
                 {
                   "name": "18",
                   "color": "e83839ff"
@@ -666,15 +666,15 @@
     {
       "name": "Lagavulin",
       "id": "Lagavulin",
-      "hp": "(112 - 115 HP)",
-      "movesets": [
+      "ai": [
         {
           "min_asc": 0,
-          "ai": "After waking up, cycles in the order: #wAttack -> #wAttack -> #wSiphon #wSoul.",
+          "desc": "After waking up, cycles in the order: #wAttack -> #wAttack -> #wSiphon #wSoul.",
+          "hp": "(112 - 115 HP)",
           "moves": [
             {
               "name": "Sleep / Stunned",
-              "effects": [
+              "moves": [
                 {
                   "name": "Skip Turn",
                   "color": "999999ff"
@@ -683,7 +683,7 @@
             },
             {
               "name": "Attack",
-              "effects": [
+              "moves": [
                 {
                   "name": "20",
                   "color": "e83839ff"
@@ -692,7 +692,7 @@
             },
             {
               "name": "Siphon Soul",
-              "effects": [
+              "moves": [
                 {
                   "name": "Player Str -2",
                   "color": "ff7e00ff"
@@ -710,15 +710,15 @@
     {
       "name": "Darkling",
       "id": "Darkling",
-      "hp": "(50 - 59 HP)",
-      "movesets": [
+      "ai": [
         {
           "min_asc": 0,
-          "ai": "On turn 1, 50% chance of either #wNip or #wHarden. Afterwards, has a 30-40-30 split between #wNip, #wChomp, and #wHarden, but #wHarden and #wChomp both cannot be used twice in a row, and #wNip cannot be used three times in a row. The middle Darkling cannot #wChomp and has a 50-50 split instead. When half-dead, uses #w???, followed by #wReincarnate.",
+          "desc": "On turn 1, 50% chance of either #wNip or #wHarden. Afterwards, has a 30-40-30 split between #wNip, #wChomp, and #wHarden, but #wHarden and #wChomp both cannot be used twice in a row, and #wNip cannot be used three times in a row. The middle Darkling cannot #wChomp and has a 50-50 split instead. When half-dead, uses #w???, followed by #wReincarnate.",
+          "hp": "(50 - 59 HP)",
           "moves": [
             {
               "name": "Nip",
-              "effects": [
+              "moves": [
                 {
                   "name": "D",
                   "color": "e83839ff"
@@ -727,7 +727,7 @@
             },
             {
               "name": "Harden",
-              "effects": [
+              "moves": [
                 {
                   "name": "Str +2",
                   "color": "974ea2ff"
@@ -740,7 +740,7 @@
             },
             {
               "name": "Chomp",
-              "effects": [
+              "moves": [
                 {
                   "name": "9x2",
                   "color": "e83839ff"
@@ -749,7 +749,7 @@
             },
             {
               "name": "???",
-              "effects": [
+              "moves": [
                 {
                   "name": "Skip Turn",
                   "color": "999999ff"
@@ -758,7 +758,7 @@
             },
             {
               "name": "Reincarnate",
-              "effects": [
+              "moves": [
                 {
                   "name": "Revive 50% Max HP",
                   "color": "974ea2ff"
@@ -772,15 +772,15 @@
     {
       "name": "Bear",
       "id": "BanditBear",
-      "hp": "(40 - 44 HP)",
-      "movesets": [
+      "ai": [
         {
           "min_asc": 0,
-          "ai": "Starts with #wBear #wHug, and then alternates between #wLunge and #wMaul",
+          "desc": "Starts with #wBear #wHug, and then alternates between #wLunge and #wMaul",
+          "hp": "(40 - 44 HP)",
           "moves": [
             {
               "name": "Bear Hug",
-              "effects": [
+              "moves": [
                 {
                   "name": "Player's Dex: -4",
                   "color": "ff7e00ff"
@@ -789,7 +789,7 @@
             },
             {
               "name": "Maul",
-              "effects": [
+              "moves": [
                 {
                   "name": "20",
                   "color": "e83839ff"
@@ -798,7 +798,7 @@
             },
             {
               "name": "Lunge",
-              "effects": [
+              "moves": [
                 {
                   "name": "10",
                   "color": "e83839ff"
@@ -816,15 +816,15 @@
     {
       "name": "Mystic",
       "id": "Healer",
-      "hp": "(50 - 58 HP)",
-      "movesets": [
+      "ai": [
         {
           "min_asc": 0,
-          "ai": "If there is 21 HP to heal, uses #wHeal (up to twice in a row). Otherwise, has a 60% chance of #wAttack #w/ #wDebuff and a 40% chance of #wBuff. #wAttack #w/ #wDebuff cannot be used twice in a row, and #wBuff cannot be used three times in a row.",
+          "desc": "If there is 21 HP to heal, uses #wHeal (up to twice in a row). Otherwise, has a 60% chance of #wAttack #w/ #wDebuff and a 40% chance of #wBuff. #wAttack #w/ #wDebuff cannot be used twice in a row, and #wBuff cannot be used three times in a row.",
+          "hp": "(50 - 58 HP)",
           "moves": [
             {
               "name": "Heal",
-              "effects": [
+              "moves": [
                 {
                   "name": "Party Heal 20",
                   "color": "559cd6ff"
@@ -833,7 +833,7 @@
             },
             {
               "name": "Buff",
-              "effects": [
+              "moves": [
                 {
                   "name": "Party Str +4",
                   "color": "974ea2ff"
@@ -842,7 +842,7 @@
             },
             {
               "name": "Attack / Debuff",
-              "effects": [
+              "moves": [
                 {
                   "name": "9",
                   "color": "e83839ff"
@@ -860,15 +860,15 @@
     {
       "name": "Exploder",
       "id": "Exploder",
-      "hp": "(30 - 35 HP)",
-      "movesets": [
+      "ai": [
         {
           "min_asc": 0,
-          "ai": "#wAttacks twice, and then #wExplodes, doing 30 damage in the explosion if not killed.",
+          "desc": "#wAttacks twice, and then #wExplodes, doing 30 damage in the explosion if not killed.",
+          "hp": "(30 - 35 HP)",
           "moves": [
             {
               "name": "Attack",
-              "effects": [
+              "moves": [
                 {
                   "name": "11",
                   "color": "e83839ff"
@@ -877,7 +877,7 @@
             },
             {
               "name": "Explode",
-              "effects": [
+              "moves": [
                 {
                   "name": "30",
                   "color": "e83839ff"
@@ -891,15 +891,15 @@
     {
       "name": "Romeo",
       "id": "BanditLeader",
-      "hp": "(37 - 41 HP)",
-      "movesets": [
+      "ai": [
         {
           "min_asc": 0,
-          "ai": "Starts with #wMock. Afterwards, cycles in the order of #wAgonizing #wSlash -> #wCross #wSlash -> #wCross #wSlash.",
+          "desc": "Starts with #wMock. Afterwards, cycles in the order of #wAgonizing #wSlash -> #wCross #wSlash -> #wCross #wSlash.",
+          "hp": "(37 - 41 HP)",
           "moves": [
             {
               "name": "Mock",
-              "effects": [
+              "moves": [
                 {
                   "name": "Skip Turn",
                   "color": "999999ff"
@@ -908,7 +908,7 @@
             },
             {
               "name": "Agonizing Slash",
-              "effects": [
+              "moves": [
                 {
                   "name": "12",
                   "color": "e83839ff"
@@ -921,7 +921,7 @@
             },
             {
               "name": "Cross Slash",
-              "effects": [
+              "moves": [
                 {
                   "name": "17",
                   "color": "e83839ff"
@@ -935,15 +935,15 @@
     {
       "name": "Spiker",
       "id": "Spiker",
-      "hp": "(44 - 60 HP)",
-      "movesets": [
+      "ai": [
         {
           "min_asc": 0,
-          "ai": "50% chance of each action, but cannot #wAttack twice in a row. Cannot use #wBuff once it has been used 6 times.",
+          "desc": "50% chance of each action, but cannot #wAttack twice in a row. Cannot use #wBuff once it has been used 6 times.",
+          "hp": "(44 - 60 HP)",
           "moves": [
             {
               "name": "Attack",
-              "effects": [
+              "moves": [
                 {
                   "name": "9",
                   "color": "e83839ff"
@@ -952,7 +952,7 @@
             },
             {
               "name": "Buff",
-              "effects": [
+              "moves": [
                 {
                   "name": "Thorns 2",
                   "color": "974ea2ff"
@@ -966,15 +966,15 @@
     {
       "name": "Writhing Mass",
       "id": "WrithingMass",
-      "hp": "(175 HP)",
-      "movesets": [
+      "ai": [
         {
           "min_asc": 0,
-          "ai": "For the first move, has an approximately equal chance of using the #wMulti-Attack, #wSingle-Attack, and #wAttack #w/ #wDebuff. Then, has about a 10-30-20-30-10 split between #wParasite, #wAttack #w/ #wDefend, #wAttack #w/ #wDebuff, #wMulti-Attack, and #wSingle-Attack, but can only (successfully) use #wParasite once each combat. The same move cannot be used (or rerolled) twice in a row.",
+          "desc": "For the first move, has an approximately equal chance of using the #wMulti-Attack, #wSingle-Attack, and #wAttack #w/ #wDebuff. Then, has about a 10-30-20-30-10 split between #wParasite, #wAttack #w/ #wDefend, #wAttack #w/ #wDebuff, #wMulti-Attack, and #wSingle-Attack, but can only (successfully) use #wParasite once each combat. The same move cannot be used (or rerolled) twice in a row.",
+          "hp": "(175 HP)",
           "moves": [
             {
               "name": "Parasite",
-              "effects": [
+              "moves": [
                 {
                   "name": "Permanently add a Parasite to deck (future combats)",
                   "color": "ff7e00ff"
@@ -983,7 +983,7 @@
             },
             {
               "name": "Attack / Defend",
-              "effects": [
+              "moves": [
                 {
                   "name": "16",
                   "color": "e83839ff"
@@ -996,7 +996,7 @@
             },
             {
               "name": "Attack / Debuff",
-              "effects": [
+              "moves": [
                 {
                   "name": "12",
                   "color": "e83839ff"
@@ -1013,7 +1013,7 @@
             },
             {
               "name": "Multi-Attack",
-              "effects": [
+              "moves": [
                 {
                   "name": "9x3",
                   "color": "e83839ff"
@@ -1022,7 +1022,7 @@
             },
             {
               "name": "Single-Attack",
-              "effects": [
+              "moves": [
                 {
                   "name": "38",
                   "color": "e83839ff"
@@ -1036,15 +1036,15 @@
     {
       "name": "Time Eater",
       "id": "TimeEater",
-      "hp": "(480 HP)",
-      "movesets": [
+      "ai": [
         {
           "min_asc": 0,
-          "ai": "Always uses #wHaste once, immediately after reaching below 50% HP. Otherwise, approximately a 20-45-35 probability split between #wRipple, #wReverberate, and #wHead #wSlam, except #wRipple and #wHead #wSlam cannot be used twice in a row, and #wReverberate cannot be used three times in a row.",
+          "desc": "Always uses #wHaste once, immediately after reaching below 50% HP. Otherwise, approximately a 20-45-35 probability split between #wRipple, #wReverberate, and #wHead #wSlam, except #wRipple and #wHead #wSlam cannot be used twice in a row, and #wReverberate cannot be used three times in a row.",
+          "hp": "(480 HP)",
           "moves": [
             {
               "name": "Ripple",
-              "effects": [
+              "moves": [
                 {
                   "name": "Block 20",
                   "color": "559cd6ff"
@@ -1065,7 +1065,7 @@
             },
             {
               "name": "Reverberate",
-              "effects": [
+              "moves": [
                 {
                   "name": "8x3",
                   "color": "e83839ff"
@@ -1074,7 +1074,7 @@
             },
             {
               "name": "Head Slam",
-              "effects": [
+              "moves": [
                 {
                   "name": "32",
                   "color": "e83839ff"
@@ -1091,7 +1091,7 @@
             },
             {
               "name": "Haste",
-              "effects": [
+              "moves": [
                 {
                   "name": "Cleanse Debuffs",
                   "color": "4dae49ff"
@@ -1109,15 +1109,15 @@
     {
       "name": "Torch Head",
       "id": "TorchHead",
-      "hp": "(40 - 45 HP)",
-      "movesets": [
+      "ai": [
         {
           "min_asc": 0,
-          "ai": "Always uses #wTackle.",
+          "desc": "Always uses #wTackle.",
+          "hp": "(40 - 45 HP)",
           "moves": [
             {
               "name": "Tackle",
-              "effects": [
+              "moves": [
                 {
                   "name": "7",
                   "color": "e83839ff"
@@ -1131,15 +1131,15 @@
     {
       "name": "Awakened One",
       "id": "AwakenedOne",
-      "hp": "(320 HP and 320 HP)",
-      "movesets": [
+      "ai": [
         {
           "min_asc": 0,
-          "ai": "Phase 1: Always begins with #wSlash. Then, has 25% chance of using #wSoul #wStrike and a 75% chance of using #wSlash, except #wSoul #wStrike cannot be used twice in a row and #wSlash cannot be used three times in a row. Becomes half-dead and uses #wRebirth upon hitting 0 hp. NL NL Phase 2: Always begins with #wDark #wEcho. Then, 50-50 chance of using #wSludge or #wTackle, except neither can be used three times in a row.",
+          "desc": "Phase 1: Always begins with #wSlash. Then, has 25% chance of using #wSoul #wStrike and a 75% chance of using #wSlash, except #wSoul #wStrike cannot be used twice in a row and #wSlash cannot be used three times in a row. Becomes half-dead and uses #wRebirth upon hitting 0 hp. NL NL Phase 2: Always begins with #wDark #wEcho. Then, 50-50 chance of using #wSludge or #wTackle, except neither can be used three times in a row.",
+          "hp": "(320 HP and 320 HP)",
           "moves": [
             {
               "name": "Soul Strike (Phase 1)",
-              "effects": [
+              "moves": [
                 {
                   "name": "6x4",
                   "color": "e83839ff"
@@ -1148,7 +1148,7 @@
             },
             {
               "name": "Slash (Phase 1)",
-              "effects": [
+              "moves": [
                 {
                   "name": "20",
                   "color": "e83839ff"
@@ -1157,7 +1157,7 @@
             },
             {
               "name": "Rebirth (Phase 1)",
-              "effects": [
+              "moves": [
                 {
                   "name": "Start Stage 2",
                   "color": "4dae49ff"
@@ -1166,7 +1166,7 @@
             },
             {
               "name": "Dark Echo (Phase 2)",
-              "effects": [
+              "moves": [
                 {
                   "name": "40",
                   "color": "e83839ff"
@@ -1175,7 +1175,7 @@
             },
             {
               "name": "Sludge (Phase 2)",
-              "effects": [
+              "moves": [
                 {
                   "name": "18",
                   "color": "e83839ff"
@@ -1188,7 +1188,7 @@
             },
             {
               "name": "Tackle (Phase 2)",
-              "effects": [
+              "moves": [
                 {
                   "name": "10x3",
                   "color": "e83839ff"
@@ -1202,15 +1202,15 @@
     {
       "name": "Dagger",
       "id": "Dagger",
-      "hp": "(20 - 25 HP)",
-      "movesets": [
+      "ai": [
         {
           "min_asc": 0,
-          "ai": "Uses #wStab and then #wExplode.",
+          "desc": "Uses #wStab and then #wExplode.",
+          "hp": "(20 - 25 HP)",
           "moves": [
             {
               "name": "Stab",
-              "effects": [
+              "moves": [
                 {
                   "name": "9",
                   "color": "e83839ff"
@@ -1223,7 +1223,7 @@
             },
             {
               "name": "Explode",
-              "effects": [
+              "moves": [
                 {
                   "name": "25",
                   "color": "e83839ff"
@@ -1241,15 +1241,15 @@
     {
       "name": "The Maw",
       "id": "Maw",
-      "hp": "(300 HP)",
-      "movesets": [
+      "ai": [
         {
           "min_asc": 0,
-          "ai": "Always starts with #wRoar. Afterwards and after using #wDrool, has a 50-50 split between #wSlam and #wNom. If used #wSlam, then has a 50-50 split between #wNom and #wDrool. Always uses #wDrool after #wNom.",
+          "desc": "Always starts with #wRoar. Afterwards and after using #wDrool, has a 50-50 split between #wSlam and #wNom. If used #wSlam, then has a 50-50 split between #wNom and #wDrool. Always uses #wDrool after #wNom.",
+          "hp": "(300 HP)",
           "moves": [
             {
               "name": "Roar",
-              "effects": [
+              "moves": [
                 {
                   "name": "Weak 3",
                   "color": "ff7e00ff"
@@ -1262,7 +1262,7 @@
             },
             {
               "name": "Drool",
-              "effects": [
+              "moves": [
                 {
                   "name": "Str +5",
                   "color": "974ea2ff"
@@ -1271,7 +1271,7 @@
             },
             {
               "name": "Slam",
-              "effects": [
+              "moves": [
                 {
                   "name": "30",
                   "color": "e83839ff"
@@ -1280,7 +1280,7 @@
             },
             {
               "name": "Nom",
-              "effects": [
+              "moves": [
                 {
                   "name": "5xT",
                   "color": "e83839ff"
@@ -1294,15 +1294,15 @@
     {
       "name": "Spire Growth",
       "id": "Serpent",
-      "hp": "(190 HP)",
-      "movesets": [
+      "ai": [
         {
           "min_asc": 0,
-          "ai": "Always uses #wConstrict unless it was used last turn or if the player is already #dConstricted. Otherwise, has a 50-50 chance to use #wQuick #wTackle or #wSmash, but cannot use either three times in a row.",
+          "desc": "Always uses #wConstrict unless it was used last turn or if the player is already #dConstricted. Otherwise, has a 50-50 chance to use #wQuick #wTackle or #wSmash, but cannot use either three times in a row.",
+          "hp": "(190 HP)",
           "moves": [
             {
               "name": "Quick Tackle",
-              "effects": [
+              "moves": [
                 {
                   "name": "18",
                   "color": "e83839ff"
@@ -1311,7 +1311,7 @@
             },
             {
               "name": "Smash",
-              "effects": [
+              "moves": [
                 {
                   "name": "25",
                   "color": "e83839ff"
@@ -1320,7 +1320,7 @@
             },
             {
               "name": "Constrict",
-              "effects": [
+              "moves": [
                 {
                   "name": "Constrict 12",
                   "color": "ff7e00ff"
@@ -1334,15 +1334,15 @@
     {
       "name": "Mad Gremlin",
       "id": "GremlinWarrior",
-      "hp": "(21 - 25 HP)",
-      "movesets": [
+      "ai": [
         {
           "min_asc": 0,
-          "ai": "Always uses #wScratch.",
+          "desc": "Always uses #wScratch.",
+          "hp": "(21 - 25 HP)",
           "moves": [
             {
               "name": "Scratch",
-              "effects": [
+              "moves": [
                 {
                   "name": "5",
                   "color": "e83839ff"
@@ -1356,15 +1356,15 @@
     {
       "name": "Centurion",
       "id": "Centurion",
-      "hp": "(78 - 83 HP)",
-      "movesets": [
+      "ai": [
         {
           "min_asc": 0,
-          "ai": "While the Mystic is alive, 65% chance to #wDefend, 35% chance to #wSlash. Once the Mystic dies, #wDefend is replaced by #wFury.",
+          "desc": "While the Mystic is alive, 65% chance to #wDefend, 35% chance to #wSlash. Once the Mystic dies, #wDefend is replaced by #wFury.",
+          "hp": "(78 - 83 HP)",
           "moves": [
             {
               "name": "Slash",
-              "effects": [
+              "moves": [
                 {
                   "name": "14",
                   "color": "e83839ff"
@@ -1373,7 +1373,7 @@
             },
             {
               "name": "Fury",
-              "effects": [
+              "moves": [
                 {
                   "name": "7x3",
                   "color": "e83839ff"
@@ -1382,7 +1382,7 @@
             },
             {
               "name": "Defend",
-              "effects": [
+              "moves": [
                 {
                   "name": "Ally: Block 20",
                   "color": "559cd6ff"
@@ -1396,15 +1396,15 @@
     {
       "name": "Corrupt Heart",
       "id": "CorruptHeart",
-      "hp": "(800 HP)",
-      "movesets": [
+      "ai": [
         {
           "min_asc": 0,
-          "ai": "Starts with #wDebilitate. Every 3 turns (starting turn 4), uses #wBuff. Otherwise, has an equal chance of either using #wBlood #wShots followed by #wEcho or #wEcho followed by #wBlood #wShots. NL NL Additional Buffs go in order as follows: #uArtifact #u2, #uBeat #uOf #uDeath #u1, #uPainful #uStabs, #uStr #u10, and then repeats of #uStr #u50.",
+          "desc": "Starts with #wDebilitate. Every 3 turns (starting turn 4), uses #wBuff. Otherwise, has an equal chance of either using #wBlood #wShots followed by #wEcho or #wEcho followed by #wBlood #wShots. NL NL Additional Buffs go in order as follows: #uArtifact #u2, #uBeat #uOf #uDeath #u1, #uPainful #uStabs, #uStr #u10, and then repeats of #uStr #u50.",
+          "hp": "(800 HP)",
           "moves": [
             {
               "name": "Debilitate",
-              "effects": [
+              "moves": [
                 {
                   "name": "Vuln 2",
                   "color": "ff7e00ff"
@@ -1425,7 +1425,7 @@
             },
             {
               "name": "Blood Shots",
-              "effects": [
+              "moves": [
                 {
                   "name": "2x15",
                   "color": "e83839ff"
@@ -1434,7 +1434,7 @@
             },
             {
               "name": "Echo",
-              "effects": [
+              "moves": [
                 {
                   "name": "45",
                   "color": "e83839ff"
@@ -1443,7 +1443,7 @@
             },
             {
               "name": "Buff",
-              "effects": [
+              "moves": [
                 {
                   "name": "Cleanse Str Down",
                   "color": "4dae49ff"
@@ -1465,15 +1465,15 @@
     {
       "name": "Blue Slaver",
       "id": "SlaverBlue",
-      "hp": "(48 - 52 HP)",
-      "movesets": [
+      "ai": [
         {
           "min_asc": 0,
-          "ai": "40% chance to use #wRake, but cannot #wStab 3 times in a row or #wRake twice in a row",
+          "desc": "40% chance to use #wRake, but cannot #wStab 3 times in a row or #wRake twice in a row",
+          "hp": "(48 - 52 HP)",
           "moves": [
             {
               "name": "Rake",
-              "effects": [
+              "moves": [
                 {
                   "name": "8",
                   "color": "e83839ff"
@@ -1486,7 +1486,7 @@
             },
             {
               "name": "Stab",
-              "effects": [
+              "moves": [
                 {
                   "name": "13",
                   "color": "e83839ff"
@@ -1500,15 +1500,15 @@
     {
       "name": "Orb Walker",
       "id": "Orb Walker",
-      "hp": "(92 - 102 HP)",
-      "movesets": [
+      "ai": [
         {
           "min_asc": 0,
-          "ai": "Has a 60-40 split between #wLaser and #wClaw, but neither move can be used three times in a row.",
+          "desc": "Has a 60-40 split between #wLaser and #wClaw, but neither move can be used three times in a row.",
+          "hp": "(92 - 102 HP)",
           "moves": [
             {
               "name": "Laser",
-              "effects": [
+              "moves": [
                 {
                   "name": "11",
                   "color": "e83839ff"
@@ -1521,7 +1521,7 @@
             },
             {
               "name": "Claw",
-              "effects": [
+              "moves": [
                 {
                   "name": "16",
                   "color": "e83839ff"
@@ -1535,15 +1535,15 @@
     {
       "name": "Chosen",
       "id": "Chosen",
-      "hp": "(98 - 103 HP)",
-      "movesets": [
+      "ai": [
         {
           "min_asc": 0,
-          "ai": "Always starts with #wHex. Then alternates between either #wDebilitate or #wDrain (50% each) and then between #wZap or #wPoke (40% #wZap : 60% #wPoke).",
+          "desc": "Always starts with #wHex. Then alternates between either #wDebilitate or #wDrain (50% each) and then between #wZap or #wPoke (40% #wZap : 60% #wPoke).",
+          "hp": "(98 - 103 HP)",
           "moves": [
             {
               "name": "Hex",
-              "effects": [
+              "moves": [
                 {
                   "name": "Hex 1",
                   "color": "ff7e00ff"
@@ -1552,7 +1552,7 @@
             },
             {
               "name": "Debilitate",
-              "effects": [
+              "moves": [
                 {
                   "name": "12",
                   "color": "e83839ff"
@@ -1565,7 +1565,7 @@
             },
             {
               "name": "Drain",
-              "effects": [
+              "moves": [
                 {
                   "name": "Weak 3",
                   "color": "ff7e00ff"
@@ -1578,7 +1578,7 @@
             },
             {
               "name": "Zap",
-              "effects": [
+              "moves": [
                 {
                   "name": "21",
                   "color": "e83839ff"
@@ -1587,7 +1587,7 @@
             },
             {
               "name": "Poke",
-              "effects": [
+              "moves": [
                 {
                   "name": "6x2",
                   "color": "e83839ff"
@@ -1601,15 +1601,15 @@
     {
       "name": "Red Louse",
       "id": "FuzzyLouseNormal",
-      "hp": "(11 - 16 HP)",
-      "movesets": [
+      "ai": [
         {
           "min_asc": 0,
-          "ai": "75% chance of #wBite, and 25% chance of #wGrow, but cannot #wGrow twice in a row or #wBite 3 times in a row.",
+          "desc": "75% chance of #wBite, and 25% chance of #wGrow, but cannot #wGrow twice in a row or #wBite 3 times in a row.",
+          "hp": "(11 - 16 HP)",
           "moves": [
             {
               "name": "Bite",
-              "effects": [
+              "moves": [
                 {
                   "name": "D",
                   "color": "e83839ff"
@@ -1618,7 +1618,7 @@
             },
             {
               "name": "Grow",
-              "effects": [
+              "moves": [
                 {
                   "name": "Str +4",
                   "color": "974ea2ff"
@@ -1632,15 +1632,15 @@
     {
       "name": "Spheric Guardian",
       "id": "SphericGuardian",
-      "hp": "(20 HP)",
-      "movesets": [
+      "ai": [
         {
           "min_asc": 0,
-          "ai": "Starts with #wActivate, followed by #wAttack #wDebuff. Then, alternates between #wSlam and #wHarden.",
+          "desc": "Starts with #wActivate, followed by #wAttack #wDebuff. Then, alternates between #wSlam and #wHarden.",
+          "hp": "(20 HP)",
           "moves": [
             {
               "name": "Activate",
-              "effects": [
+              "moves": [
                 {
                   "name": "Block 35",
                   "color": "559cd6ff"
@@ -1649,7 +1649,7 @@
             },
             {
               "name": "Attack Debuff",
-              "effects": [
+              "moves": [
                 {
                   "name": "11",
                   "color": "e83839ff"
@@ -1662,7 +1662,7 @@
             },
             {
               "name": "Slam",
-              "effects": [
+              "moves": [
                 {
                   "name": "11x2",
                   "color": "e83839ff"
@@ -1671,7 +1671,7 @@
             },
             {
               "name": "Harden",
-              "effects": [
+              "moves": [
                 {
                   "name": "11",
                   "color": "e83839ff"
@@ -1689,15 +1689,15 @@
     {
       "name": "Mugger",
       "id": "Mugger",
-      "hp": "(50 - 54 HP)",
-      "movesets": [
+      "ai": [
         {
           "min_asc": 0,
-          "ai": "#wMugs twice, then a 50% chance to #wLunge. After (or in place of) the #wLunge, uses #wSmoke #wBomb, and then #wEscape.",
+          "desc": "#wMugs twice, then a 50% chance to #wLunge. After (or in place of) the #wLunge, uses #wSmoke #wBomb, and then #wEscape.",
+          "hp": "(50 - 54 HP)",
           "moves": [
             {
               "name": "Mug",
-              "effects": [
+              "moves": [
                 {
                   "name": "11",
                   "color": "e83839ff"
@@ -1706,7 +1706,7 @@
             },
             {
               "name": "Lunge",
-              "effects": [
+              "moves": [
                 {
                   "name": "18",
                   "color": "e83839ff"
@@ -1715,7 +1715,7 @@
             },
             {
               "name": "Smoke Bomb",
-              "effects": [
+              "moves": [
                 {
                   "name": "Block 17",
                   "color": "559cd6ff"
@@ -1724,7 +1724,7 @@
             },
             {
               "name": "Escape",
-              "effects": [
+              "moves": [
                 {
                   "name": "Leave Combat",
                   "color": "4dae49ff"
@@ -1738,15 +1738,15 @@
     {
       "name": "Pointy",
       "id": "BanditChild",
-      "hp": "(34 HP)",
-      "movesets": [
+      "ai": [
         {
           "min_asc": 0,
-          "ai": "Always #wAttacks.",
+          "desc": "Always #wAttacks.",
+          "hp": "(34 HP)",
           "moves": [
             {
               "name": "Attack",
-              "effects": [
+              "moves": [
                 {
                   "name": "6x2",
                   "color": "e83839ff"
@@ -1764,15 +1764,15 @@
     {
       "name": "Shelled Parasite",
       "id": "Shelled Parasite",
-      "hp": "(70 - 75 HP)",
-      "movesets": [
+      "ai": [
         {
           "min_asc": 0,
-          "ai": "Always starts with #wFell. Has a 40-40-20 split between #wDouble #wStrike, #wSuck, and #wFell, but #wDouble #wStrike and #wSuck cannot be used three times in a row and #wFell cannot be used twice in a row.",
+          "desc": "Always starts with #wFell. Has a 40-40-20 split between #wDouble #wStrike, #wSuck, and #wFell, but #wDouble #wStrike and #wSuck cannot be used three times in a row and #wFell cannot be used twice in a row.",
+          "hp": "(70 - 75 HP)",
           "moves": [
             {
               "name": "Fell",
-              "effects": [
+              "moves": [
                 {
                   "name": "21",
                   "color": "e83839ff"
@@ -1785,7 +1785,7 @@
             },
             {
               "name": "Suck",
-              "effects": [
+              "moves": [
                 {
                   "name": "Lifesteal 12",
                   "color": "e83839ff"
@@ -1794,7 +1794,7 @@
             },
             {
               "name": "Double Strike",
-              "effects": [
+              "moves": [
                 {
                   "name": "7x2",
                   "color": "e83839ff"
@@ -1803,7 +1803,7 @@
             },
             {
               "name": "Stunned",
-              "effects": [
+              "moves": [
                 {
                   "name": "Skip Turn",
                   "color": "999999ff"
@@ -1817,15 +1817,15 @@
     {
       "name": "Gremlin Nob",
       "id": "GremlinNob",
-      "hp": "(85 - 90 HP)",
-      "movesets": [
+      "ai": [
         {
           "min_asc": 0,
-          "ai": "Always starts with #wBellow. Then cycles in the order: #wSkull #wBash -> #wRush -> #wRush.",
+          "desc": "Always starts with #wBellow. Then cycles in the order: #wSkull #wBash -> #wRush -> #wRush.",
+          "hp": "(85 - 90 HP)",
           "moves": [
             {
               "name": "Bellow",
-              "effects": [
+              "moves": [
                 {
                   "name": "Anger 2",
                   "color": "974ea2ff"
@@ -1834,7 +1834,7 @@
             },
             {
               "name": "Skull Bash",
-              "effects": [
+              "moves": [
                 {
                   "name": "8",
                   "color": "e83839ff"
@@ -1847,7 +1847,7 @@
             },
             {
               "name": "Rush",
-              "effects": [
+              "moves": [
                 {
                   "name": "16",
                   "color": "e83839ff"
@@ -1861,15 +1861,15 @@
     {
       "name": "Gremlin Wizard",
       "id": "GremlinWizard",
-      "hp": "(22 - 26 HP)",
-      "movesets": [
+      "ai": [
         {
           "min_asc": 0,
-          "ai": "#wCharge for 2 turns, and then repeats #wUltimate #wBlast.",
+          "desc": "#wCharge for 2 turns, and then repeats #wUltimate #wBlast.",
+          "hp": "(22 - 26 HP)",
           "moves": [
             {
               "name": "Charge",
-              "effects": [
+              "moves": [
                 {
                   "name": "Skip Turn",
                   "color": "999999ff"
@@ -1878,7 +1878,7 @@
             },
             {
               "name": "Ultimate Blast",
-              "effects": [
+              "moves": [
                 {
                   "name": "30",
                   "color": "e83839ff"
@@ -1892,15 +1892,15 @@
     {
       "name": "Transient",
       "id": "Transient",
-      "hp": "(999 HP)",
-      "movesets": [
+      "ai": [
         {
           "min_asc": 0,
-          "ai": "Always uses #wAttack.",
+          "desc": "Always uses #wAttack.",
+          "hp": "(999 HP)",
           "moves": [
             {
               "name": "Attack",
-              "effects": [
+              "moves": [
                 {
                   "name": "X + 40",
                   "color": "e83839ff"
@@ -1914,15 +1914,15 @@
     {
       "name": "The Collector",
       "id": "TheCollector",
-      "hp": "(300 HP)",
-      "movesets": [
+      "ai": [
         {
           "min_asc": 0,
-          "ai": "Always begins with #wSpawn. On turn 4, always uses the #wMega-Debuff. Otherwise, if a Torch Head is dead, has approximately a 25-45-30 probability split between #wRevive - #wFireball - #wBuff. If all Torch Heads are alive, the split becomes 70 - 30 between #wFireball - #wBuff. Cannot use #wRevive or #wBuff twice in a row, or #wFireball three times in a row.",
+          "desc": "Always begins with #wSpawn. On turn 4, always uses the #wMega-Debuff. Otherwise, if a Torch Head is dead, has approximately a 25-45-30 probability split between #wRevive - #wFireball - #wBuff. If all Torch Heads are alive, the split becomes 70 - 30 between #wFireball - #wBuff. Cannot use #wRevive or #wBuff twice in a row, or #wFireball three times in a row.",
+          "hp": "(300 HP)",
           "moves": [
             {
               "name": "Spawn",
-              "effects": [
+              "moves": [
                 {
                   "name": "Spawn 2 Torch Heads",
                   "color": "4dae49ff"
@@ -1931,7 +1931,7 @@
             },
             {
               "name": "Revive",
-              "effects": [
+              "moves": [
                 {
                   "name": "Spawn Torch Heads in Empty Slots (max 2)",
                   "color": "4dae49ff"
@@ -1940,7 +1940,7 @@
             },
             {
               "name": "Buff",
-              "effects": [
+              "moves": [
                 {
                   "name": "Block 23",
                   "color": "559cd6ff"
@@ -1953,7 +1953,7 @@
             },
             {
               "name": "Mega-Debuff",
-              "effects": [
+              "moves": [
                 {
                   "name": "Weak 5",
                   "color": "ff7e00ff"
@@ -1970,7 +1970,7 @@
             },
             {
               "name": "Fireball",
-              "effects": [
+              "moves": [
                 {
                   "name": "21",
                   "color": "e83839ff"
@@ -1984,15 +1984,15 @@
     {
       "name": "Gremlin Leader",
       "id": "GremlinLeader",
-      "hp": "(145 - 155 HP)",
-      "movesets": [
+      "ai": [
         {
           "min_asc": 0,
-          "ai": "With 0 allies alive, has a 75-25 split between #wRally and #wStab. With 1 ally, has a 50-50 split between #wRally and #wStab if the last move was #wEncourage, and a 62.5-37.5 split between #wRally and #wEncourage if the last move was #wStab. With more than 1 ally, has a 66-34 split between #wEncourage and #wStab. Cannot use any move twice in a row.",
+          "desc": "With 0 allies alive, has a 75-25 split between #wRally and #wStab. With 1 ally, has a 50-50 split between #wRally and #wStab if the last move was #wEncourage, and a 62.5-37.5 split between #wRally and #wEncourage if the last move was #wStab. With more than 1 ally, has a 66-34 split between #wEncourage and #wStab. Cannot use any move twice in a row.",
+          "hp": "(145 - 155 HP)",
           "moves": [
             {
               "name": "Rally!",
-              "effects": [
+              "moves": [
                 {
                   "name": "Summon 2 Gremlins",
                   "color": "4dae49ff"
@@ -2001,7 +2001,7 @@
             },
             {
               "name": "Stab",
-              "effects": [
+              "moves": [
                 {
                   "name": "6x3",
                   "color": "e83839ff"
@@ -2010,7 +2010,7 @@
             },
             {
               "name": "Encourage",
-              "effects": [
+              "moves": [
                 {
                   "name": "Party Str +5",
                   "color": "974ea2ff"
@@ -2028,15 +2028,15 @@
     {
       "name": "Nemesis",
       "id": "Nemesis",
-      "hp": "(200 HP)",
-      "movesets": [
+      "ai": [
         {
           "min_asc": 0,
-          "ai": "On turn 1, has a 50% chance of #wBurn or #wMulti-Attack. Afterwards, has a 35-35-30 split between #wBurn, #wMulti-Attack, and #wScythe, except #wScythe and #wBurn cannot be used twice in a row, and #wMulti-Attack cannot be used three times in a row.",
+          "desc": "On turn 1, has a 50% chance of #wBurn or #wMulti-Attack. Afterwards, has a 35-35-30 split between #wBurn, #wMulti-Attack, and #wScythe, except #wScythe and #wBurn cannot be used twice in a row, and #wMulti-Attack cannot be used three times in a row.",
+          "hp": "(200 HP)",
           "moves": [
             {
               "name": "Burn",
-              "effects": [
+              "moves": [
                 {
                   "name": "Burn 5",
                   "color": "ff7e00ff"
@@ -2045,7 +2045,7 @@
             },
             {
               "name": "Multi-Attack",
-              "effects": [
+              "moves": [
                 {
                   "name": "7x3",
                   "color": "e83839ff"
@@ -2054,7 +2054,7 @@
             },
             {
               "name": "Scythe",
-              "effects": [
+              "moves": [
                 {
                   "name": "45",
                   "color": "e83839ff"
@@ -2068,15 +2068,15 @@
     {
       "name": "Green Louse",
       "id": "FuzzyLouseDefensive",
-      "hp": "(12 - 18 HP)",
-      "movesets": [
+      "ai": [
         {
           "min_asc": 0,
-          "ai": "75% chance of #wBite, and 25% chance of #wSpit #wWeb, but cannot #wSpit #wWeb twice in a row or #wBite 3 times in a row.",
+          "desc": "75% chance of #wBite, and 25% chance of #wSpit #wWeb, but cannot #wSpit #wWeb twice in a row or #wBite 3 times in a row.",
+          "hp": "(12 - 18 HP)",
           "moves": [
             {
               "name": "Bite",
-              "effects": [
+              "moves": [
                 {
                   "name": "D",
                   "color": "e83839ff"
@@ -2085,7 +2085,7 @@
             },
             {
               "name": "Spit Web",
-              "effects": [
+              "moves": [
                 {
                   "name": "Weak 2",
                   "color": "ff7e00ff"
@@ -2099,15 +2099,15 @@
     {
       "name": "Fungi Beast",
       "id": "FungiBeast",
-      "hp": "(24 - 28 HP)",
-      "movesets": [
+      "ai": [
         {
           "min_asc": 0,
-          "ai": "60% chance of #wBite, but cannot #wBite three times in a row, or #wGrow twice in a row.",
+          "desc": "60% chance of #wBite, but cannot #wBite three times in a row, or #wGrow twice in a row.",
+          "hp": "(24 - 28 HP)",
           "moves": [
             {
               "name": "Bite",
-              "effects": [
+              "moves": [
                 {
                   "name": "6",
                   "color": "e83839ff"
@@ -2116,7 +2116,7 @@
             },
             {
               "name": "Grow",
-              "effects": [
+              "moves": [
                 {
                   "name": "Str +5",
                   "color": "974ea2ff"
@@ -2130,15 +2130,15 @@
     {
       "name": "Giant Head",
       "id": "GiantHead",
-      "hp": "(520 HP)",
-      "movesets": [
+      "ai": [
         {
           "min_asc": 0,
-          "ai": "For the first 3 turns, has a 50-50 split between #wCount and #wGlare, but cannot use either move three times in a row. Afterwards, repeats #wIt #wIs #wTime.",
+          "desc": "For the first 3 turns, has a 50-50 split between #wCount and #wGlare, but cannot use either move three times in a row. Afterwards, repeats #wIt #wIs #wTime.",
+          "hp": "(520 HP)",
           "moves": [
             {
               "name": "Count",
-              "effects": [
+              "moves": [
                 {
                   "name": "13",
                   "color": "e83839ff"
@@ -2147,7 +2147,7 @@
             },
             {
               "name": "Glare",
-              "effects": [
+              "moves": [
                 {
                   "name": "Weak 1",
                   "color": "ff7e00ff"
@@ -2156,7 +2156,7 @@
             },
             {
               "name": "It Is Time",
-              "effects": [
+              "moves": [
                 {
                   "name": "T + 40",
                   "color": "e83839ff"
@@ -2170,15 +2170,15 @@
     {
       "name": "Spiked Slime (L)",
       "id": "SpikeSlime_L",
-      "hp": "(67 - 73 HP)",
-      "movesets": [
+      "ai": [
         {
           "min_asc": 0,
-          "ai": "Has 30-70 probability between #wFlame #wTackle and #wLick, though #wLick cannot be used twice in a row and #wFlame #wTackle cannot be used three times in a row. Will #wSplit once it reaches half its max HP, producing 2 slimes of its current HP.",
+          "desc": "Has 30-70 probability between #wFlame #wTackle and #wLick, though #wLick cannot be used twice in a row and #wFlame #wTackle cannot be used three times in a row. Will #wSplit once it reaches half its max HP, producing 2 slimes of its current HP.",
+          "hp": "(67 - 73 HP)",
           "moves": [
             {
               "name": "Flame Tackle",
-              "effects": [
+              "moves": [
                 {
                   "name": "18",
                   "color": "e83839ff"
@@ -2191,7 +2191,7 @@
             },
             {
               "name": "Lick",
-              "effects": [
+              "moves": [
                 {
                   "name": "Frail 3",
                   "color": "ff7e00ff"
@@ -2200,7 +2200,7 @@
             },
             {
               "name": "Split",
-              "effects": [
+              "moves": [
                 {
                   "name": "Split in two",
                   "color": "4dae49ff"
@@ -2214,15 +2214,15 @@
     {
       "name": "Hexaghost",
       "id": "Hexaghost",
-      "hp": "(264 HP)",
-      "movesets": [
+      "ai": [
         {
           "min_asc": 0,
-          "ai": "Starts with #wActivate, then  #wDivider. Afterwards, cycles in the order #wSear -> #wTackle -> #wSear -> #wInflame -> #wTackle -> #wSear -> #wInferno.",
+          "desc": "Starts with #wActivate, then  #wDivider. Afterwards, cycles in the order #wSear -> #wTackle -> #wSear -> #wInflame -> #wTackle -> #wSear -> #wInferno.",
+          "hp": "(264 HP)",
           "moves": [
             {
               "name": "Activate",
-              "effects": [
+              "moves": [
                 {
                   "name": "Do Nothing",
                   "color": "999999ff"
@@ -2231,7 +2231,7 @@
             },
             {
               "name": "Divider",
-              "effects": [
+              "moves": [
                 {
                   "name": "Hx6",
                   "color": "e83839ff"
@@ -2240,7 +2240,7 @@
             },
             {
               "name": "Sear",
-              "effects": [
+              "moves": [
                 {
                   "name": "6",
                   "color": "e83839ff"
@@ -2253,7 +2253,7 @@
             },
             {
               "name": "Tackle",
-              "effects": [
+              "moves": [
                 {
                   "name": "6x2",
                   "color": "e83839ff"
@@ -2262,7 +2262,7 @@
             },
             {
               "name": "Inflame",
-              "effects": [
+              "moves": [
                 {
                   "name": "Str +3",
                   "color": "974ea2ff"
@@ -2275,7 +2275,7 @@
             },
             {
               "name": "Inferno",
-              "effects": [
+              "moves": [
                 {
                   "name": "2x6",
                   "color": "e83839ff"
@@ -2293,15 +2293,15 @@
     {
       "name": "Spiked Slime (M)",
       "id": "SpikeSlime_M",
-      "hp": "(29 - 34 HP)",
-      "movesets": [
+      "ai": [
         {
           "min_asc": 0,
-          "ai": "Has 30-70 probability between #wFlame #wTackle and #wLick, though #wLick cannot be used twice in a row and #wFlame #wTackle cannot be used three times in a row.",
+          "desc": "Has 30-70 probability between #wFlame #wTackle and #wLick, though #wLick cannot be used twice in a row and #wFlame #wTackle cannot be used three times in a row.",
+          "hp": "(29 - 34 HP)",
           "moves": [
             {
               "name": "Flame Tackle",
-              "effects": [
+              "moves": [
                 {
                   "name": "10",
                   "color": "e83839ff"
@@ -2314,7 +2314,7 @@
             },
             {
               "name": "Lick",
-              "effects": [
+              "moves": [
                 {
                   "name": "Frail 1",
                   "color": "ff7e00ff"
@@ -2328,15 +2328,15 @@
     {
       "name": "Bronze Automaton",
       "id": "BronzeAutomaton",
-      "hp": "(320 HP)",
-      "movesets": [
+      "ai": [
         {
           "min_asc": 0,
-          "ai": "Starts with #wSpawn #wOrbs. Then, cycles deterministically through #wFlail -> #wBoost -> #wFlail -> #wBoost -> #wHYPERBEAM -> #wBoost.",
+          "desc": "Starts with #wSpawn #wOrbs. Then, cycles deterministically through #wFlail -> #wBoost -> #wFlail -> #wBoost -> #wHYPERBEAM -> #wBoost.",
+          "hp": "(320 HP)",
           "moves": [
             {
               "name": "Spawn Orbs",
-              "effects": [
+              "moves": [
                 {
                   "name": "Summon 2 Bronze Orbs",
                   "color": "4dae49ff"
@@ -2345,7 +2345,7 @@
             },
             {
               "name": "Flail",
-              "effects": [
+              "moves": [
                 {
                   "name": "8x2",
                   "color": "e83839ff"
@@ -2354,7 +2354,7 @@
             },
             {
               "name": "Boost",
-              "effects": [
+              "moves": [
                 {
                   "name": "Str +4",
                   "color": "974ea2ff"
@@ -2363,7 +2363,7 @@
             },
             {
               "name": "HYPERBEAM",
-              "effects": [
+              "moves": [
                 {
                   "name": "50",
                   "color": "e83839ff"
@@ -2377,15 +2377,15 @@
     {
       "name": "Spiked Slime (S)",
       "id": "SpikeSlime_S",
-      "hp": "(11 - 15 HP)",
-      "movesets": [
+      "ai": [
         {
           "min_asc": 0,
-          "ai": "Always uses #wTackle.",
+          "desc": "Always uses #wTackle.",
+          "hp": "(11 - 15 HP)",
           "moves": [
             {
               "name": "Tackle",
-              "effects": [
+              "moves": [
                 {
                   "name": "6",
                   "color": "e83839ff"
@@ -2399,15 +2399,15 @@
     {
       "name": "Looter",
       "id": "Looter",
-      "hp": "(46 - 50 HP)",
-      "movesets": [
+      "ai": [
         {
           "min_asc": 0,
-          "ai": "#wMugs twice, then a 50% chance to #wLunge. After (or in place of) the #wLunge, uses #wSmoke #wBomb, and then #wEscape.",
+          "desc": "#wMugs twice, then a 50% chance to #wLunge. After (or in place of) the #wLunge, uses #wSmoke #wBomb, and then #wEscape.",
+          "hp": "(46 - 50 HP)",
           "moves": [
             {
               "name": "Mug",
-              "effects": [
+              "moves": [
                 {
                   "name": "11",
                   "color": "e83839ff"
@@ -2416,7 +2416,7 @@
             },
             {
               "name": "Lunge",
-              "effects": [
+              "moves": [
                 {
                   "name": "14",
                   "color": "e83839ff"
@@ -2425,7 +2425,7 @@
             },
             {
               "name": "Smoke Bomb",
-              "effects": [
+              "moves": [
                 {
                   "name": "Block 6",
                   "color": "559cd6ff"
@@ -2434,7 +2434,7 @@
             },
             {
               "name": "Escape",
-              "effects": [
+              "moves": [
                 {
                   "name": "Leave Combat",
                   "color": "4dae49ff"
@@ -2448,15 +2448,15 @@
     {
       "name": "Byrd",
       "id": "Byrd",
-      "hp": "(26 - 33 HP)",
-      "movesets": [
+      "ai": [
         {
           "min_asc": 0,
-          "ai": "Cannot use #wSwoop on turn 1. When flying, has a 50-20-30 split between #wPeck, #wSwoop, and #wCaw. #wPeck cannot be used three times in a row, and #wSwoop and #wCaw cannot be used twice in a row. When knocked down, is #w(Stunned), then uses #wHeadbutt, and then #w(Start #wFlying).",
+          "desc": "Cannot use #wSwoop on turn 1. When flying, has a 50-20-30 split between #wPeck, #wSwoop, and #wCaw. #wPeck cannot be used three times in a row, and #wSwoop and #wCaw cannot be used twice in a row. When knocked down, is #w(Stunned), then uses #wHeadbutt, and then #w(Start #wFlying).",
+          "hp": "(26 - 33 HP)",
           "moves": [
             {
               "name": "Peck",
-              "effects": [
+              "moves": [
                 {
                   "name": "1x6",
                   "color": "e83839ff"
@@ -2465,7 +2465,7 @@
             },
             {
               "name": "Swoop",
-              "effects": [
+              "moves": [
                 {
                   "name": "14",
                   "color": "e83839ff"
@@ -2474,7 +2474,7 @@
             },
             {
               "name": "Caw",
-              "effects": [
+              "moves": [
                 {
                   "name": "Str +1",
                   "color": "974ea2ff"
@@ -2483,7 +2483,7 @@
             },
             {
               "name": "(Stunned)",
-              "effects": [
+              "moves": [
                 {
                   "name": "Skip Turn",
                   "color": "999999ff"
@@ -2492,7 +2492,7 @@
             },
             {
               "name": "Headbutt",
-              "effects": [
+              "moves": [
                 {
                   "name": "3",
                   "color": "e83839ff"
@@ -2501,7 +2501,7 @@
             },
             {
               "name": "(Start Flying)",
-              "effects": [
+              "moves": [
                 {
                   "name": "Flight 4",
                   "color": "974ea2ff"
@@ -2515,15 +2515,15 @@
     {
       "name": "Taskmaster",
       "id": "SlaverBoss",
-      "hp": "(57 - 64 HP)",
-      "movesets": [
+      "ai": [
         {
           "min_asc": 0,
-          "ai": "Always uses #wScouring #wWhip.",
+          "desc": "Always uses #wScouring #wWhip.",
+          "hp": "(57 - 64 HP)",
           "moves": [
             {
               "name": "Scouring Whip",
-              "effects": [
+              "moves": [
                 {
                   "name": "7",
                   "color": "e83839ff"
@@ -2545,15 +2545,15 @@
     {
       "name": "Slime Boss",
       "id": "SlimeBoss",
-      "hp": "(150 HP)",
-      "movesets": [
+      "ai": [
         {
           "min_asc": 0,
-          "ai": "Cycles in the order #wGoop #wSpray -> #wPreparing -> #wSlam. Will #wSplit into two slimes when the current HP is 50% or below, using the current HP as the new maximum HP values.",
+          "desc": "Cycles in the order #wGoop #wSpray -> #wPreparing -> #wSlam. Will #wSplit into two slimes when the current HP is 50% or below, using the current HP as the new maximum HP values.",
+          "hp": "(150 HP)",
           "moves": [
             {
               "name": "Goop Spray",
-              "effects": [
+              "moves": [
                 {
                   "name": "Slimed 5",
                   "color": "ff7e00ff"
@@ -2562,7 +2562,7 @@
             },
             {
               "name": "Preparing",
-              "effects": [
+              "moves": [
                 {
                   "name": "Skip Turn",
                   "color": "999999ff"
@@ -2571,7 +2571,7 @@
             },
             {
               "name": "Slam",
-              "effects": [
+              "moves": [
                 {
                   "name": "38",
                   "color": "e83839ff"
@@ -2580,7 +2580,7 @@
             },
             {
               "name": "Split",
-              "effects": [
+              "moves": [
                 {
                   "name": "Split into Spike Slime (L) and Acid Slime (L)",
                   "color": "4dae49ff"
@@ -2594,15 +2594,15 @@
     {
       "name": "Jaw Worm",
       "id": "JawWorm",
-      "hp": "(42 - 46 HP)",
-      "movesets": [
+      "ai": [
         {
           "min_asc": 0,
-          "ai": "Always starts with #wChomp. Afterwards, has a 45-30-25 split between #wBellow, #wThrash, and #wChomp, but cannot use #wThrash three times in a row or #wChomp or #wBellow twice in a row.",
+          "desc": "Always starts with #wChomp. Afterwards, has a 45-30-25 split between #wBellow, #wThrash, and #wChomp, but cannot use #wThrash three times in a row or #wChomp or #wBellow twice in a row.",
+          "hp": "(42 - 46 HP)",
           "moves": [
             {
               "name": "Bellow",
-              "effects": [
+              "moves": [
                 {
                   "name": "Str +5",
                   "color": "974ea2ff"
@@ -2615,7 +2615,7 @@
             },
             {
               "name": "Thrash",
-              "effects": [
+              "moves": [
                 {
                   "name": "7",
                   "color": "e83839ff"
@@ -2628,7 +2628,7 @@
             },
             {
               "name": "Chomp",
-              "effects": [
+              "moves": [
                 {
                   "name": "12",
                   "color": "e83839ff"
@@ -2642,15 +2642,15 @@
     {
       "name": "Repulsor",
       "id": "Repulsor",
-      "hp": "(31 - 38 HP)",
-      "movesets": [
+      "ai": [
         {
           "min_asc": 0,
-          "ai": "20% chance of #wAttack and 80% chance of #wDebuff. Cannot #wAttack twice in a row.",
+          "desc": "20% chance of #wAttack and 80% chance of #wDebuff. Cannot #wAttack twice in a row.",
+          "hp": "(31 - 38 HP)",
           "moves": [
             {
               "name": "Attack",
-              "effects": [
+              "moves": [
                 {
                   "name": "13",
                   "color": "e83839ff"
@@ -2659,7 +2659,7 @@
             },
             {
               "name": "Debuff",
-              "effects": [
+              "moves": [
                 {
                   "name": "Daze 2",
                   "color": "ff7e00ff"
@@ -2673,15 +2673,15 @@
     {
       "name": "Reptomancer",
       "id": "Reptomancer",
-      "hp": "(190 - 200 HP)",
-      "movesets": [
+      "ai": [
         {
           "min_asc": 0,
-          "ai": "Always starts with #wSummon. Otherwise, has an equal chance of all 3 moves, except cannot use #wSnake #wStrike twice in a row, #wSummon 3 times in a row, or #wBig #wBite twice in a row. Cannot #wSummon with 4 daggers alive (66-34 split between #wSnake #wStrike and #wBig #wBite in that case).",
+          "desc": "Always starts with #wSummon. Otherwise, has an equal chance of all 3 moves, except cannot use #wSnake #wStrike twice in a row, #wSummon 3 times in a row, or #wBig #wBite twice in a row. Cannot #wSummon with 4 daggers alive (66-34 split between #wSnake #wStrike and #wBig #wBite in that case).",
+          "hp": "(190 - 200 HP)",
           "moves": [
             {
               "name": "Summon",
-              "effects": [
+              "moves": [
                 {
                   "name": "Spawn 2 Daggers (Up to 4)",
                   "color": "4dae49ff"
@@ -2690,7 +2690,7 @@
             },
             {
               "name": "Snake Strike",
-              "effects": [
+              "moves": [
                 {
                   "name": "16x2",
                   "color": "e83839ff"
@@ -2703,7 +2703,7 @@
             },
             {
               "name": "Big Bite",
-              "effects": [
+              "moves": [
                 {
                   "name": "34",
                   "color": "e83839ff"
@@ -2717,15 +2717,15 @@
     {
       "name": "Red Slaver",
       "id": "SlaverRed",
-      "hp": "(48 - 52 HP)",
-      "movesets": [
+      "ai": [
         {
           "min_asc": 0,
-          "ai": "Always starts with #wStab. Then, has a 25% chance of using #wEntangle until it is used. If #wEntangle has not been used yet, cycles in the order of #wScrape -> #wStab. Otherwise, has a 45% chance of #wStab and 55% chance of #wScrape, except #wStab cannot be used three times in a row and #wScrape cannot be used twice in a row.",
+          "desc": "Always starts with #wStab. Then, has a 25% chance of using #wEntangle until it is used. If #wEntangle has not been used yet, cycles in the order of #wScrape -> #wStab. Otherwise, has a 45% chance of #wStab and 55% chance of #wScrape, except #wStab cannot be used three times in a row and #wScrape cannot be used twice in a row.",
+          "hp": "(48 - 52 HP)",
           "moves": [
             {
               "name": "Stab",
-              "effects": [
+              "moves": [
                 {
                   "name": "14",
                   "color": "e83839ff"
@@ -2734,7 +2734,7 @@
             },
             {
               "name": "Scrape",
-              "effects": [
+              "moves": [
                 {
                   "name": "9",
                   "color": "e83839ff"
@@ -2747,7 +2747,7 @@
             },
             {
               "name": "Entangle",
-              "effects": [
+              "moves": [
                 {
                   "name": "Entangle 1",
                   "color": "ff7e00ff"
@@ -2761,15 +2761,15 @@
     {
       "name": "The Champ",
       "id": "Champ",
-      "hp": "(440 HP)",
-      "movesets": [
+      "ai": [
         {
           "min_asc": 0,
-          "ai": "Every 4 turns, uses #wTaunt. Otherwise, approximately 30-0-25-45 probability split between #wDefensive #wStance - #wGloat - #wFace #wSlap - #wHeavy #wSlash. No move can be used twice in a row, and #wDefensive #wStance cannot be used more than 2 times total. When attempting to use an invalid move, will use the next move in the order of #wDefensive #wStance -> #wGloat -> #wFace #wSlap -> #wHeavy #wSlash -> #wFace #wSlap. NL NL After dropping below 50% HP, the Champ will use #wAnger (not shown), which will cleanse all debuffs and add #uStrength #u12. Then, next turn and every three turns thereafter, uses #wExecute.",
+          "desc": "Every 4 turns, uses #wTaunt. Otherwise, approximately 30-0-25-45 probability split between #wDefensive #wStance - #wGloat - #wFace #wSlap - #wHeavy #wSlash. No move can be used twice in a row, and #wDefensive #wStance cannot be used more than 2 times total. When attempting to use an invalid move, will use the next move in the order of #wDefensive #wStance -> #wGloat -> #wFace #wSlap -> #wHeavy #wSlash -> #wFace #wSlap. NL NL After dropping below 50% HP, the Champ will use #wAnger (not shown), which will cleanse all debuffs and add #uStrength #u12. Then, next turn and every three turns thereafter, uses #wExecute.",
+          "hp": "(440 HP)",
           "moves": [
             {
               "name": "Face Slap",
-              "effects": [
+              "moves": [
                 {
                   "name": "14",
                   "color": "e83839ff"
@@ -2786,7 +2786,7 @@
             },
             {
               "name": "Taunt",
-              "effects": [
+              "moves": [
                 {
                   "name": "Weak 2",
                   "color": "ff7e00ff"
@@ -2799,7 +2799,7 @@
             },
             {
               "name": "Defensive Stance",
-              "effects": [
+              "moves": [
                 {
                   "name": "Block 20",
                   "color": "559cd6ff"
@@ -2812,7 +2812,7 @@
             },
             {
               "name": "Gloat",
-              "effects": [
+              "moves": [
                 {
                   "name": "Str +4",
                   "color": "974ea2ff"
@@ -2821,7 +2821,7 @@
             },
             {
               "name": "Heavy Slash",
-              "effects": [
+              "moves": [
                 {
                   "name": "18",
                   "color": "e83839ff"
@@ -2830,7 +2830,7 @@
             },
             {
               "name": "Execute (Below 50% HP)",
-              "effects": [
+              "moves": [
                 {
                   "name": "10x2",
                   "color": "e83839ff"
