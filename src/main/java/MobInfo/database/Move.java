@@ -5,19 +5,30 @@ import com.google.gson.annotations.SerializedName;
 
 import java.util.List;
 
-
 public class Move {
-
     @SerializedName("name") @Expose
     private String name;
 
     @SerializedName("effects") @Expose
-    private List<Effect> effects = null;
+    private List<MoveEffect> moveEffects = null;
+
+    // --------------------------------------------------------------------------------
+    // Getters / setters
 
     public String getName() { return name; }
     public void setName(String name) { this.name = name; }
-    public List<Effect> getEffects() { return effects; }
-    public void setEffects(List<Effect> effects) { this.effects = effects; }
 
+    public List<MoveEffect> getMoveEffects() { return moveEffects; }
+    public void setMoveEffects(List<MoveEffect> moveEffects) { this.moveEffects = moveEffects; }
+
+    // --------------------------------------------------------------------------------
+
+    @Override
+    public String toString() {
+        return "Move{" +
+                "name='" + name + '\'' +
+                ", moveEffects=" + moveEffects +
+                '}';
+    }
 }
 

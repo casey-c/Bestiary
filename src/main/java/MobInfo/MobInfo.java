@@ -21,6 +21,5 @@ public class MobInfo implements PostInitializeSubscriber {
         System.out.println("Mob Info init, creating database");
 
         db = new MonsterDatabase();
-        db.toJsonObject();
     }
 }

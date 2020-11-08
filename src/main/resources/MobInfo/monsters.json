@@ -11,7 +11,7 @@
           "moves": [
             {
               "name": "Smash",
-              "moves": [
+              "effects": [
                 {
                   "name": "5",
                   "color": "e83839ff"
@@ -41,7 +41,7 @@
           "moves": [
             {
               "name": "Protect",
-              "moves": [
+              "effects": [
                 {
                   "name": "Ally Block 11",
                   "color": "559cd6ff"
@@ -50,7 +50,7 @@
             },
             {
               "name": "Shield Bash",
-              "moves": [
+              "effects": [
                 {
                   "name": "8",
                   "color": "e83839ff"
@@ -72,7 +72,7 @@
           "moves": [
             {
               "name": "Bash",
-              "moves": [
+              "effects": [
                 {
                   "name": "14",
                   "color": "e83839ff"
@@ -85,7 +85,7 @@
             },
             {
               "name": "Fortify",
-              "moves": [
+              "effects": [
                 {
                   "name": "Team Block 30",
                   "color": "559cd6ff"
@@ -94,7 +94,7 @@
             },
             {
               "name": "Smash",
-              "moves": [
+              "effects": [
                 {
                   "name": "38",
                   "color": "e83839ff"
@@ -120,7 +120,7 @@
           "moves": [
             {
               "name": "Charge Up",
-              "moves": [
+              "effects": [
                 {
                   "name": "Block 9",
                   "color": "559cd6ff"
@@ -129,7 +129,7 @@
             },
             {
               "name": "Fierce Bash",
-              "moves": [
+              "effects": [
                 {
                   "name": "36",
                   "color": "e83839ff"
@@ -138,7 +138,7 @@
             },
             {
               "name": "Vent Steam",
-              "moves": [
+              "effects": [
                 {
                   "name": "Weak 2",
                   "color": "ff7e00ff"
@@ -151,7 +151,7 @@
             },
             {
               "name": "Whirlwind",
-              "moves": [
+              "effects": [
                 {
                   "name": "5x4",
                   "color": "e83839ff"
@@ -160,7 +160,7 @@
             },
             {
               "name": "Roll Attack",
-              "moves": [
+              "effects": [
                 {
                   "name": "10",
                   "color": "e83839ff"
@@ -169,7 +169,7 @@
             },
             {
               "name": "Twin Slam",
-              "moves": [
+              "effects": [
                 {
                   "name": "Enter Offensive Mode",
                   "color": "4dae49ff"
@@ -199,7 +199,7 @@
           "moves": [
             {
               "name": "Corrosive Split",
-              "moves": [
+              "effects": [
                 {
                   "name": "12",
                   "color": "e83839ff"
@@ -212,7 +212,7 @@
             },
             {
               "name": "Lick",
-              "moves": [
+              "effects": [
                 {
                   "name": "Weak 2",
                   "color": "ff7e00ff"
@@ -221,7 +221,7 @@
             },
             {
               "name": "Tackle",
-              "moves": [
+              "effects": [
                 {
                   "name": "18",
                   "color": "e83839ff"
@@ -230,7 +230,7 @@
             },
             {
               "name": "Split",
-              "moves": []
+              "effects": []
             }
           ]
         }
@@ -247,7 +247,7 @@
           "moves": [
             {
               "name": "Circle of Power",
-              "moves": [
+              "effects": [
                 {
                   "name": "Team Str +3",
                   "color": "974ea2ff"
@@ -256,7 +256,7 @@
             },
             {
               "name": "Beam",
-              "moves": [
+              "effects": [
                 {
                   "name": "12x2",
                   "color": "e83839ff"
@@ -278,7 +278,7 @@
           "moves": [
             {
               "name": "Corrosive Split",
-              "moves": [
+              "effects": [
                 {
                   "name": "8",
                   "color": "e83839ff"
@@ -291,7 +291,7 @@
             },
             {
               "name": "Lick",
-              "moves": [
+              "effects": [
                 {
                   "name": "Weak 1",
                   "color": "ff7e00ff"
@@ -300,7 +300,7 @@
             },
             {
               "name": "Tackle",
-              "moves": [
+              "effects": [
                 {
                   "name": "12",
                   "color": "e83839ff"
@@ -322,7 +322,7 @@
           "moves": [
             {
               "name": "Multi-Attack",
-              "moves": [
+              "effects": [
                 {
                   "name": "7xT",
                   "color": "e83839ff"
@@ -331,7 +331,7 @@
             },
             {
               "name": "Single Attack",
-              "moves": [
+              "effects": [
                 {
                   "name": "24",
                   "color": "e83839ff"
@@ -353,7 +353,7 @@
           "moves": [
             {
               "name": "Puncture",
-              "moves": [
+              "effects": [
                 {
                   "name": "10",
                   "color": "e83839ff"
@@ -375,7 +375,7 @@
           "moves": [
             {
               "name": "Tackle",
-              "moves": [
+              "effects": [
                 {
                   "name": "4",
                   "color": "e83839ff"
@@ -384,7 +384,7 @@
             },
             {
               "name": "Lick",
-              "moves": [
+              "effects": [
                 {
                   "name": "Weak 1",
                   "color": "ff7e00ff"
@@ -406,7 +406,7 @@
           "moves": [
             {
               "name": "Beam",
-              "moves": [
+              "effects": [
                 {
                   "name": "10",
                   "color": "e83839ff"
@@ -415,7 +415,7 @@
             },
             {
               "name": "Bolt",
-              "moves": [
+              "effects": [
                 {
                   "name": "Daze 3",
                   "color": "ff7e00ff"
@@ -437,7 +437,7 @@
           "moves": [
             {
               "name": "Burn Strike",
-              "moves": [
+              "effects": [
                 {
                   "name": "6x2",
                   "color": "e83839ff"
@@ -450,7 +450,7 @@
             },
             {
               "name": "Piercer",
-              "moves": [
+              "effects": [
                 {
                   "name": "Team Str +2",
                   "color": "974ea2ff"
@@ -459,7 +459,7 @@
             },
             {
               "name": "Skewer",
-              "moves": [
+              "effects": [
                 {
                   "name": "10x4",
                   "color": "e83839ff"
@@ -481,7 +481,7 @@
           "moves": [
             {
               "name": "Enfeebling Spores",
-              "moves": [
+              "effects": [
                 {
                   "name": "Frail 2",
                   "color": "ff7e00ff"
@@ -494,7 +494,7 @@
             },
             {
               "name": "Chomp",
-              "moves": [
+              "effects": [
                 {
                   "name": "8x3",
                   "color": "e83839ff"
@@ -516,7 +516,7 @@
           "moves": [
             {
               "name": "Support Beam",
-              "moves": [
+              "effects": [
                 {
                   "name": "Block Bronze Automaton 12",
                   "color": "559cd6ff"
@@ -525,7 +525,7 @@
             },
             {
               "name": "Beam",
-              "moves": [
+              "effects": [
                 {
                   "name": "8",
                   "color": "e83839ff"
@@ -534,7 +534,7 @@
             },
             {
               "name": "Stasis",
-              "moves": [
+              "effects": [
                 {
                   "name": "Steal Card",
                   "color": "ff7e00ff"
@@ -556,7 +556,7 @@
           "moves": [
             {
               "name": "Square of Protection",
-              "moves": [
+              "effects": [
                 {
                   "name": "Team Block 16",
                   "color": "559cd6ff"
@@ -569,7 +569,7 @@
             },
             {
               "name": "Beam",
-              "moves": [
+              "effects": [
                 {
                   "name": "12x2",
                   "color": "e83839ff"
@@ -595,7 +595,7 @@
           "moves": [
             {
               "name": "Incantation",
-              "moves": [
+              "effects": [
                 {
                   "name": "Ritual 5",
                   "color": "974ea2ff"
@@ -604,7 +604,7 @@
             },
             {
               "name": "Dark Strike",
-              "moves": [
+              "effects": [
                 {
                   "name": "6",
                   "color": "e83839ff"
@@ -626,7 +626,7 @@
           "moves": [
             {
               "name": "Perplexing Glare",
-              "moves": [
+              "effects": [
                 {
                   "name": "Confuse",
                   "color": "ff7e00ff"
@@ -635,7 +635,7 @@
             },
             {
               "name": "Tail Whip",
-              "moves": [
+              "effects": [
                 {
                   "name": "10",
                   "color": "e83839ff"
@@ -652,7 +652,7 @@
             },
             {
               "name": "Bite",
-              "moves": [
+              "effects": [
                 {
                   "name": "18",
                   "color": "e83839ff"
@@ -674,7 +674,7 @@
           "moves": [
             {
               "name": "Sleep / Stunned",
-              "moves": [
+              "effects": [
                 {
                   "name": "Skip Turn",
                   "color": "999999ff"
@@ -683,7 +683,7 @@
             },
             {
               "name": "Attack",
-              "moves": [
+              "effects": [
                 {
                   "name": "20",
                   "color": "e83839ff"
@@ -692,7 +692,7 @@
             },
             {
               "name": "Siphon Soul",
-              "moves": [
+              "effects": [
                 {
                   "name": "Player Str -2",
                   "color": "ff7e00ff"
@@ -718,7 +718,7 @@
           "moves": [
             {
               "name": "Nip",
-              "moves": [
+              "effects": [
                 {
                   "name": "D",
                   "color": "e83839ff"
@@ -727,7 +727,7 @@
             },
             {
               "name": "Harden",
-              "moves": [
+              "effects": [
                 {
                   "name": "Str +2",
                   "color": "974ea2ff"
@@ -740,7 +740,7 @@
             },
             {
               "name": "Chomp",
-              "moves": [
+              "effects": [
                 {
                   "name": "9x2",
                   "color": "e83839ff"
@@ -749,7 +749,7 @@
             },
             {
               "name": "???",
-              "moves": [
+              "effects": [
                 {
                   "name": "Skip Turn",
                   "color": "999999ff"
@@ -758,7 +758,7 @@
             },
             {
               "name": "Reincarnate",
-              "moves": [
+              "effects": [
                 {
                   "name": "Revive 50% Max HP",
                   "color": "974ea2ff"
@@ -780,7 +780,7 @@
           "moves": [
             {
               "name": "Bear Hug",
-              "moves": [
+              "effects": [
                 {
                   "name": "Player's Dex: -4",
                   "color": "ff7e00ff"
@@ -789,7 +789,7 @@
             },
             {
               "name": "Maul",
-              "moves": [
+              "effects": [
                 {
                   "name": "20",
                   "color": "e83839ff"
@@ -798,7 +798,7 @@
             },
             {
               "name": "Lunge",
-              "moves": [
+              "effects": [
                 {
                   "name": "10",
                   "color": "e83839ff"
@@ -824,7 +824,7 @@
           "moves": [
             {
               "name": "Heal",
-              "moves": [
+              "effects": [
                 {
                   "name": "Party Heal 20",
                   "color": "559cd6ff"
@@ -833,7 +833,7 @@
             },
             {
               "name": "Buff",
-              "moves": [
+              "effects": [
                 {
                   "name": "Party Str +4",
                   "color": "974ea2ff"
@@ -842,7 +842,7 @@
             },
             {
               "name": "Attack / Debuff",
-              "moves": [
+              "effects": [
                 {
                   "name": "9",
                   "color": "e83839ff"
@@ -868,7 +868,7 @@
           "moves": [
             {
               "name": "Attack",
-              "moves": [
+              "effects": [
                 {
                   "name": "11",
                   "color": "e83839ff"
@@ -877,7 +877,7 @@
             },
             {
               "name": "Explode",
-              "moves": [
+              "effects": [
                 {
                   "name": "30",
                   "color": "e83839ff"
@@ -899,7 +899,7 @@
           "moves": [
             {
               "name": "Mock",
-              "moves": [
+              "effects": [
                 {
                   "name": "Skip Turn",
                   "color": "999999ff"
@@ -908,7 +908,7 @@
             },
             {
               "name": "Agonizing Slash",
-              "moves": [
+              "effects": [
                 {
                   "name": "12",
                   "color": "e83839ff"
@@ -921,7 +921,7 @@
             },
             {
               "name": "Cross Slash",
-              "moves": [
+              "effects": [
                 {
                   "name": "17",
                   "color": "e83839ff"
@@ -943,7 +943,7 @@
           "moves": [
             {
               "name": "Attack",
-              "moves": [
+              "effects": [
                 {
                   "name": "9",
                   "color": "e83839ff"
@@ -952,7 +952,7 @@
             },
             {
               "name": "Buff",
-              "moves": [
+              "effects": [
                 {
                   "name": "Thorns 2",
                   "color": "974ea2ff"
@@ -974,7 +974,7 @@
           "moves": [
             {
               "name": "Parasite",
-              "moves": [
+              "effects": [
                 {
                   "name": "Permanently add a Parasite to deck (future combats)",
                   "color": "ff7e00ff"
@@ -983,7 +983,7 @@
             },
             {
               "name": "Attack / Defend",
-              "moves": [
+              "effects": [
                 {
                   "name": "16",
                   "color": "e83839ff"
@@ -996,7 +996,7 @@
             },
             {
               "name": "Attack / Debuff",
-              "moves": [
+              "effects": [
                 {
                   "name": "12",
                   "color": "e83839ff"
@@ -1013,7 +1013,7 @@
             },
             {
               "name": "Multi-Attack",
-              "moves": [
+              "effects": [
                 {
                   "name": "9x3",
                   "color": "e83839ff"
@@ -1022,7 +1022,7 @@
             },
             {
               "name": "Single-Attack",
-              "moves": [
+              "effects": [
                 {
                   "name": "38",
                   "color": "e83839ff"
@@ -1044,7 +1044,7 @@
           "moves": [
             {
               "name": "Ripple",
-              "moves": [
+              "effects": [
                 {
                   "name": "Block 20",
                   "color": "559cd6ff"
@@ -1065,7 +1065,7 @@
             },
             {
               "name": "Reverberate",
-              "moves": [
+              "effects": [
                 {
                   "name": "8x3",
                   "color": "e83839ff"
@@ -1074,7 +1074,7 @@
             },
             {
               "name": "Head Slam",
-              "moves": [
+              "effects": [
                 {
                   "name": "32",
                   "color": "e83839ff"
@@ -1091,7 +1091,7 @@
             },
             {
               "name": "Haste",
-              "moves": [
+              "effects": [
                 {
                   "name": "Cleanse Debuffs",
                   "color": "4dae49ff"
@@ -1117,7 +1117,7 @@
           "moves": [
             {
               "name": "Tackle",
-              "moves": [
+              "effects": [
                 {
                   "name": "7",
                   "color": "e83839ff"
@@ -1139,7 +1139,7 @@
           "moves": [
             {
               "name": "Soul Strike (Phase 1)",
-              "moves": [
+              "effects": [
                 {
                   "name": "6x4",
                   "color": "e83839ff"
@@ -1148,7 +1148,7 @@
             },
             {
               "name": "Slash (Phase 1)",
-              "moves": [
+              "effects": [
                 {
                   "name": "20",
                   "color": "e83839ff"
@@ -1157,7 +1157,7 @@
             },
             {
               "name": "Rebirth (Phase 1)",
-              "moves": [
+              "effects": [
                 {
                   "name": "Start Stage 2",
                   "color": "4dae49ff"
@@ -1166,7 +1166,7 @@
             },
             {
               "name": "Dark Echo (Phase 2)",
-              "moves": [
+              "effects": [
                 {
                   "name": "40",
                   "color": "e83839ff"
@@ -1175,7 +1175,7 @@
             },
             {
               "name": "Sludge (Phase 2)",
-              "moves": [
+              "effects": [
                 {
                   "name": "18",
                   "color": "e83839ff"
@@ -1188,7 +1188,7 @@
             },
             {
               "name": "Tackle (Phase 2)",
-              "moves": [
+              "effects": [
                 {
                   "name": "10x3",
                   "color": "e83839ff"
@@ -1210,7 +1210,7 @@
           "moves": [
             {
               "name": "Stab",
-              "moves": [
+              "effects": [
                 {
                   "name": "9",
                   "color": "e83839ff"
@@ -1223,7 +1223,7 @@
             },
             {
               "name": "Explode",
-              "moves": [
+              "effects": [
                 {
                   "name": "25",
                   "color": "e83839ff"
@@ -1249,7 +1249,7 @@
           "moves": [
             {
               "name": "Roar",
-              "moves": [
+              "effects": [
                 {
                   "name": "Weak 3",
                   "color": "ff7e00ff"
@@ -1262,7 +1262,7 @@
             },
             {
               "name": "Drool",
-              "moves": [
+              "effects": [
                 {
                   "name": "Str +5",
                   "color": "974ea2ff"
@@ -1271,7 +1271,7 @@
             },
             {
               "name": "Slam",
-              "moves": [
+              "effects": [
                 {
                   "name": "30",
                   "color": "e83839ff"
@@ -1280,7 +1280,7 @@
             },
             {
               "name": "Nom",
-              "moves": [
+              "effects": [
                 {
                   "name": "5xT",
                   "color": "e83839ff"
@@ -1302,7 +1302,7 @@
           "moves": [
             {
               "name": "Quick Tackle",
-              "moves": [
+              "effects": [
                 {
                   "name": "18",
                   "color": "e83839ff"
@@ -1311,7 +1311,7 @@
             },
             {
               "name": "Smash",
-              "moves": [
+              "effects": [
                 {
                   "name": "25",
                   "color": "e83839ff"
@@ -1320,7 +1320,7 @@
             },
             {
               "name": "Constrict",
-              "moves": [
+              "effects": [
                 {
                   "name": "Constrict 12",
                   "color": "ff7e00ff"
@@ -1342,7 +1342,7 @@
           "moves": [
             {
               "name": "Scratch",
-              "moves": [
+              "effects": [
                 {
                   "name": "5",
                   "color": "e83839ff"
@@ -1364,7 +1364,7 @@
           "moves": [
             {
               "name": "Slash",
-              "moves": [
+              "effects": [
                 {
                   "name": "14",
                   "color": "e83839ff"
@@ -1373,7 +1373,7 @@
             },
             {
               "name": "Fury",
-              "moves": [
+              "effects": [
                 {
                   "name": "7x3",
                   "color": "e83839ff"
@@ -1382,7 +1382,7 @@
             },
             {
               "name": "Defend",
-              "moves": [
+              "effects": [
                 {
                   "name": "Ally: Block 20",
                   "color": "559cd6ff"
@@ -1404,7 +1404,7 @@
           "moves": [
             {
               "name": "Debilitate",
-              "moves": [
+              "effects": [
                 {
                   "name": "Vuln 2",
                   "color": "ff7e00ff"
@@ -1425,7 +1425,7 @@
             },
             {
               "name": "Blood Shots",
-              "moves": [
+              "effects": [
                 {
                   "name": "2x15",
                   "color": "e83839ff"
@@ -1434,7 +1434,7 @@
             },
             {
               "name": "Echo",
-              "moves": [
+              "effects": [
                 {
                   "name": "45",
                   "color": "e83839ff"
@@ -1443,7 +1443,7 @@
             },
             {
               "name": "Buff",
-              "moves": [
+              "effects": [
                 {
                   "name": "Cleanse Str Down",
                   "color": "4dae49ff"
@@ -1473,7 +1473,7 @@
           "moves": [
             {
               "name": "Rake",
-              "moves": [
+              "effects": [
                 {
                   "name": "8",
                   "color": "e83839ff"
@@ -1486,7 +1486,7 @@
             },
             {
               "name": "Stab",
-              "moves": [
+              "effects": [
                 {
                   "name": "13",
                   "color": "e83839ff"
@@ -1508,7 +1508,7 @@
           "moves": [
             {
               "name": "Laser",
-              "moves": [
+              "effects": [
                 {
                   "name": "11",
                   "color": "e83839ff"
@@ -1521,7 +1521,7 @@
             },
             {
               "name": "Claw",
-              "moves": [
+              "effects": [
                 {
                   "name": "16",
                   "color": "e83839ff"
@@ -1543,7 +1543,7 @@
           "moves": [
             {
               "name": "Hex",
-              "moves": [
+              "effects": [
                 {
                   "name": "Hex 1",
                   "color": "ff7e00ff"
@@ -1552,7 +1552,7 @@
             },
             {
               "name": "Debilitate",
-              "moves": [
+              "effects": [
                 {
                   "name": "12",
                   "color": "e83839ff"
@@ -1565,7 +1565,7 @@
             },
             {
               "name": "Drain",
-              "moves": [
+              "effects": [
                 {
                   "name": "Weak 3",
                   "color": "ff7e00ff"
@@ -1578,7 +1578,7 @@
             },
             {
               "name": "Zap",
-              "moves": [
+              "effects": [
                 {
                   "name": "21",
                   "color": "e83839ff"
@@ -1587,7 +1587,7 @@
             },
             {
               "name": "Poke",
-              "moves": [
+              "effects": [
                 {
                   "name": "6x2",
                   "color": "e83839ff"
@@ -1609,7 +1609,7 @@
           "moves": [
             {
               "name": "Bite",
-              "moves": [
+              "effects": [
                 {
                   "name": "D",
                   "color": "e83839ff"
@@ -1618,7 +1618,7 @@
             },
             {
               "name": "Grow",
-              "moves": [
+              "effects": [
                 {
                   "name": "Str +4",
                   "color": "974ea2ff"
@@ -1640,7 +1640,7 @@
           "moves": [
             {
               "name": "Activate",
-              "moves": [
+              "effects": [
                 {
                   "name": "Block 35",
                   "color": "559cd6ff"
@@ -1649,7 +1649,7 @@
             },
             {
               "name": "Attack Debuff",
-              "moves": [
+              "effects": [
                 {
                   "name": "11",
                   "color": "e83839ff"
@@ -1662,7 +1662,7 @@
             },
             {
               "name": "Slam",
-              "moves": [
+              "effects": [
                 {
                   "name": "11x2",
                   "color": "e83839ff"
@@ -1671,7 +1671,7 @@
             },
             {
               "name": "Harden",
-              "moves": [
+              "effects": [
                 {
                   "name": "11",
                   "color": "e83839ff"
@@ -1697,7 +1697,7 @@
           "moves": [
             {
               "name": "Mug",
-              "moves": [
+              "effects": [
                 {
                   "name": "11",
                   "color": "e83839ff"
@@ -1706,7 +1706,7 @@
             },
             {
               "name": "Lunge",
-              "moves": [
+              "effects": [
                 {
                   "name": "18",
                   "color": "e83839ff"
@@ -1715,7 +1715,7 @@
             },
             {
               "name": "Smoke Bomb",
-              "moves": [
+              "effects": [
                 {
                   "name": "Block 17",
                   "color": "559cd6ff"
@@ -1724,7 +1724,7 @@
             },
             {
               "name": "Escape",
-              "moves": [
+              "effects": [
                 {
                   "name": "Leave Combat",
                   "color": "4dae49ff"
@@ -1746,7 +1746,7 @@
           "moves": [
             {
               "name": "Attack",
-              "moves": [
+              "effects": [
                 {
                   "name": "6x2",
                   "color": "e83839ff"
@@ -1772,7 +1772,7 @@
           "moves": [
             {
               "name": "Fell",
-              "moves": [
+              "effects": [
                 {
                   "name": "21",
                   "color": "e83839ff"
@@ -1785,7 +1785,7 @@
             },
             {
               "name": "Suck",
-              "moves": [
+              "effects": [
                 {
                   "name": "Lifesteal 12",
                   "color": "e83839ff"
@@ -1794,7 +1794,7 @@
             },
             {
               "name": "Double Strike",
-              "moves": [
+              "effects": [
                 {
                   "name": "7x2",
                   "color": "e83839ff"
@@ -1803,7 +1803,7 @@
             },
             {
               "name": "Stunned",
-              "moves": [
+              "effects": [
                 {
                   "name": "Skip Turn",
                   "color": "999999ff"
@@ -1825,7 +1825,7 @@
           "moves": [
             {
               "name": "Bellow",
-              "moves": [
+              "effects": [
                 {
                   "name": "Anger 2",
                   "color": "974ea2ff"
@@ -1834,7 +1834,7 @@
             },
             {
               "name": "Skull Bash",
-              "moves": [
+              "effects": [
                 {
                   "name": "8",
                   "color": "e83839ff"
@@ -1847,7 +1847,7 @@
             },
             {
               "name": "Rush",
-              "moves": [
+              "effects": [
                 {
                   "name": "16",
                   "color": "e83839ff"
@@ -1869,7 +1869,7 @@
           "moves": [
             {
               "name": "Charge",
-              "moves": [
+              "effects": [
                 {
                   "name": "Skip Turn",
                   "color": "999999ff"
@@ -1878,7 +1878,7 @@
             },
             {
               "name": "Ultimate Blast",
-              "moves": [
+              "effects": [
                 {
                   "name": "30",
                   "color": "e83839ff"
@@ -1900,7 +1900,7 @@
           "moves": [
             {
               "name": "Attack",
-              "moves": [
+              "effects": [
                 {
                   "name": "X + 40",
                   "color": "e83839ff"
@@ -1922,7 +1922,7 @@
           "moves": [
             {
               "name": "Spawn",
-              "moves": [
+              "effects": [
                 {
                   "name": "Spawn 2 Torch Heads",
                   "color": "4dae49ff"
@@ -1931,7 +1931,7 @@
             },
             {
               "name": "Revive",
-              "moves": [
+              "effects": [
                 {
                   "name": "Spawn Torch Heads in Empty Slots (max 2)",
                   "color": "4dae49ff"
@@ -1940,7 +1940,7 @@
             },
             {
               "name": "Buff",
-              "moves": [
+              "effects": [
                 {
                   "name": "Block 23",
                   "color": "559cd6ff"
@@ -1953,7 +1953,7 @@
             },
             {
               "name": "Mega-Debuff",
-              "moves": [
+              "effects": [
                 {
                   "name": "Weak 5",
                   "color": "ff7e00ff"
@@ -1970,7 +1970,7 @@
             },
             {
               "name": "Fireball",
-              "moves": [
+              "effects": [
                 {
                   "name": "21",
                   "color": "e83839ff"
@@ -1992,7 +1992,7 @@
           "moves": [
             {
               "name": "Rally!",
-              "moves": [
+              "effects": [
                 {
                   "name": "Summon 2 Gremlins",
                   "color": "4dae49ff"
@@ -2001,7 +2001,7 @@
             },
             {
               "name": "Stab",
-              "moves": [
+              "effects": [
                 {
                   "name": "6x3",
                   "color": "e83839ff"
@@ -2010,7 +2010,7 @@
             },
             {
               "name": "Encourage",
-              "moves": [
+              "effects": [
                 {
                   "name": "Party Str +5",
                   "color": "974ea2ff"
@@ -2036,7 +2036,7 @@
           "moves": [
             {
               "name": "Burn",
-              "moves": [
+              "effects": [
                 {
                   "name": "Burn 5",
                   "color": "ff7e00ff"
@@ -2045,7 +2045,7 @@
             },
             {
               "name": "Multi-Attack",
-              "moves": [
+              "effects": [
                 {
                   "name": "7x3",
                   "color": "e83839ff"
@@ -2054,7 +2054,7 @@
             },
             {
               "name": "Scythe",
-              "moves": [
+              "effects": [
                 {
                   "name": "45",
                   "color": "e83839ff"
@@ -2076,7 +2076,7 @@
           "moves": [
             {
               "name": "Bite",
-              "moves": [
+              "effects": [
                 {
                   "name": "D",
                   "color": "e83839ff"
@@ -2085,7 +2085,7 @@
             },
             {
               "name": "Spit Web",
-              "moves": [
+              "effects": [
                 {
                   "name": "Weak 2",
                   "color": "ff7e00ff"
@@ -2107,7 +2107,7 @@
           "moves": [
             {
               "name": "Bite",
-              "moves": [
+              "effects": [
                 {
                   "name": "6",
                   "color": "e83839ff"
@@ -2116,7 +2116,7 @@
             },
             {
               "name": "Grow",
-              "moves": [
+              "effects": [
                 {
                   "name": "Str +5",
                   "color": "974ea2ff"
@@ -2138,7 +2138,7 @@
           "moves": [
             {
               "name": "Count",
-              "moves": [
+              "effects": [
                 {
                   "name": "13",
                   "color": "e83839ff"
@@ -2147,7 +2147,7 @@
             },
             {
               "name": "Glare",
-              "moves": [
+              "effects": [
                 {
                   "name": "Weak 1",
                   "color": "ff7e00ff"
@@ -2156,7 +2156,7 @@
             },
             {
               "name": "It Is Time",
-              "moves": [
+              "effects": [
                 {
                   "name": "T + 40",
                   "color": "e83839ff"
@@ -2178,7 +2178,7 @@
           "moves": [
             {
               "name": "Flame Tackle",
-              "moves": [
+              "effects": [
                 {
                   "name": "18",
                   "color": "e83839ff"
@@ -2191,7 +2191,7 @@
             },
             {
               "name": "Lick",
-              "moves": [
+              "effects": [
                 {
                   "name": "Frail 3",
                   "color": "ff7e00ff"
@@ -2200,7 +2200,7 @@
             },
             {
               "name": "Split",
-              "moves": [
+              "effects": [
                 {
                   "name": "Split in two",
                   "color": "4dae49ff"
@@ -2222,7 +2222,7 @@
           "moves": [
             {
               "name": "Activate",
-              "moves": [
+              "effects": [
                 {
                   "name": "Do Nothing",
                   "color": "999999ff"
@@ -2231,7 +2231,7 @@
             },
             {
               "name": "Divider",
-              "moves": [
+              "effects": [
                 {
                   "name": "Hx6",
                   "color": "e83839ff"
@@ -2240,7 +2240,7 @@
             },
             {
               "name": "Sear",
-              "moves": [
+              "effects": [
                 {
                   "name": "6",
                   "color": "e83839ff"
@@ -2253,7 +2253,7 @@
             },
             {
               "name": "Tackle",
-              "moves": [
+              "effects": [
                 {
                   "name": "6x2",
                   "color": "e83839ff"
@@ -2262,7 +2262,7 @@
             },
             {
               "name": "Inflame",
-              "moves": [
+              "effects": [
                 {
                   "name": "Str +3",
                   "color": "974ea2ff"
@@ -2275,7 +2275,7 @@
             },
             {
               "name": "Inferno",
-              "moves": [
+              "effects": [
                 {
                   "name": "2x6",
                   "color": "e83839ff"
@@ -2301,7 +2301,7 @@
           "moves": [
             {
               "name": "Flame Tackle",
-              "moves": [
+              "effects": [
                 {
                   "name": "10",
                   "color": "e83839ff"
@@ -2314,7 +2314,7 @@
             },
             {
               "name": "Lick",
-              "moves": [
+              "effects": [
                 {
                   "name": "Frail 1",
                   "color": "ff7e00ff"
@@ -2336,7 +2336,7 @@
           "moves": [
             {
               "name": "Spawn Orbs",
-              "moves": [
+              "effects": [
                 {
                   "name": "Summon 2 Bronze Orbs",
                   "color": "4dae49ff"
@@ -2345,7 +2345,7 @@
             },
             {
               "name": "Flail",
-              "moves": [
+              "effects": [
                 {
                   "name": "8x2",
                   "color": "e83839ff"
@@ -2354,7 +2354,7 @@
             },
             {
               "name": "Boost",
-              "moves": [
+              "effects": [
                 {
                   "name": "Str +4",
                   "color": "974ea2ff"
@@ -2363,7 +2363,7 @@
             },
             {
               "name": "HYPERBEAM",
-              "moves": [
+              "effects": [
                 {
                   "name": "50",
                   "color": "e83839ff"
@@ -2385,7 +2385,7 @@
           "moves": [
             {
               "name": "Tackle",
-              "moves": [
+              "effects": [
                 {
                   "name": "6",
                   "color": "e83839ff"
@@ -2407,7 +2407,7 @@
           "moves": [
             {
               "name": "Mug",
-              "moves": [
+              "effects": [
                 {
                   "name": "11",
                   "color": "e83839ff"
@@ -2416,7 +2416,7 @@
             },
             {
               "name": "Lunge",
-              "moves": [
+              "effects": [
                 {
                   "name": "14",
                   "color": "e83839ff"
@@ -2425,7 +2425,7 @@
             },
             {
               "name": "Smoke Bomb",
-              "moves": [
+              "effects": [
                 {
                   "name": "Block 6",
                   "color": "559cd6ff"
@@ -2434,7 +2434,7 @@
             },
             {
               "name": "Escape",
-              "moves": [
+              "effects": [
                 {
                   "name": "Leave Combat",
                   "color": "4dae49ff"
@@ -2456,7 +2456,7 @@
           "moves": [
             {
               "name": "Peck",
-              "moves": [
+              "effects": [
                 {
                   "name": "1x6",
                   "color": "e83839ff"
@@ -2465,7 +2465,7 @@
             },
             {
               "name": "Swoop",
-              "moves": [
+              "effects": [
                 {
                   "name": "14",
                   "color": "e83839ff"
@@ -2474,7 +2474,7 @@
             },
             {
               "name": "Caw",
-              "moves": [
+              "effects": [
                 {
                   "name": "Str +1",
                   "color": "974ea2ff"
@@ -2483,7 +2483,7 @@
             },
             {
               "name": "(Stunned)",
-              "moves": [
+              "effects": [
                 {
                   "name": "Skip Turn",
                   "color": "999999ff"
@@ -2492,7 +2492,7 @@
             },
             {
               "name": "Headbutt",
-              "moves": [
+              "effects": [
                 {
                   "name": "3",
                   "color": "e83839ff"
@@ -2501,7 +2501,7 @@
             },
             {
               "name": "(Start Flying)",
-              "moves": [
+              "effects": [
                 {
                   "name": "Flight 4",
                   "color": "974ea2ff"
@@ -2523,7 +2523,7 @@
           "moves": [
             {
               "name": "Scouring Whip",
-              "moves": [
+              "effects": [
                 {
                   "name": "7",
                   "color": "e83839ff"
@@ -2553,7 +2553,7 @@
           "moves": [
             {
               "name": "Goop Spray",
-              "moves": [
+              "effects": [
                 {
                   "name": "Slimed 5",
                   "color": "ff7e00ff"
@@ -2562,7 +2562,7 @@
             },
             {
               "name": "Preparing",
-              "moves": [
+              "effects": [
                 {
                   "name": "Skip Turn",
                   "color": "999999ff"
@@ -2571,7 +2571,7 @@
             },
             {
               "name": "Slam",
-              "moves": [
+              "effects": [
                 {
                   "name": "38",
                   "color": "e83839ff"
@@ -2580,7 +2580,7 @@
             },
             {
               "name": "Split",
-              "moves": [
+              "effects": [
                 {
                   "name": "Split into Spike Slime (L) and Acid Slime (L)",
                   "color": "4dae49ff"
@@ -2602,7 +2602,7 @@
           "moves": [
             {
               "name": "Bellow",
-              "moves": [
+              "effects": [
                 {
                   "name": "Str +5",
                   "color": "974ea2ff"
@@ -2615,7 +2615,7 @@
             },
             {
               "name": "Thrash",
-              "moves": [
+              "effects": [
                 {
                   "name": "7",
                   "color": "e83839ff"
@@ -2628,7 +2628,7 @@
             },
             {
               "name": "Chomp",
-              "moves": [
+              "effects": [
                 {
                   "name": "12",
                   "color": "e83839ff"
@@ -2650,7 +2650,7 @@
           "moves": [
             {
               "name": "Attack",
-              "moves": [
+              "effects": [
                 {
                   "name": "13",
                   "color": "e83839ff"
@@ -2659,7 +2659,7 @@
             },
             {
               "name": "Debuff",
-              "moves": [
+              "effects": [
                 {
                   "name": "Daze 2",
                   "color": "ff7e00ff"
@@ -2681,7 +2681,7 @@
           "moves": [
             {
               "name": "Summon",
-              "moves": [
+              "effects": [
                 {
                   "name": "Spawn 2 Daggers (Up to 4)",
                   "color": "4dae49ff"
@@ -2690,7 +2690,7 @@
             },
             {
               "name": "Snake Strike",
-              "moves": [
+              "effects": [
                 {
                   "name": "16x2",
                   "color": "e83839ff"
@@ -2703,7 +2703,7 @@
             },
             {
               "name": "Big Bite",
-              "moves": [
+              "effects": [
                 {
                   "name": "34",
                   "color": "e83839ff"
@@ -2725,7 +2725,7 @@
           "moves": [
             {
               "name": "Stab",
-              "moves": [
+              "effects": [
                 {
                   "name": "14",
                   "color": "e83839ff"
@@ -2734,7 +2734,7 @@
             },
             {
               "name": "Scrape",
-              "moves": [
+              "effects": [
                 {
                   "name": "9",
                   "color": "e83839ff"
@@ -2747,7 +2747,7 @@
             },
             {
               "name": "Entangle",
-              "moves": [
+              "effects": [
                 {
                   "name": "Entangle 1",
                   "color": "ff7e00ff"
@@ -2769,7 +2769,7 @@
           "moves": [
             {
               "name": "Face Slap",
-              "moves": [
+              "effects": [
                 {
                   "name": "14",
                   "color": "e83839ff"
@@ -2786,7 +2786,7 @@
             },
             {
               "name": "Taunt",
-              "moves": [
+              "effects": [
                 {
                   "name": "Weak 2",
                   "color": "ff7e00ff"
@@ -2799,7 +2799,7 @@
             },
             {
               "name": "Defensive Stance",
-              "moves": [
+              "effects": [
                 {
                   "name": "Block 20",
                   "color": "559cd6ff"
@@ -2812,7 +2812,7 @@
             },
             {
               "name": "Gloat",
-              "moves": [
+              "effects": [
                 {
                   "name": "Str +4",
                   "color": "974ea2ff"
@@ -2821,7 +2821,7 @@
             },
             {
               "name": "Heavy Slash",
-              "moves": [
+              "effects": [
                 {
                   "name": "18",
                   "color": "e83839ff"
@@ -2830,7 +2830,7 @@
             },
             {
               "name": "Execute (Below 50% HP)",
-              "moves": [
+              "effects": [
                 {
                   "name": "10x2",
                   "color": "e83839ff"
