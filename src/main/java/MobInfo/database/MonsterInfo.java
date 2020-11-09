@@ -3,6 +3,7 @@ package MobInfo.database;
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class MonsterInfo {
@@ -28,6 +29,27 @@ public class MonsterInfo {
     public List<AscensionMoveSet> getMoveSets() { return moveSets; }
     public void setMoveSets(List<AscensionMoveSet> moveSets) { this.moveSets = moveSets; }
 
+    public AscensionMoveSet getApplicableMoveSet(int asc_level) {
+        int max = -1;
+        AscensionMoveSet target = null;
+
+        for (AscensionMoveSet moveset : moveSets) {
+            int curr = moveset.getMinAsc();
+            // TODO: need to verify if it is < or <= here probably
+            System.out.println("Checking if the moveset with asc level " + curr + " is applicable here at " + asc_level);
+            if (curr > max && curr <= asc_level) {
+                max = curr;
+                target = moveset;
+            }
+        }
+
+        if (target == null) {
+            System.out.println("ERROR: returning a null value - this shouldn't happen!");
+        }
+
+        return target;
+    }
+
     // --------------------------------------------------------------------------------
 
     @Override
@@ -37,5 +59,17 @@ public class MonsterInfo {
                 ", id='" + id + '\'' +
                 ", movesets=" + moveSets +
                 '}';
+    }
+
+    public void print() {
+        System.out.println(toString());
+    }
+
+    public static MonsterInfo getDefault() {
+        MonsterInfo defaultMob = new MonsterInfo();
+        defaultMob.name = "404 Monster Not Found";
+        defaultMob.id = "null";
+        defaultMob.moveSets = new ArrayList<>();
+        return defaultMob;
     }
 }

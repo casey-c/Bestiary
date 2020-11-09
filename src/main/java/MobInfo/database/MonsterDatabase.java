@@ -7,16 +7,28 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
-import java.util.ArrayList;
 import java.util.HashMap;
-import java.util.List;
 
 public class MonsterDatabase {
     private HashMap<String, MonsterInfo> monsters = new HashMap<>(); // a graveyard smash
+    private MonsterInfo defaultMob;
 
     public MonsterDatabase() {
         load();
+        defaultMob = MonsterInfo.getDefault();
     }
+
+    // --------------------------------------------------------------------------------
+
+    public MonsterInfo getByID(String id) {
+        return monsters.getOrDefault(id, defaultMob);
+    }
+
+    public void insert(MonsterInfo monster) {
+        monsters.put(monster.getId(), monster);
+    }
+
+    // --------------------------------------------------------------------------------
 
     // Builds a string from an input stream
     private static String resourceStreamToString(InputStream in) throws IOException {
@@ -31,6 +43,7 @@ public class MonsterDatabase {
         br.close();
         return sb.toString();
     }
+
 
     // Pretty sure can only call after postInitialize callback or it won't find the .json (but I honestly didn't test it)
     private void load() {
@@ -49,13 +62,9 @@ public class MonsterDatabase {
 
             if (o.has("monsters") && o.get("monsters").isJsonArray()) {
                 JsonArray arr = o.getAsJsonArray("monsters");
-                for (JsonElement elt : arr) {
-                    MonsterInfo monster = gson.fromJson(elt, MonsterInfo.class);
-                    monsters.put(monster.getId(), monster);
 
-                    System.out.println("Monster: " + monster);
-                    System.out.println();
-                }
+                for (JsonElement elt : arr)
+                    insert(gson.fromJson(elt, MonsterInfo.class));
 
                 System.out.println("Monsters.size is " + monsters.size());
             }
