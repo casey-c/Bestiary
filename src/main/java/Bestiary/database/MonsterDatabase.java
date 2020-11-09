@@ -1,7 +1,6 @@
-package MobInfo.database;
+package Bestiary.database;
 
 import com.google.gson.*;
-import com.google.gson.internal.LinkedTreeMap;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -47,7 +46,7 @@ public class MonsterDatabase {
 
     // Pretty sure can only call after postInitialize callback or it won't find the .json (but I honestly didn't test it)
     private void load() {
-        InputStream in = getClass().getClassLoader().getResourceAsStream("MobInfo/monsters.json");
+        InputStream in = getClass().getClassLoader().getResourceAsStream("Bestiary/monsters.json");
 
         if (in == null) {
             System.out.println("ERROR: failed to load monsters.json (not found?)");

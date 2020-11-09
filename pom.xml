@@ -2,12 +2,12 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>MobInfo</groupId>
-    <artifactId>MobInfo</artifactId>
+    <groupId>BestiaryMod</groupId>
+    <artifactId>BestiaryMod</artifactId>
     <version>v1.0.0</version>
     <packaging>jar</packaging>
 
-    <name>MobInfo.MobInfo</name>
+    <name>BestiaryMod</name>
     <description>Displays mob AI and movesets</description>
 
     <dependencies>
@@ -40,7 +40,7 @@
     </dependencies>
 
     <build>
-        <finalName>MobInfo</finalName>
+        <finalName>Bestiary</finalName>
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
@@ -60,7 +60,7 @@
                         <phase>package</phase>
                         <configuration>
                             <target>
-                                <copy file="target/MobInfo.jar" tofile="/home/casey/.steam/steam/steamapps/common/SlayTheSpire/mods/MobInfo.jar"/>
+                                <copy file="target/Bestiary.jar" tofile="/home/casey/.steam/steam/steamapps/common/SlayTheSpire/mods/Bestiary.jar"/>
                             </target>
                         </configuration>
                         <goals>

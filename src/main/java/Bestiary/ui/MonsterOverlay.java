@@ -1,18 +1,13 @@
-package MobInfo.ui;
+package Bestiary.ui;
 
-import MobInfo.database.AscensionMoveSet;
-import MobInfo.database.MonsterDatabase;
-import MobInfo.database.MonsterInfo;
+import Bestiary.database.MonsterDatabase;
 import com.badlogic.gdx.graphics.Color;
 import com.badlogic.gdx.graphics.Texture;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 import com.megacrit.cardcrawl.core.Settings;
-import com.megacrit.cardcrawl.helpers.FontHelper;
-
-import java.util.List;
 
 public class MonsterOverlay {
-    private static final Texture TEX_BG = new Texture("MobInfo/screen.png");
+    private static final Texture TEX_BG = new Texture("Bestiary/screen.png");
 
     private MonsterDatabase db;
     private MonsterInfoRenderHelper helper;

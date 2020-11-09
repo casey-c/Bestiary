@@ -1,13 +1,11 @@
-package MobInfo.ui;
+package Bestiary.ui;
 
-import MobInfo.database.AscensionMoveSet;
-import MobInfo.database.MonsterInfo;
-import MobInfo.database.Move;
-import MobInfo.database.MoveEffect;
-import MobInfo.utils.ExtraColors;
-import MobInfo.utils.ExtraFonts;
-import MobInfo.utils.RenderingUtils;
-import com.badlogic.gdx.graphics.Color;
+import Bestiary.database.AscensionMoveSet;
+import Bestiary.database.MonsterInfo;
+import Bestiary.database.Move;
+import Bestiary.database.MoveEffect;
+import Bestiary.utils.ExtraColors;
+import Bestiary.utils.ExtraFonts;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 import com.megacrit.cardcrawl.core.CardCrawlGame;
 import com.megacrit.cardcrawl.core.Settings;
@@ -15,7 +13,6 @@ import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
 import com.megacrit.cardcrawl.helpers.FontHelper;
 
 import java.util.ArrayList;
-import java.util.List;
 
 public class MonsterInfoRenderHelper {
     private MonsterInfo currMonster;

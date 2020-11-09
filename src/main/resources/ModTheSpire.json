@@ -1,6 +1,6 @@
 {
-  "modid": "ojb_MobInfo",
-  "name": "Mob Info",
+  "modid": "ojb_Bestiary",
+  "name": "Bestiary",
   "author_list": ["ojb"],
   "description": "Displays mob AI and movesets",
   "version": "0.0.1",

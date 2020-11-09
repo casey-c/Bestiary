@@ -1,4 +1,4 @@
-package MobInfo.utils;
+package Bestiary.utils;
 
 import basemod.ReflectionHacks;
 import com.badlogic.gdx.Gdx;

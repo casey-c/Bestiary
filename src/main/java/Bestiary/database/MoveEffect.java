@@ -1,16 +1,14 @@
-package MobInfo.database;
+package Bestiary.database;
 
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
 
-import java.util.List;
-
-public class Move {
+public class MoveEffect {
     @SerializedName("name") @Expose
     private String name;
 
-    @SerializedName("effects") @Expose
-    private List<MoveEffect> moveEffects = null;
+    @SerializedName("color") @Expose
+    private String color;
 
     // --------------------------------------------------------------------------------
     // Getters / setters
@@ -18,17 +16,16 @@ public class Move {
     public String getName() { return name; }
     public void setName(String name) { this.name = name; }
 
-    public List<MoveEffect> getMoveEffects() { return moveEffects; }
-    public void setMoveEffects(List<MoveEffect> moveEffects) { this.moveEffects = moveEffects; }
+    public String getColor() { return color; }
+    public void setColor(String color) { this.color = color; }
 
     // --------------------------------------------------------------------------------
 
     @Override
     public String toString() {
-        return "Move{" +
+        return "MoveEffect{" +
                 "name='" + name + '\'' +
-                ", moveEffects=" + moveEffects +
+                ", color='" + color + '\'' +
                 '}';
     }
 }
-

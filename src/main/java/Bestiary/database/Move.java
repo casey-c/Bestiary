@@ -1,17 +1,16 @@
-package MobInfo.database;
+package Bestiary.database;
 
-import MobInfo.utils.ExtraColors;
-import com.badlogic.gdx.graphics.Color;
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
-import com.megacrit.cardcrawl.core.Settings;
 
-public class MoveEffect {
+import java.util.List;
+
+public class Move {
     @SerializedName("name") @Expose
     private String name;
 
-    @SerializedName("color") @Expose
-    private String color;
+    @SerializedName("effects") @Expose
+    private List<MoveEffect> moveEffects = null;
 
     // --------------------------------------------------------------------------------
     // Getters / setters
@@ -19,16 +18,17 @@ public class MoveEffect {
     public String getName() { return name; }
     public void setName(String name) { this.name = name; }
 
-    public String getColor() { return color; }
-    public void setColor(String color) { this.color = color; }
+    public List<MoveEffect> getMoveEffects() { return moveEffects; }
+    public void setMoveEffects(List<MoveEffect> moveEffects) { this.moveEffects = moveEffects; }
 
     // --------------------------------------------------------------------------------
 
     @Override
     public String toString() {
-        return "MoveEffect{" +
+        return "Move{" +
                 "name='" + name + '\'' +
-                ", color='" + color + '\'' +
+                ", moveEffects=" + moveEffects +
                 '}';
     }
 }
+

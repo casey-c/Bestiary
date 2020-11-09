@@ -1,18 +1,9 @@
-package MobInfo.utils;
+package Bestiary.utils;
 
 import com.badlogic.gdx.graphics.Color;
 import com.megacrit.cardcrawl.core.Settings;
 
 public class ExtraColors {
-//    public static final Color OJB_GRAY_COLOR = new Color(0.6f, 0.6f, 0.6f, 1.0f);
-//    public static final Color OJB_BUFF_COLOR = new Color(0.596f, 0.306f, 0.639f, 1.0f);
-//    public static final Color OJB_DEBUFF_COLOR = new Color(1.0f, 0.498f, 0.0f, 1.0f);
-//    public static final Color OJB_DAMAGE_COLOR = new Color();
-//    public static final Color OJB_BLOCK_COLOR = Settings.BLUE_TEXT_COLOR.cpy();
-//
-//
-//    public static final Color OJB_SPECIAL_COLOR = new Color(0.302f, 0.686f, 0.29f, 1.0f);
-
     public static final Color OJB_DIM_COLOR = new Color(0.0f, 0.0f, 0.0f, 0.75f);
 
     public static final Color OJB_GRAY_COLOR = new Color(0.6f, 0.6f, 0.6f, 1.0f);
