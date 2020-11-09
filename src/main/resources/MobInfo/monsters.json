@@ -232,7 +232,7 @@
               "effects": [
                 {
                   "name": "Enter Offensive Mode",
-                  "color": "4dae49ff"
+                  "color": "SPECIAL"
                 },
                 {
                   "name": "8x2",
@@ -240,7 +240,7 @@
                 },
                 {
                   "name": "Remove Sharp Hide",
-                  "color": "4dae49ff"
+                  "color": "SPECIAL"
                 }
               ]
             }
@@ -1154,7 +1154,7 @@
               "effects": [
                 {
                   "name": "Cleanse Debuffs",
-                  "color": "4dae49ff"
+                  "color": "SPECIAL"
                 },
                 {
                   "name": "Heal to 50% HP",
@@ -1220,7 +1220,7 @@
               "effects": [
                 {
                   "name": "Start Stage 2",
-                  "color": "4dae49ff"
+                  "color": "SPECIAL"
                 }
               ]
             },
@@ -1290,7 +1290,7 @@
                 },
                 {
                   "name": "Suicide",
-                  "color": "4dae49ff"
+                  "color": "SPECIAL"
                 }
               ]
             }
@@ -1506,7 +1506,7 @@
               "effects": [
                 {
                   "name": "Cleanse Str Down",
-                  "color": "4dae49ff"
+                  "color": "SPECIAL"
                 },
                 {
                   "name": "Str +2",
@@ -1787,7 +1787,7 @@
               "effects": [
                 {
                   "name": "Leave Combat",
-                  "color": "4dae49ff"
+                  "color": "SPECIAL"
                 }
               ]
             }
@@ -1985,7 +1985,7 @@
               "effects": [
                 {
                   "name": "Spawn 2 Torch Heads",
-                  "color": "4dae49ff"
+                  "color": "SPECIAL"
                 }
               ]
             },
@@ -1994,7 +1994,7 @@
               "effects": [
                 {
                   "name": "Spawn Torch Heads in Empty Slots (max 2)",
-                  "color": "4dae49ff"
+                  "color": "SPECIAL"
                 }
               ]
             },
@@ -2055,7 +2055,7 @@
               "effects": [
                 {
                   "name": "Summon 2 Gremlins",
-                  "color": "4dae49ff"
+                  "color": "SPECIAL"
                 }
               ]
             },
@@ -2263,7 +2263,7 @@
               "effects": [
                 {
                   "name": "Split in two",
-                  "color": "4dae49ff"
+                  "color": "SPECIAL"
                 }
               ]
             }
@@ -2399,7 +2399,7 @@
               "effects": [
                 {
                   "name": "Summon 2 Bronze Orbs",
-                  "color": "4dae49ff"
+                  "color": "SPECIAL"
                 }
               ]
             },
@@ -2497,7 +2497,7 @@
               "effects": [
                 {
                   "name": "Leave Combat",
-                  "color": "4dae49ff"
+                  "color": "SPECIAL"
                 }
               ]
             }
@@ -2643,7 +2643,7 @@
               "effects": [
                 {
                   "name": "Split into Spike Slime (L) and Acid Slime (L)",
-                  "color": "4dae49ff"
+                  "color": "SPECIAL"
                 }
               ]
             }
@@ -2744,7 +2744,7 @@
               "effects": [
                 {
                   "name": "Spawn 2 Daggers (Up to 4)",
-                  "color": "4dae49ff"
+                  "color": "SPECIAL"
                 }
               ]
             },

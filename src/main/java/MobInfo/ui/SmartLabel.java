@@ -16,11 +16,13 @@ public class SmartLabel extends Label {
         this.lineSpacing = lineSpacing;
 
         this.textHeight = font.getLineHeight();
-        this.textWidth = FontHelper.getSmartWidth(font, text, lineWidth, lineSpacing);
+        //this.textWidth = FontHelper.getSmartWidth(font, text, lineWidth * Settings.scale, lineSpacing * Settings.scale);
+        // TODO: determine if this lineWidth / lineSpacing should actually be scaled before calling getSmartWidth
+        this.textWidth = FontHelper.getSmartWidth(font, text, lineWidth, lineSpacing) / Settings.scale;
     }
 
     @Override
     public void render(SpriteBatch sb) {
-        RenderingUtils.renderSmartText(sb, font, text, x * Settings.scale, y * Settings.scale, lineWidth, lineSpacing, color);
+        RenderingUtils.renderSmartText(sb, font, text, x * Settings.scale, y * Settings.scale, lineWidth * Settings.scale, lineSpacing * Settings.scale, color);
     }
 }

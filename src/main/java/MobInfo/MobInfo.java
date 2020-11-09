@@ -35,7 +35,8 @@ public class MobInfo implements PostInitializeSubscriber, RenderSubscriber {
         if (CardCrawlGame.isInARun()) {
             if (overlay == null) {
                 overlay = new MonsterOverlay(db);
-                overlay.setCurrMonsterByID("Darkling");
+                //overlay.setCurrMonsterByID("Darkling");
+                overlay.setCurrMonsterByID("CorruptHeart");
             }
             overlay.render(sb);
         }

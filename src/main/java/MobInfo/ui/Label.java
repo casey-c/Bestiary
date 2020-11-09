@@ -22,7 +22,7 @@ public class Label {
         this.color = color;
 
         this.textHeight = font.getLineHeight();
-        this.textWidth = FontHelper.getSmartWidth(font, text, 100000, 30);
+        this.textWidth = FontHelper.getSmartWidth(font, text, 100000, 30) / Settings.scale;
     }
 
     public void render(SpriteBatch sb) {

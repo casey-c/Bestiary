@@ -35,7 +35,7 @@ public class MonsterInfoRenderHelper {
     private static final float movesVertSpacing = 80.0f;
 
     private static final float firstMoveEffectLeft = movesLeft + 170.0f;
-    private static final float moveEffectHorizSpacing = 60.0f;
+    private static final float moveEffectHorizSpacing = 50.0f;
 
     private static final float descLeft = 1086.0f;
     private static final float descTop = 847.0f;
@@ -76,9 +76,12 @@ public class MonsterInfoRenderHelper {
 
                     // All its effects
                     float effectX = firstMoveEffectLeft;
+                    System.out.println("Starting effectX: " + effectX);
                     for (MoveEffect e : m.getMoveEffects()) {
                         Label effectLabel = new Label(e.getName(), FontHelper.tipBodyFont, effectX, movesY, ExtraColors.stringToColor(e.getColor()));
+                        System.out.println("Made effect label " + e.getName() + " and it has width " + effectLabel.getTextWidth());
                         effectX += effectLabel.getTextWidth() + moveEffectHorizSpacing;
+                        System.out.println("Final effectX: " + effectX + " after spacing " + moveEffectHorizSpacing);
                         labels.add(effectLabel);
                     }
 
