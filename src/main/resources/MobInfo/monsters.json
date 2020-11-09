@@ -737,7 +737,7 @@
               "effects": [
                 {
                   "name": "Skip Turn",
-                  "color": "999999ff"
+                  "color": "SKIP"
                 }
               ]
             },
@@ -812,7 +812,7 @@
               "effects": [
                 {
                   "name": "Skip Turn",
-                  "color": "999999ff"
+                  "color": "SKIP"
                 }
               ]
             },
@@ -962,7 +962,7 @@
               "effects": [
                 {
                   "name": "Skip Turn",
-                  "color": "999999ff"
+                  "color": "SKIP"
                 }
               ]
             },
@@ -1866,7 +1866,7 @@
               "effects": [
                 {
                   "name": "Skip Turn",
-                  "color": "999999ff"
+                  "color": "SKIP"
                 }
               ]
             }
@@ -1932,7 +1932,7 @@
               "effects": [
                 {
                   "name": "Skip Turn",
-                  "color": "999999ff"
+                  "color": "SKIP"
                 }
               ]
             },
@@ -2285,7 +2285,7 @@
               "effects": [
                 {
                   "name": "Do Nothing",
-                  "color": "999999ff"
+                  "color": "SKIP"
                 }
               ]
             },
@@ -2546,7 +2546,7 @@
               "effects": [
                 {
                   "name": "Skip Turn",
-                  "color": "999999ff"
+                  "color": "SKIP"
                 }
               ]
             },
@@ -2625,7 +2625,7 @@
               "effects": [
                 {
                   "name": "Skip Turn",
-                  "color": "999999ff"
+                  "color": "SKIP"
                 }
               ]
             },

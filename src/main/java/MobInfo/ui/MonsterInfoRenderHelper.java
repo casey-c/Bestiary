@@ -41,7 +41,7 @@ public class MonsterInfoRenderHelper {
     private static final float descTop = 847.0f;
 
     private static final float descWidth = 534.0f;
-    private static final float descSpacing = 20.0f;
+    private static final float descSpacing = 30.0f;
 
     // --------------------------------------------------------------------------------
 
@@ -82,7 +82,7 @@ public class MonsterInfoRenderHelper {
                         labels.add(effectLabel);
                     }
 
-                    movesY += movesVertSpacing;
+                    movesY -= movesVertSpacing;
                 }
             }
             else {
