@@ -5,6 +5,7 @@ import MobInfo.database.MonsterInfo;
 import MobInfo.database.Move;
 import MobInfo.database.MoveEffect;
 import MobInfo.utils.ExtraColors;
+import MobInfo.utils.ExtraFonts;
 import MobInfo.utils.RenderingUtils;
 import com.badlogic.gdx.graphics.Color;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
@@ -28,13 +29,13 @@ public class MonsterInfoRenderHelper {
     // UI layout information (WIP - to be tweaked as needed)
 
     private static final float movesLeft = 315.0f;
-    private static final float titleBottom = 877.0f;
+    private static final float titleBottom = 886.0f;
 
-    private static final float firstMoveBottom = 775.0f;
+    private static final float firstMoveBottom = 780.0f;
     private static final float movesVertSpacing = 80.0f;
 
-    private static final float firstMoveEffectLeft = movesLeft + 100.0f;
-    private static final float moveEffectHorizSpacing = 20.0f;
+    private static final float firstMoveEffectLeft = movesLeft + 170.0f;
+    private static final float moveEffectHorizSpacing = 60.0f;
 
     private static final float descLeft = 1086.0f;
     private static final float descTop = 847.0f;
@@ -56,7 +57,7 @@ public class MonsterInfoRenderHelper {
 
             if (moveSet != null) {
                 // Name of the mob (TODO: better [custom?] font)
-                labels.add(new Label(currMonster.getName() + "  " + moveSet.getHp(), FontHelper.tipHeaderFont, movesLeft, titleBottom, Settings.GOLD_COLOR));
+                labels.add(new Label(currMonster.getName() + "  " + moveSet.getHp(), ExtraFonts.overlayTitleFont(), movesLeft, titleBottom, Settings.GOLD_COLOR));
 
                 // AI description
                 labels.add(new SmartLabel(moveSet.getDesc(),

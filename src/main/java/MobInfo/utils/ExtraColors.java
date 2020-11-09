@@ -26,6 +26,8 @@ public class ExtraColors {
 
     public static final Color OJB_RED_COLOR = Settings.RED_TEXT_COLOR.cpy();
 
+    public static Color TEXT_BORDER_COLOR = new Color(0.23f, 0.26f, 0.317f, 1.0f);
+
     // --------------------------------------------------------------------------------
 
     public static Color stringToColor(String s) {
