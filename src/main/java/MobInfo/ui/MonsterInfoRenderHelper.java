@@ -2,7 +2,10 @@ package MobInfo.ui;
 
 import MobInfo.database.AscensionMoveSet;
 import MobInfo.database.MonsterInfo;
+import MobInfo.database.Move;
+import MobInfo.database.MoveEffect;
 import MobInfo.utils.ExtraColors;
+import MobInfo.utils.RenderingUtils;
 import com.badlogic.gdx.graphics.Color;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 import com.megacrit.cardcrawl.core.CardCrawlGame;
@@ -28,7 +31,9 @@ public class MonsterInfoRenderHelper {
     private static final float titleBottom = 877.0f;
 
     private static final float firstMoveBottom = 775.0f;
-    private static final float movesVertSpacing = 30.0f;
+    private static final float movesVertSpacing = 80.0f;
+
+    private static final float firstMoveEffectLeft = movesLeft + 100.0f;
     private static final float moveEffectHorizSpacing = 20.0f;
 
     private static final float descLeft = 1086.0f;
@@ -45,16 +50,15 @@ public class MonsterInfoRenderHelper {
         this.currMonster = monster;
         labels.clear();
 
-
-        // Name of the mob
-        labels.add(new Label(currMonster.getName(), FontHelper.bannerFont, movesLeft, titleBottom, Settings.GOLD_COLOR));
-
         if (CardCrawlGame.isInARun()) {
             int asc_level = (AbstractDungeon.isAscensionMode) ? AbstractDungeon.ascensionLevel : 0;
             AscensionMoveSet moveSet = monster.getApplicableMoveSet(asc_level);
 
             if (moveSet != null) {
-                // TODO: all the moves for this particular ascension level
+                // Name of the mob (TODO: better [custom?] font)
+                labels.add(new Label(currMonster.getName() + "  " + moveSet.getHp(), FontHelper.tipHeaderFont, movesLeft, titleBottom, Settings.GOLD_COLOR));
+
+                // AI description
                 labels.add(new SmartLabel(moveSet.getDesc(),
                         FontHelper.tipBodyFont,
                         descLeft,
@@ -62,6 +66,26 @@ public class MonsterInfoRenderHelper {
                         descWidth,
                         descSpacing,
                         ExtraColors.OJB_GRAY_COLOR));
+
+                float movesY = firstMoveBottom;
+
+                for (Move m : moveSet.getMoves()) {
+                    // Name of the move
+                    labels.add(new Label(m.getName(), FontHelper.tipBodyFont, movesLeft, movesY, Settings.CREAM_COLOR));
+
+                    // All its effects
+                    float effectX = firstMoveEffectLeft;
+                    for (MoveEffect e : m.getMoveEffects()) {
+                        Label effectLabel = new Label(e.getName(), FontHelper.tipBodyFont, effectX, movesY, ExtraColors.stringToColor(e.getColor()));
+                        effectX += effectLabel.getTextWidth() + moveEffectHorizSpacing;
+                        labels.add(effectLabel);
+                    }
+
+                    movesY += movesVertSpacing;
+                }
+            }
+            else {
+                // Should show some placeholder text I guess
             }
         }
 

@@ -12,15 +12,22 @@ public class Label {
     protected float x, y;
     protected Color color;
 
+    protected float textWidth, textHeight;
+
     public Label(String text, BitmapFont font, float x, float y, Color color) {
         this.text = text;
         this.font = font;
         this.x = x;
         this.y = y;
         this.color = color;
+
+        this.textHeight = font.getLineHeight();
+        this.textWidth = FontHelper.getSmartWidth(font, text, 100000, 30);
     }
 
     public void render(SpriteBatch sb) {
         FontHelper.renderFontLeftDownAligned(sb, font, text, x * Settings.scale, y * Settings.scale, color);
     }
+
+    public float getTextWidth() { return textWidth; }
 }

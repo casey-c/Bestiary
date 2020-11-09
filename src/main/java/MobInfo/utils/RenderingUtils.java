@@ -8,9 +8,6 @@ import com.megacrit.cardcrawl.core.Settings;
 import com.megacrit.cardcrawl.helpers.FontHelper;
 
 public class RenderingUtils {
-//    public static final Color OJB_GRAY_COLOR = new Color(0.6f, 0.6f, 0.6f, 1.0f);
-//    public static final Color OJB_BUFF_COLOR = new Color(0.596f, 0.306f, 0.639f, 1.0f);
-//    public static final Color OJB_DEBUFF_COLOR = new Color(1.0f, 0.498f, 0.0f, 1.0f);
 
 
     // Modified version can return null (instead of white) and can use newer colors
@@ -31,13 +28,13 @@ public class RenderingUtils {
                 case 'g':
                     return ExtraColors.OJB_GRAY_COLOR.cpy();
                 case 'r':
-                    return Settings.RED_TEXT_COLOR.cpy();
+                    return ExtraColors.OJB_RED_COLOR.cpy();
                 case 'd':
                     return ExtraColors.OJB_DEBUFF_COLOR.cpy();
                 case 'u':
                     return ExtraColors.OJB_BUFF_COLOR.cpy();
                 case 'b':
-                    return Settings.BLUE_TEXT_COLOR.cpy();
+                    return ExtraColors.OJB_BLOCK_COLOR.cpy();
                 default:
                     return null;
                 // NOTE: old version returned white; this returns null to let the modified smartText function handle it

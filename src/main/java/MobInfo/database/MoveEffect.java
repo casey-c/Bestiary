@@ -1,7 +1,10 @@
 package MobInfo.database;
 
+import MobInfo.utils.ExtraColors;
+import com.badlogic.gdx.graphics.Color;
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
+import com.megacrit.cardcrawl.core.Settings;
 
 public class MoveEffect {
     @SerializedName("name") @Expose
