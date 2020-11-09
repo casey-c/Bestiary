@@ -3,7 +3,6 @@ package MobInfo.ui;
 import MobInfo.database.AscensionMoveSet;
 import MobInfo.database.MonsterDatabase;
 import MobInfo.database.MonsterInfo;
-import MobInfo.database.MoveSet;
 import com.badlogic.gdx.graphics.Color;
 import com.badlogic.gdx.graphics.Texture;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;

@@ -23,6 +23,7 @@ public class MonsterInfoRenderHelper {
 
     public MonsterInfoRenderHelper(MonsterInfo monster) {
         setCurrMonster(monster);
+        System.out.println("Set current monster to " + monster);
     }
 
     // --------------------------------------------------------------------------------
@@ -39,6 +40,7 @@ public class MonsterInfoRenderHelper {
 
     private static final float descLeft = 1086.0f;
     private static final float descTop = 847.0f;
+    private static final float notesTop = 334.0f;
 
     private static final float descWidth = 534.0f;
     private static final float descSpacing = 30.0f;
@@ -67,6 +69,11 @@ public class MonsterInfoRenderHelper {
                         descWidth,
                         descSpacing,
                         ExtraColors.OJB_GRAY_COLOR));
+
+                // Notes (if applicable)
+                if (moveSet.hasNotes()) {
+                    labels.add(new SmartLabel(moveSet.getNotes(), FontHelper.tipBodyFont, descLeft, notesTop, descWidth, descSpacing, ExtraColors.OJB_GRAY_COLOR));
+                }
 
                 float movesY = firstMoveBottom;
 

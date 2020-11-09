@@ -775,6 +775,7 @@
           "min_asc": 0,
           "desc": "On turn 1, 50% chance of either #wNip or #wHarden. Afterwards, has a 30-40-30 split between #wNip, #wChomp, and #wHarden, but #wHarden and #wChomp both cannot be used twice in a row, and #wNip cannot be used three times in a row. The middle Darkling cannot #wChomp and has a 50-50 split instead. When half-dead, uses #w???, followed by #wReincarnate.",
           "hp": "(50 - 59 HP)",
+          "notes": "#rD randomly chosen between [7, 11] at the start of the fight",
           "moves": [
             {
               "name": "Nip",

@@ -15,6 +15,9 @@ public class AscensionMoveSet {
     @SerializedName("hp") @Expose
     private String hp;
 
+    @SerializedName("notes") @Expose
+    private String notes = "";
+
     @SerializedName("moves") @Expose
     private List<Move> moves = null;
 
@@ -30,10 +33,15 @@ public class AscensionMoveSet {
     public String getHp() { return hp; }
     public void setHp(String hp) { this.hp = hp; }
 
+    public boolean hasNotes() { return !notes.isEmpty(); }
+    public String getNotes() { return notes; }
+    public void setNotes(String notes) { this.notes = notes; }
+
     public List<Move> getMoves() { return moves; }
     public void setMoves(List<Move> moves) { this.moves = moves; }
 
     // --------------------------------------------------------------------------------
+
 
     @Override
     public String toString() {
@@ -41,6 +49,8 @@ public class AscensionMoveSet {
                 "minAsc=" + minAsc +
                 ", desc='" + desc + '\'' +
                 ", hp='" + hp + '\'' +
+                ", hasNotes='" + hasNotes() + '\'' +
+                ", notes='" + notes + '\'' +
                 ", moves=" + moves +
                 '}';
     }
