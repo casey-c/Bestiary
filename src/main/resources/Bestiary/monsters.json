@@ -97,6 +97,81 @@
         {
           "min_asc": 0,
           "desc": "#wProtects random allies until none remain, and then uses #wShield #wBash.",
+          "hp": "(12 - 15 HP)",
+          "moves": [
+            {
+              "name": "Protect",
+              "effects": [
+                {
+                  "name": "Ally Block 7",
+                  "color": "BLOCK"
+                }
+              ]
+            },
+            {
+              "name": "Shield Bash",
+              "effects": [
+                {
+                  "name": "6",
+                  "color": "DAMAGE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "min_asc": 2,
+          "desc": "#wProtects random allies until none remain, and then uses #wShield #wBash.",
+          "hp": "(12 - 15 HP)",
+          "moves": [
+            {
+              "name": "Protect",
+              "effects": [
+                {
+                  "name": "Ally Block 7",
+                  "color": "BLOCK"
+                }
+              ]
+            },
+            {
+              "name": "Shield Bash",
+              "effects": [
+                {
+                  "name": "8",
+                  "color": "DAMAGE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "min_asc": 7,
+          "desc": "#wProtects random allies until none remain, and then uses #wShield #wBash.",
+          "hp": "(13 - 17 HP)",
+          "moves": [
+            {
+              "name": "Protect",
+              "effects": [
+                {
+                  "name": "Ally Block 8",
+                  "color": "BLOCK"
+                }
+              ]
+            },
+            {
+              "name": "Shield Bash",
+              "effects": [
+                {
+                  "name": "8",
+                  "color": "DAMAGE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "min_asc": 17,
+          "desc": "#wProtects random allies until none remain, and then uses #wShield #wBash.",
           "hp": "(13 - 17 HP)",
           "moves": [
             {
@@ -128,7 +203,137 @@
         {
           "min_asc": 0,
           "desc": "Every 3 turns starting from turn 3, uses #wSmash. Otherwise, has an equal chance of either using #wBash followed by #wFortify or #wFortify followed by #wBash.",
+          "hp": "(110 HP)",
+          "notes": "Innate #uArtifact #u1. If you have an orb slot, 50% chance that affected Player Stat is focus; otherwise, the stat is strength.",
+          "moves": [
+            {
+              "name": "Bash",
+              "effects": [
+                {
+                  "name": "12",
+                  "color": "DAMAGE"
+                },
+                {
+                  "name": "Player Stat -1",
+                  "color": "DEBUFF"
+                }
+              ]
+            },
+            {
+              "name": "Fortify",
+              "effects": [
+                {
+                  "name": "Team Block 30",
+                  "color": "BLOCK"
+                }
+              ]
+            },
+            {
+              "name": "Smash",
+              "effects": [
+                {
+                  "name": "34",
+                  "color": "DAMAGE"
+                },
+                {
+                  "name": "34",
+                  "color": "BLOCK"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "min_asc": 3,
+          "desc": "Every 3 turns starting from turn 3, uses #wSmash. Otherwise, has an equal chance of either using #wBash followed by #wFortify or #wFortify followed by #wBash.",
+          "hp": "(110 HP)",
+          "notes": "Innate #uArtifact #u1. If you have an orb slot, 50% chance that affected Player Stat is focus; otherwise, the stat is strength.",
+          "moves": [
+            {
+              "name": "Bash",
+              "effects": [
+                {
+                  "name": "14",
+                  "color": "DAMAGE"
+                },
+                {
+                  "name": "Player Stat -1",
+                  "color": "DEBUFF"
+                }
+              ]
+            },
+            {
+              "name": "Fortify",
+              "effects": [
+                {
+                  "name": "Team Block 30",
+                  "color": "BLOCK"
+                }
+              ]
+            },
+            {
+              "name": "Smash",
+              "effects": [
+                {
+                  "name": "38",
+                  "color": "DAMAGE"
+                },
+                {
+                  "name": "38",
+                  "color": "BLOCK"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "min_asc": 8,
+          "desc": "Every 3 turns starting from turn 3, uses #wSmash. Otherwise, has an equal chance of either using #wBash followed by #wFortify or #wFortify followed by #wBash.",
           "hp": "(125 HP)",
+          "notes": "Innate #uArtifact #u1. If you have an orb slot, 50% chance that affected Player Stat is focus; otherwise, the stat is strength.",
+          "moves": [
+            {
+              "name": "Bash",
+              "effects": [
+                {
+                  "name": "14",
+                  "color": "DAMAGE"
+                },
+                {
+                  "name": "Player Stat -1",
+                  "color": "DEBUFF"
+                }
+              ]
+            },
+            {
+              "name": "Fortify",
+              "effects": [
+                {
+                  "name": "Team Block 30",
+                  "color": "BLOCK"
+                }
+              ]
+            },
+            {
+              "name": "Smash",
+              "effects": [
+                {
+                  "name": "38",
+                  "color": "DAMAGE"
+                },
+                {
+                  "name": "38",
+                  "color": "BLOCK"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "min_asc": 18,
+          "desc": "Every 3 turns starting from turn 3, uses #wSmash. Otherwise, has an equal chance of either using #wBash followed by #wFortify or #wFortify followed by #wBash.",
+          "hp": "(125 HP)",
+          "notes": "Innate #uArtifact #u2. If you have an orb slot, 50% chance that affected Player Stat is focus; otherwise, the stat is strength.",
           "moves": [
             {
               "name": "Bash",
@@ -175,8 +380,92 @@
       "ai": [
         {
           "min_asc": 0,
-          "desc": "Always cycles in the order of #wCharge #wUp -> #wFierce #wBash -> #wVent #wSteam -> #wWhirlwind. The fight always begins with #wCharge #wUp. After using #wTwin #wSlam in defensive mode, #wWhirlwind is used next. NL NL Upon entering defensive mode, it uses #wClose #wUp (not shown), which gives #uSharp #uHide #u4. Then, it proceeds to #wRoll #wAttack -> #wTwin #wSlam and return to offensive mode with #wWhirlwind.",
-          "hp": "(250 HP)",
+          "desc": "The fight always begins with #wCharge #wUp and cycles as #wCharge #wUp -> #wFierce #wBash -> #wVent #wSteam -> #wWhirlwind. If enough damage is applied to satisfy the breakpoint, Guardian instantly gains #b20 #bBlock as it enters defensive mode, where it performs #wClose #wUp -> #wRoll #wAttack -> #wTwin #wSlam. After using #wTwin #wSlam in defensive mode, it re-enters the offensive cycle with #wWhirlwind.",
+          "hp": "(240 HP)",
+          "notes": "The breakpoints for entering defensive mode are after receiving 30 + ( 10 * #rX ) damage, where #rX is the number of transitions that have occurred. #uSharp #uHide is not the same effect as thorns as it only fires one time after a multi-hit attack.",
+          "moves": [
+            {
+              "name": "Charge Up",
+              "effects": [
+                {
+                  "name": "Block 9",
+                  "color": "BLOCK"
+                }
+              ]
+            },
+            {
+              "name": "Fierce Bash",
+              "effects": [
+                {
+                  "name": "32",
+                  "color": "DAMAGE"
+                }
+              ]
+            },
+            {
+              "name": "Vent Steam",
+              "effects": [
+                {
+                  "name": "Weak 2",
+                  "color": "DEBUFF"
+                },
+                {
+                  "name": "Vuln 2",
+                  "color": "DEBUFF"
+                }
+              ]
+            },
+            {
+              "name": "Whirlwind",
+              "effects": [
+                {
+                  "name": "5x4",
+                  "color": "DAMAGE"
+                }
+              ]
+            },
+            {
+              "name": "Close Up",
+              "effects": [
+                {
+                  "name": "Sharp Hide 3",
+                  "color": "SPECIAL"
+                }
+              ]
+            },
+            {
+              "name": "Roll Attack",
+              "effects": [
+                {
+                  "name": "9",
+                  "color": "DAMAGE"
+                }
+              ]
+            },
+            {
+              "name": "Twin Slam",
+              "effects": [
+                {
+                  "name": "Enter Offensive Mode",
+                  "color": "SPECIAL"
+                },
+                {
+                  "name": "8x2",
+                  "color": "DAMAGE"
+                },
+                {
+                  "name": "Remove Sharp Hide",
+                  "color": "SPECIAL"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "min_asc": 4,
+          "desc": "The fight always begins with #wCharge #wUp and cycles as #wCharge #wUp -> #wFierce #wBash -> #wVent #wSteam -> #wWhirlwind. If enough damage is applied to satisfy the breakpoint, Guardian instantly gains #b20 #bBlock as it enters defensive mode, where it performs #wClose #wUp -> #wRoll #wAttack -> #wTwin #wSlam. After using #wTwin #wSlam in defensive mode, it re-enters the offensive cycle with #wWhirlwind.",
+          "hp": "(240 HP)",
+          "notes": "The breakpoints for entering defensive mode are after receiving 30 + ( 10 * #rX ) damage, where #rX is the number of transitions that have occurred. #uSharp #uHide is not the same effect as thorns as it only fires one time after a multi-hit attack.",
           "moves": [
             {
               "name": "Charge Up",
@@ -219,6 +508,181 @@
               ]
             },
             {
+              "name": "Close Up",
+              "effects": [
+                {
+                  "name": "Sharp Hide 3",
+                  "color": "SPECIAL"
+                }
+              ]
+            },
+            {
+              "name": "Roll Attack",
+              "effects": [
+                {
+                  "name": "10",
+                  "color": "DAMAGE"
+                }
+              ]
+            },
+            {
+              "name": "Twin Slam",
+              "effects": [
+                {
+                  "name": "Enter Offensive Mode",
+                  "color": "SPECIAL"
+                },
+                {
+                  "name": "8x2",
+                  "color": "DAMAGE"
+                },
+                {
+                  "name": "Remove Sharp Hide",
+                  "color": "SPECIAL"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "min_asc": 9,
+          "desc": "The fight always begins with #wCharge #wUp and cycles as #wCharge #wUp -> #wFierce #wBash -> #wVent #wSteam -> #wWhirlwind. If enough damage is applied to satisfy the breakpoint, Guardian instantly gains #b20 #bBlock as it enters defensive mode, where it performs #wClose #wUp -> #wRoll #wAttack -> #wTwin #wSlam. After using #wTwin #wSlam in defensive mode, it re-enters the offensive cycle with #wWhirlwind.",
+          "hp": "(250 HP)",
+          "notes": "The breakpoints for entering defensive mode are after receiving 35 + ( 10 * #rX ) damage, where #rX is the number of transitions that have occurred. #uSharp #uHide is not the same effect as thorns as it only fires one time after a multi-hit attack.",
+          "moves": [
+            {
+              "name": "Charge Up",
+              "effects": [
+                {
+                  "name": "Block 9",
+                  "color": "BLOCK"
+                }
+              ]
+            },
+            {
+              "name": "Fierce Bash",
+              "effects": [
+                {
+                  "name": "36",
+                  "color": "DAMAGE"
+                }
+              ]
+            },
+            {
+              "name": "Vent Steam",
+              "effects": [
+                {
+                  "name": "Weak 2",
+                  "color": "DEBUFF"
+                },
+                {
+                  "name": "Vuln 2",
+                  "color": "DEBUFF"
+                }
+              ]
+            },
+            {
+              "name": "Whirlwind",
+              "effects": [
+                {
+                  "name": "5x4",
+                  "color": "DAMAGE"
+                }
+              ]
+            },
+            {
+              "name": "Close Up",
+              "effects": [
+                {
+                  "name": "Sharp Hide 3",
+                  "color": "SPECIAL"
+                }
+              ]
+            },
+            {
+              "name": "Roll Attack",
+              "effects": [
+                {
+                  "name": "10",
+                  "color": "DAMAGE"
+                }
+              ]
+            },
+            {
+              "name": "Twin Slam",
+              "effects": [
+                {
+                  "name": "Enter Offensive Mode",
+                  "color": "SPECIAL"
+                },
+                {
+                  "name": "8x2",
+                  "color": "DAMAGE"
+                },
+                {
+                  "name": "Remove Sharp Hide",
+                  "color": "SPECIAL"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "min_asc": 19,
+          "desc": "The fight always begins with #wCharge #wUp and cycles as #wCharge #wUp -> #wFierce #wBash -> #wVent #wSteam -> #wWhirlwind. If enough damage is applied to satisfy the breakpoint, Guardian instantly gains #b20 #bBlock as it enters defensive mode, where it performs #wClose #wUp -> #wRoll #wAttack -> #wTwin #wSlam. After using #wTwin #wSlam in defensive mode, it re-enters the offensive cycle with #wWhirlwind.",
+          "hp": "(250 HP)",
+          "notes": "The breakpoints for entering defensive mode are after receiving 40 + ( 10 * #rX ) damage, where #rX is the number of transitions that have occurred. #uSharp #uHide is not the same effect as thorns as it only fires one time after a multi-hit attack.",
+          "moves": [
+            {
+              "name": "Charge Up",
+              "effects": [
+                {
+                  "name": "Block 9",
+                  "color": "BLOCK"
+                }
+              ]
+            },
+            {
+              "name": "Fierce Bash",
+              "effects": [
+                {
+                  "name": "36",
+                  "color": "DAMAGE"
+                }
+              ]
+            },
+            {
+              "name": "Vent Steam",
+              "effects": [
+                {
+                  "name": "Weak 2",
+                  "color": "DEBUFF"
+                },
+                {
+                  "name": "Vuln 2",
+                  "color": "DEBUFF"
+                }
+              ]
+            },
+            {
+              "name": "Whirlwind",
+              "effects": [
+                {
+                  "name": "5x4",
+                  "color": "DAMAGE"
+                }
+              ]
+            },
+            {
+              "name": "Close Up",
+              "effects": [
+                {
+                  "name": "Sharp Hide 4",
+                  "color": "SPECIAL"
+                }
+              ]
+            },
+            {
               "name": "Roll Attack",
               "effects": [
                 {
@@ -254,7 +718,137 @@
       "ai": [
         {
           "min_asc": 0,
-          "desc": "When not splitting, approximately a 40-30-30 probability split between #wCorrosive #wSpit, #wTackle, and #wLick. #wLick cannot be used twice in a row, and the other moves cannot be used three times in a row.",
+          "desc": "When not splitting, approximately a 30-40-30 probability split between #wCorrosive #wSpit, #wTackle, and #wLick. #wTackle cannot be used twice in a row while the other moves cannot be used three times in a row.",
+          "notes": "Splits into two #sAcid #sSlime #s(Medium)'s each with the current HP when it falls below half its max HP. #dSlimed status cards go into the discard pile.",
+          "hp": "(65 - 69 HP)",
+          "moves": [
+            {
+              "name": "Corrosive Spit",
+              "effects": [
+                {
+                  "name": "11",
+                  "color": "DAMAGE"
+                },
+                {
+                  "name": "Slimed 2",
+                  "color": "DEBUFF"
+                }
+              ]
+            },
+            {
+              "name": "Lick",
+              "effects": [
+                {
+                  "name": "Weak 2",
+                  "color": "DEBUFF"
+                }
+              ]
+            },
+            {
+              "name": "Tackle",
+              "effects": [
+                {
+                  "name": "16",
+                  "color": "DAMAGE"
+                }
+              ]
+            },
+            {
+              "name": "Split",
+              "effects": []
+            }
+          ]
+        },
+        {
+          "min_asc": 2,
+          "desc": "When not splitting, approximately a 30-40-30 probability split between #wCorrosive #wSpit, #wTackle, and #wLick. #wTackle cannot be used twice in a row while the other moves cannot be used three times in a row.",
+          "notes": "Splits into two #sAcid #sSlime #s(Medium)'s each with the current HP when it falls below half its max HP. #dSlimed status cards go into the discard pile.",
+          "hp": "(65 - 69 HP)",
+          "moves": [
+            {
+              "name": "Corrosive Split",
+              "effects": [
+                {
+                  "name": "12",
+                  "color": "DAMAGE"
+                },
+                {
+                  "name": "Slimed 2",
+                  "color": "DEBUFF"
+                }
+              ]
+            },
+            {
+              "name": "Lick",
+              "effects": [
+                {
+                  "name": "Weak 2",
+                  "color": "DEBUFF"
+                }
+              ]
+            },
+            {
+              "name": "Tackle",
+              "effects": [
+                {
+                  "name": "18",
+                  "color": "DAMAGE"
+                }
+              ]
+            },
+            {
+              "name": "Split",
+              "effects": []
+            }
+          ]
+        },
+        {
+          "min_asc": 7,
+          "desc": "When not splitting, approximately a 30-40-30 probability split between #wCorrosive #wSpit, #wTackle, and #wLick. #wTackle cannot be used twice in a row while the other moves cannot be used three times in a row.",
+          "notes": "Splits into two #sAcid #sSlime #s(Medium)'s each with the current HP when it falls below half its max HP. #dSlimed status cards go into the discard pile.",
+          "hp": "(68 - 72 HP)",
+          "moves": [
+            {
+              "name": "Corrosive Split",
+              "effects": [
+                {
+                  "name": "12",
+                  "color": "DAMAGE"
+                },
+                {
+                  "name": "Slimed 2",
+                  "color": "DEBUFF"
+                }
+              ]
+            },
+            {
+              "name": "Lick",
+              "effects": [
+                {
+                  "name": "Weak 2",
+                  "color": "DEBUFF"
+                }
+              ]
+            },
+            {
+              "name": "Tackle",
+              "effects": [
+                {
+                  "name": "18",
+                  "color": "DAMAGE"
+                }
+              ]
+            },
+            {
+              "name": "Split",
+              "effects": []
+            }
+          ]
+        },
+        {
+          "min_asc": 17,
+          "desc": "When not splitting, approximately a 40-30-30 probability split between #wCorrosive #wSpit, #wTackle, and #wLick. #wLick cannot be used twice in a row while the other moves cannot be used three times in a row.",
+          "notes": "Splits into two #sAcid #sSlime #s(Medium)'s each with the current HP when it falls below half its max HP. #dSlimed status cards go into the discard pile.",
           "hp": "(68 - 72 HP)",
           "moves": [
             {
@@ -303,7 +897,86 @@
         {
           "min_asc": 0,
           "desc": "Starts with #wCircle #wOf #wPower, and then alternates between the two moves.",
+          "hp": "(250 HP)",
+          "notes": "#bInnate #bArtifact #b2",
+          "moves": [
+            {
+              "name": "Circle of Power",
+              "effects": [
+                {
+                  "name": "Team Str +3",
+                  "color": "BUFF"
+                }
+              ]
+            },
+            {
+              "name": "Beam",
+              "effects": [
+                {
+                  "name": "10x2",
+                  "color": "DAMAGE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "min_asc": 4,
+          "desc": "Starts with #wCircle #wOf #wPower, and then alternates between the two moves.",
+          "hp": "(250 HP)",
+          "notes": "#bInnate #bArtifact #b2",
+          "moves": [
+            {
+              "name": "Circle of Power",
+              "effects": [
+                {
+                  "name": "Team Str +3",
+                  "color": "BUFF"
+                }
+              ]
+            },
+            {
+              "name": "Beam",
+              "effects": [
+                {
+                  "name": "12x2",
+                  "color": "DAMAGE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "min_asc": 9,
+          "desc": "Starts with #wCircle #wOf #wPower, and then alternates between the two moves.",
           "hp": "(265 HP)",
+          "notes": "#bInnate #bArtifact #b2",
+          "moves": [
+            {
+              "name": "Circle of Power",
+              "effects": [
+                {
+                  "name": "Team Str +3",
+                  "color": "BUFF"
+                }
+              ]
+            },
+            {
+              "name": "Beam",
+              "effects": [
+                {
+                  "name": "12x2",
+                  "color": "DAMAGE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+         "min_asc": 19,
+          "desc": "Starts with #wCircle #wOf #wPower, and then alternates between the two moves.",
+          "hp": "(265 HP)",
+          "notes": "#bInnate #bArtifact #b3",
           "moves": [
             {
               "name": "Circle of Power",
@@ -333,11 +1006,129 @@
       "ai": [
         {
           "min_asc": 0,
-          "desc": "When not splitting, approximately a 40-40-20 probability split between #wCorrosive #wSpit, #wTackle, and #wLick. #wLick cannot be used twice in a row, and the other moves cannot be used three times in a row.",
+          "desc": "Approximately a 30-40-30 probability split between #wCorrosive #wSpit, #wTackle, and #wLick. #wTackle cannot be used twice in a row while the other moves cannot be used three times in a row.",
+          "notes": "#dSlimed status cards go into the discard pile.",
+          "hp": "(28 - 32 HP)",
+          "moves": [
+            {
+              "name": "Corrosive Spit",
+              "effects": [
+                {
+                  "name": "7",
+                  "color": "DAMAGE"
+                },
+                {
+                  "name": "Slimed 1",
+                  "color": "DEBUFF"
+                }
+              ]
+            },
+            {
+              "name": "Lick",
+              "effects": [
+                {
+                  "name": "Weak 1",
+                  "color": "DEBUFF"
+                }
+              ]
+            },
+            {
+              "name": "Tackle",
+              "effects": [
+                {
+                  "name": "10",
+                  "color": "DAMAGE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "min_asc": 2,
+          "desc": "Approximately a 30-40-30 probability split between #wCorrosive #wSpit, #wTackle, and #wLick. #wTackle cannot be used twice in a row while the other moves cannot be used three times in a row.",
+          "notes": "#dSlimed status cards go into the discard pile.",
+          "hp": "(28 - 32 HP)",
+          "moves": [
+            {
+              "name": "Corrosive Spit",
+              "effects": [
+                {
+                  "name": "8",
+                  "color": "DAMAGE"
+                },
+                {
+                  "name": "Slimed 1",
+                  "color": "DEBUFF"
+                }
+              ]
+            },
+            {
+              "name": "Lick",
+              "effects": [
+                {
+                  "name": "Weak 1",
+                  "color": "DEBUFF"
+                }
+              ]
+            },
+            {
+              "name": "Tackle",
+              "effects": [
+                {
+                  "name": "12",
+                  "color": "DAMAGE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "min_asc": 7,
+          "desc": "Approximately a 30-40-30 probability split between #wCorrosive #wSpit, #wTackle, and #wLick. #wTackle cannot be used twice in a row while the other moves cannot be used three times in a row.",
+          "notes": "#dSlimed status cards go into the discard pile.",
           "hp": "(29 - 34 HP)",
           "moves": [
             {
-              "name": "Corrosive Split",
+              "name": "Corrosive Spit",
+              "effects": [
+                {
+                  "name": "8",
+                  "color": "DAMAGE"
+                },
+                {
+                  "name": "Slimed 1",
+                  "color": "DEBUFF"
+                }
+              ]
+            },
+            {
+              "name": "Lick",
+              "effects": [
+                {
+                  "name": "Weak 1",
+                  "color": "DEBUFF"
+                }
+              ]
+            },
+            {
+              "name": "Tackle",
+              "effects": [
+                {
+                  "name": "12",
+                  "color": "DAMAGE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "min_asc": 17,
+          "desc": "Approximately a 40-40-20 probability split between #wCorrosive #wSpit, #wTackle, and #wLick. #wLick cannot be used twice in a row while the other moves cannot be used three times in a row.",
+          "notes": "#dSlimed status cards go into the discard pile.",
+          "hp": "(29 - 34 HP)",
+          "moves": [
+            {
+              "name": "Corrosive Spit",
               "effects": [
                 {
                   "name": "8",
@@ -378,7 +1169,86 @@
         {
           "min_asc": 0,
           "desc": "15% chance to #wSingle #wAttack except the #wMulti-Attack cannot be used 3 times in a row, and the #wSingle #wAttack cannot be used twice in a row",
+          "hp": "(160 - 164 HP)",
+          "notes": "Innate #bPainful #bStabs. #rT = (Number of times Multi-Attack used + 1).",
+          "moves": [
+            {
+              "name": "Multi-Attack",
+              "effects": [
+                {
+                  "name": "6xT",
+                  "color": "DAMAGE"
+                }
+              ]
+            },
+            {
+              "name": "Single Attack",
+              "effects": [
+                {
+                  "name": "21",
+                  "color": "DAMAGE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "min_asc": 3,
+          "desc": "15% chance to #wSingle #wAttack except the #wMulti-Attack cannot be used 3 times in a row, and the #wSingle #wAttack cannot be used twice in a row",
+          "hp": "(160 - 164 HP)",
+          "notes": "Innate #bPainful #bStabs. #rT = (Number of times Multi-Attack used + 1).",
+          "moves": [
+            {
+              "name": "Multi-Attack",
+              "effects": [
+                {
+                  "name": "7xT",
+                  "color": "DAMAGE"
+                }
+              ]
+            },
+            {
+              "name": "Single Attack",
+              "effects": [
+                {
+                  "name": "24",
+                  "color": "DAMAGE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "min_asc": 8,
+          "desc": "15% chance to #wSingle #wAttack except the #wMulti-Attack cannot be used 3 times in a row, and the #wSingle #wAttack cannot be used twice in a row",
           "hp": "(168 - 172 HP)",
+          "notes": "Innate #bPainful #bStabs. #rT = (Number of times Multi-Attack used + 1).",
+          "moves": [
+            {
+              "name": "Multi-Attack",
+              "effects": [
+                {
+                  "name": "7xT",
+                  "color": "DAMAGE"
+                }
+              ]
+            },
+            {
+              "name": "Single Attack",
+              "effects": [
+                {
+                  "name": "24",
+                  "color": "DAMAGE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "min_asc": 18,
+          "desc": "15% chance to #wSingle #wAttack except the #wMulti-Attack cannot be used 3 times in a row, and the #wSingle #wAttack cannot be used twice in a row",
+          "hp": "(168 - 172 HP)",
+          "notes": "Innate #bPainful #bStabs. #rT = (Turn number + 1).",
           "moves": [
             {
               "name": "Multi-Attack",
@@ -409,6 +1279,38 @@
         {
           "min_asc": 0,
           "desc": "Always uses #wPuncture.",
+          "hp": "(10 - 14 HP)",
+          "moves": [
+            {
+              "name": "Puncture",
+              "effects": [
+                {
+                  "name": "9",
+                  "color": "DAMAGE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "min_asc": 2,
+          "desc": "Always uses #wPuncture.",
+          "hp": "(10 - 14 HP)",
+          "moves": [
+            {
+              "name": "Puncture",
+              "effects": [
+                {
+                  "name": "10",
+                  "color": "DAMAGE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "min_asc": 7,
+          "desc": "Always uses #wPuncture.",
           "hp": "(11 - 15 HP)",
           "moves": [
             {
@@ -430,7 +1332,82 @@
       "ai": [
         {
           "min_asc": 0,
-          "desc": "Always starts with #wLick, and then alternates between the two moves.",
+          "desc": "50% chance to start with either move. Afterwards, it alternates between the two.",
+          "hp": "(8 - 12 HP)",
+          "moves": [
+            {
+              "name": "Tackle",
+              "effects": [
+                {
+                  "name": "3",
+                  "color": "DAMAGE"
+                }
+              ]
+            },
+            {
+              "name": "Lick",
+              "effects": [
+                {
+                  "name": "Weak 1",
+                  "color": "DEBUFF"
+                }
+              ]
+            }
+          ]
+        },
+        {
+         "min_asc": 2,
+          "desc": "50% chance to start with either move. Afterwards, it alternates between the two.",
+          "hp": "(8 - 12 HP)",
+          "moves": [
+            {
+              "name": "Tackle",
+              "effects": [
+                {
+                  "name": "4",
+                  "color": "DAMAGE"
+                }
+              ]
+            },
+            {
+              "name": "Lick",
+              "effects": [
+                {
+                  "name": "Weak 1",
+                  "color": "DEBUFF"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "min_asc": 7,
+          "desc": "50% chance to start with either move. Afterwards, it alternates between the two.",
+          "hp": "(9 - 13 HP)",
+          "moves": [
+            {
+              "name": "Tackle",
+              "effects": [
+                {
+                  "name": "4",
+                  "color": "DAMAGE"
+                }
+              ]
+            },
+            {
+              "name": "Lick",
+              "effects": [
+                {
+                  "name": "Weak 1",
+                  "color": "DEBUFF"
+                }
+              ]
+            }
+          ]
+        },
+        {
+         "min_asc": 17,
+          "desc": "Always starts with #wLick. Afterwards, it alternates between the two moves.",
           "hp": "(9 - 13 HP)",
           "moves": [
             {
@@ -461,8 +1438,87 @@
       "ai": [
         {
           "min_asc": 0,
-          "desc": "In a 3-Sentry encounter, the Sentries start with #wBolt / #wBeam / #wBolt. In the Sentry + Spheric Guardian encounter, the Sentry starts with #wBolt. Always alternates between the two moves.",
+          "desc": "In the 3-Sentry act 1 elite encounter, the Sentries (from left to right) begin with #wBolt / #wBeam / #wBolt. In the act 2 Sentry + Spheric Guardian encounter, the Sentry starts with #wBolt. Afterwards, they always alternate between the two moves.",
+          "hp": "(38 - 42 HP)",
+          "notes": "Innate #uArtifact #u1",
+          "moves": [
+            {
+              "name": "Beam",
+              "effects": [
+                {
+                  "name": "9",
+                  "color": "DAMAGE"
+                }
+              ]
+            },
+            {
+              "name": "Bolt",
+              "effects": [
+                {
+                  "name": "Daze 2",
+                  "color": "DEBUFF"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "min_asc": 3,
+          "desc": "In the 3-Sentry act 1 elite encounter, the Sentries (from left to right) begin with #wBolt / #wBeam / #wBolt. In the act 2 Sentry + Spheric Guardian encounter, the Sentry starts with #wBolt. Afterwards, they always alternate between the two moves.",
+          "hp": "(38 - 42 HP)",
+          "notes": "Innate #uArtifact #u1",
+          "moves": [
+            {
+              "name": "Beam",
+              "effects": [
+                {
+                  "name": "10",
+                  "color": "DAMAGE"
+                }
+              ]
+            },
+            {
+              "name": "Bolt",
+              "effects": [
+                {
+                  "name": "Daze 2",
+                  "color": "DEBUFF"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "min_asc": 8,
+          "desc": "In the 3-Sentry act 1 elite encounter, the Sentries (from left to right) begin with #wBolt / #wBeam / #wBolt. In the act 2 Sentry + Spheric Guardian encounter, the Sentry starts with #wBolt. Afterwards, they always alternate between the two moves.",
           "hp": "(39 - 45 HP)",
+          "notes": "Innate #uArtifact #u1",
+          "moves": [
+            {
+              "name": "Beam",
+              "effects": [
+                {
+                  "name": "10",
+                  "color": "DAMAGE"
+                }
+              ]
+            },
+            {
+              "name": "Bolt",
+              "effects": [
+                {
+                  "name": "Daze 2",
+                  "color": "DEBUFF"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "min_asc": 18,
+          "desc": "In the 3-Sentry act 1 elite encounter, the Sentries (from left to right) begin with #wBolt / #wBeam / #wBolt. In the act 2 Sentry + Spheric Guardian encounter, the Sentry starts with #wBolt. Afterwards, they always alternate between the two moves.",
+          "hp": "(39 - 45 HP)",
+          "notes": "Innate #uArtifact #u1",
           "moves": [
             {
               "name": "Beam",
@@ -493,6 +1549,124 @@
         {
           "min_asc": 0,
           "desc": "Always starts with #wBurn #wStrike. Every 3 turns starting with turn 2, uses #wSkewer. Otherwise, has an equal chance to either use #wBurn #wStrike followed by #wPiercer or #wPiercer followed by #wBurn #wStrike.",
+          "notes": "Innate #uArtifact #u1. #dBurn status cards go into the discard pile.",
+          "hp": "(160 HP)",
+          "moves": [
+            {
+              "name": "Burn Strike",
+              "effects": [
+                {
+                  "name": "5x2",
+                  "color": "DAMAGE"
+                },
+                {
+                  "name": "Burn 2",
+                  "color": "DEBUFF"
+                }
+              ]
+            },
+            {
+              "name": "Piercer",
+              "effects": [
+                {
+                  "name": "Team Str +2",
+                  "color": "BUFF"
+                }
+              ]
+            },
+            {
+              "name": "Skewer",
+              "effects": [
+                {
+                  "name": "10x3",
+                  "color": "DAMAGE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "min_asc": 3,
+          "desc": "Always starts with #wBurn #wStrike. Every 3 turns starting with turn 2, uses #wSkewer. Otherwise, has an equal chance to either use #wBurn #wStrike followed by #wPiercer or #wPiercer followed by #wBurn #wStrike.",
+          "notes": "Innate #uArtifact #u1. #dBurn status cards go into the discard pile.",
+          "hp": "(160 HP)",
+          "moves": [
+            {
+              "name": "Burn Strike",
+              "effects": [
+                {
+                  "name": "6x2",
+                  "color": "DAMAGE"
+                },
+                {
+                  "name": "Burn 2",
+                  "color": "DEBUFF"
+                }
+              ]
+            },
+            {
+              "name": "Piercer",
+              "effects": [
+                {
+                  "name": "Team Str +2",
+                  "color": "BUFF"
+                }
+              ]
+            },
+            {
+              "name": "Skewer",
+              "effects": [
+                {
+                  "name": "10x4",
+                  "color": "DAMAGE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "min_asc": 8,
+          "desc": "Always starts with #wBurn #wStrike. Every 3 turns starting with turn 2, uses #wSkewer. Otherwise, has an equal chance to either use #wBurn #wStrike followed by #wPiercer or #wPiercer followed by #wBurn #wStrike.",
+          "notes": "Innate #uArtifact #u1. #dBurn status cards go into the discard pile.",
+          "hp": "(180 HP)",
+          "moves": [
+            {
+              "name": "Burn Strike",
+              "effects": [
+                {
+                  "name": "6x2",
+                  "color": "DAMAGE"
+                },
+                {
+                  "name": "Burn 2",
+                  "color": "DEBUFF"
+                }
+              ]
+            },
+            {
+              "name": "Piercer",
+              "effects": [
+                {
+                  "name": "Team Str +2",
+                  "color": "BUFF"
+                }
+              ]
+            },
+            {
+              "name": "Skewer",
+              "effects": [
+                {
+                  "name": "10x4",
+                  "color": "DAMAGE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "min_asc": 18,
+          "desc": "Always starts with #wBurn #wStrike. Every 3 turns starting with turn 2, uses #wSkewer. Otherwise, has an equal chance to either use #wBurn #wStrike followed by #wPiercer or #wPiercer followed by #wBurn #wStrike.",
+          "notes": "Innate #uArtifact #u2. #dBurn status cards go on top of the draw pile.",
           "hp": "(180 HP)",
           "moves": [
             {
@@ -536,8 +1710,99 @@
       "ai": [
         {
           "min_asc": 0,
-          "desc": "65% chance of #wChomp and 35% chance of #wEnfeebling #wSpores, until #wEnfeebling #wSpores is used. Then, cycles in the order of #wChomp -> #wChomp -> #wEnfeebling #wSpores.",
+          "desc": "65% chance of #wChomp and 35% chance of #wEnfeebling #wSpores except #wChomp cannot happen three times in a row and #wEnfeebling #wSpores cannot happen twice in a row.",
+          "hp": "(75 - 79 HP)",
+          "notes": "Innate #uMalleable #u3",
+          "moves": [
+            {
+              "name": "Enfeebling Spores",
+              "effects": [
+                {
+                  "name": "Frail 2",
+                  "color": "DEBUFF"
+                },
+                {
+                  "name": "Weak 2",
+                  "color": "DEBUFF"
+                }
+              ]
+            },
+            {
+              "name": "Chomp",
+              "effects": [
+                {
+                  "name": "7x3",
+                  "color": "DAMAGE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "min_asc": 2,
+          "desc": "65% chance of #wChomp and 35% chance of #wEnfeebling #wSpores except #wChomp cannot happen three times in a row and #wEnfeebling #wSpores cannot happen twice in a row.",
+          "hp": "(75 - 79 HP)",
+          "notes": "Innate #uMalleable #u3",
+          "moves": [
+            {
+              "name": "Enfeebling Spores",
+              "effects": [
+                {
+                  "name": "Frail 2",
+                  "color": "DEBUFF"
+                },
+                {
+                  "name": "Weak 2",
+                  "color": "DEBUFF"
+                }
+              ]
+            },
+            {
+              "name": "Chomp",
+              "effects": [
+                {
+                  "name": "8x3",
+                  "color": "DAMAGE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "min_asc": 7,
+          "desc": "65% chance of #wChomp and 35% chance of #wEnfeebling #wSpores except #wChomp cannot happen three times in a row and #wEnfeebling #wSpores cannot happen twice in a row.",
           "hp": "(78 - 82 HP)",
+          "notes": "Innate #uMalleable #u3",
+          "moves": [
+            {
+              "name": "Enfeebling Spores",
+              "effects": [
+                {
+                  "name": "Frail 2",
+                  "color": "DEBUFF"
+                },
+                {
+                  "name": "Weak 2",
+                  "color": "DEBUFF"
+                }
+              ]
+            },
+            {
+              "name": "Chomp",
+              "effects": [
+                {
+                  "name": "8x3",
+                  "color": "DAMAGE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "min_asc": 17,
+          "desc": "65% chance of #wChomp and 35% chance of #wEnfeebling #wSpores except #wChomp cannot happen three times in a row. Once #wEnfeebling #wSpores is used for the first time, it changes to instead cycle in the order of #wChomp -> #wChomp -> #wEnfeebling #wSpores.",
+          "hp": "(78 - 82 HP)",
+          "notes": "Innate #uMalleable #u3",
           "moves": [
             {
               "name": "Enfeebling Spores",
@@ -572,6 +1837,42 @@
         {
           "min_asc": 0,
           "desc": "Has a 75% chance of using #wStasis until it has been used. Otherwise, has a 70% chance of using #wSupport #wBeam and a 30% chance of using #wBeam, but cannot use the same move three times in a row.",
+          "notes": "#wStasis always steals a random card of the highest rarity in your draw pile (or discard pile, if the draw pile is empty).",
+          "hp": "(52 - 58 HP)",
+          "moves": [
+            {
+              "name": "Support Beam",
+              "effects": [
+                {
+                  "name": "Block Bronze Automaton 12",
+                  "color": "BLOCK"
+                }
+              ]
+            },
+            {
+              "name": "Beam",
+              "effects": [
+                {
+                  "name": "8",
+                  "color": "DAMAGE"
+                }
+              ]
+            },
+            {
+              "name": "Stasis",
+              "effects": [
+                {
+                  "name": "Steal Card",
+                  "color": "DEBUFF"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "min_asc": 9,
+          "desc": "Has a 75% chance of using #wStasis until it has been used. Otherwise, has a 70% chance of using #wSupport #wBeam and a 30% chance of using #wBeam, but cannot use the same move three times in a row.",
+          "notes": "#wStasis always steals a random card of the highest rarity in your draw pile (or discard pile, if the draw pile is empty).",
           "hp": "(54 - 60 HP)",
           "moves": [
             {
@@ -611,7 +1912,98 @@
       "ai": [
         {
           "min_asc": 0,
-          "desc": "Starts with #wBeam, and then alternates between the two moves.",
+          "desc": "Starts with #wBeam and then alternates between the two moves.",
+          "notes": "Innate #uArtifact #u2. #dDaze status cards go into the discard pile.",
+          "hp": "(250 HP)",
+          "moves": [
+            {
+              "name": "Square of Protection",
+              "effects": [
+                {
+                  "name": "Team Block 16",
+                  "color": "BLOCK"
+                }
+              ]
+            },
+            {
+              "name": "Beam",
+              "effects": [
+                {
+                  "name": "10x2",
+                  "color": "DAMAGE"
+                },
+                {
+                  "name": "Daze 2",
+                  "color": "DEBUFF"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "min_asc": 4,
+          "desc": "Starts with #wBeam and then alternates between the two moves.",
+          "notes": "Innate #uArtifact #u2. #dDaze status cards go into the discard pile.",
+          "hp": "(250 HP)",
+          "moves": [
+            {
+              "name": "Square of Protection",
+              "effects": [
+                {
+                  "name": "Team Block 16",
+                  "color": "BLOCK"
+                }
+              ]
+            },
+            {
+              "name": "Beam",
+              "effects": [
+                {
+                  "name": "12x2",
+                  "color": "DAMAGE"
+                },
+                {
+                  "name": "Daze 2",
+                  "color": "DEBUFF"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "min_asc": 9,
+          "desc": "Starts with #wBeam and then alternates between the two moves.",
+          "notes": "Innate #uArtifact #u2. #dDaze status cards go into the discard pile.",
+          "hp": "(265 HP)",
+          "moves": [
+            {
+              "name": "Square of Protection",
+              "effects": [
+                {
+                  "name": "Team Block 16",
+                  "color": "BLOCK"
+                }
+              ]
+            },
+            {
+              "name": "Beam",
+              "effects": [
+                {
+                  "name": "12x2",
+                  "color": "DAMAGE"
+                },
+                {
+                  "name": "Daze 2",
+                  "color": "DEBUFF"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "min_asc": 19,
+          "desc": "Starts with #wBeam and then alternates between the two moves.",
+          "notes": "Innate #uArtifact #u3. #dDaze status cards go into the discard pile.",
           "hp": "(265 HP)",
           "moves": [
             {
@@ -651,6 +2043,81 @@
         {
           "min_asc": 0,
           "desc": "Always starts with #wIncantation. Then repeats #wDark #wStrike.",
+          "hp": "(48 - 54 HP)",
+          "moves": [
+            {
+              "name": "Incantation",
+              "effects": [
+                {
+                  "name": "Ritual 3",
+                  "color": "BUFF"
+                }
+              ]
+            },
+            {
+              "name": "Dark Strike",
+              "effects": [
+                {
+                  "name": "6",
+                  "color": "DAMAGE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "min_asc": 2,
+          "desc": "Always starts with #wIncantation. Then repeats #wDark #wStrike.",
+          "hp": "(48 - 54 HP)",
+          "moves": [
+            {
+              "name": "Incantation",
+              "effects": [
+                {
+                  "name": "Ritual 4",
+                  "color": "BUFF"
+                }
+              ]
+            },
+            {
+              "name": "Dark Strike",
+              "effects": [
+                {
+                  "name": "6",
+                  "color": "DAMAGE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "min_asc": 7,
+          "desc": "Always starts with #wIncantation. Then repeats #wDark #wStrike.",
+          "hp": "(50 - 56 HP)",
+          "moves": [
+            {
+              "name": "Incantation",
+              "effects": [
+                {
+                  "name": "Ritual 4",
+                  "color": "BUFF"
+                }
+              ]
+            },
+            {
+              "name": "Dark Strike",
+              "effects": [
+                {
+                  "name": "6",
+                  "color": "DAMAGE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "min_asc": 17,
+          "desc": "Always starts with #wIncantation. Then repeats #wDark #wStrike.",
           "hp": "(50 - 56 HP)",
           "moves": [
             {
@@ -681,6 +2148,120 @@
       "ai": [
         {
           "min_asc": 0,
+          "desc": "Starts with #wPerplexing #wGlare. Then, 40% chance of #wTail #wWhip and 60% chance of #wBite, but cannot #wBite three times in a row.",
+          "hp": "(114 - 120 HP)",
+          "moves": [
+            {
+              "name": "Perplexing Glare",
+              "effects": [
+                {
+                  "name": "Confuse",
+                  "color": "DEBUFF"
+                }
+              ]
+            },
+            {
+              "name": "Tail Whip",
+              "effects": [
+                {
+                  "name": "8",
+                  "color": "DAMAGE"
+                },
+                {
+                  "name": "Vuln 2",
+                  "color": "DEBUFF"
+                }
+              ]
+            },
+            {
+              "name": "Bite",
+              "effects": [
+                {
+                  "name": "15",
+                  "color": "DAMAGE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "min_asc": 2,
+          "desc": "Starts with #wPerplexing #wGlare. Then, 40% chance of #wTail #wWhip and 60% chance of #wBite, but cannot #wBite three times in a row.",
+          "hp": "(114 - 120 HP)",
+          "moves": [
+            {
+              "name": "Perplexing Glare",
+              "effects": [
+                {
+                  "name": "Confuse",
+                  "color": "DEBUFF"
+                }
+              ]
+            },
+            {
+              "name": "Tail Whip",
+              "effects": [
+                {
+                  "name": "10",
+                  "color": "DAMAGE"
+                },
+                {
+                  "name": "Vuln 2",
+                  "color": "DEBUFF"
+                }
+              ]
+            },
+            {
+              "name": "Bite",
+              "effects": [
+                {
+                  "name": "18",
+                  "color": "DAMAGE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "min_asc": 7,
+          "desc": "Starts with #wPerplexing #wGlare. Then, 40% chance of #wTail #wWhip and 60% chance of #wBite, but cannot #wBite three times in a row.",
+          "hp": "(120 - 125 HP)",
+          "moves": [
+            {
+              "name": "Perplexing Glare",
+              "effects": [
+                {
+                  "name": "Confuse",
+                  "color": "DEBUFF"
+                }
+              ]
+            },
+            {
+              "name": "Tail Whip",
+              "effects": [
+                {
+                  "name": "10",
+                  "color": "DAMAGE"
+                },
+                {
+                  "name": "Vuln 2",
+                  "color": "DEBUFF"
+                }
+              ]
+            },
+            {
+              "name": "Bite",
+              "effects": [
+                {
+                  "name": "18",
+                  "color": "DAMAGE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "min_asc": 17,
           "desc": "Starts with #wPerplexing #wGlare. Then, 40% chance of #wTail #wWhip and 60% chance of #wBite, but cannot #wBite three times in a row.",
           "hp": "(120 - 125 HP)",
           "moves": [
@@ -730,7 +2311,125 @@
         {
           "min_asc": 0,
           "desc": "After waking up, cycles in the order: #wAttack -> #wAttack -> #wSiphon #wSoul.",
+          "hp": "(109 - 111 HP)",
+          "notes": "Innate #bBlock #b8. Innate #uMetallicize #u8. Wakes up in three turns or from losing hp. Loses #uMetallicize when awoken.",
+          "moves": [
+            {
+              "name": "Sleep / Stunned",
+              "effects": [
+                {
+                  "name": "Skip Turn",
+                  "color": "SKIP"
+                }
+              ]
+            },
+            {
+              "name": "Attack",
+              "effects": [
+                {
+                  "name": "18",
+                  "color": "DAMAGE"
+                }
+              ]
+            },
+            {
+              "name": "Siphon Soul",
+              "effects": [
+                {
+                  "name": "Player Str -1",
+                  "color": "DEBUFF"
+                },
+                {
+                  "name": "Player Dex -1",
+                  "color": "DEBUFF"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "min_asc": 3,
+          "desc": "After waking up, cycles in the order: #wAttack -> #wAttack -> #wSiphon #wSoul.",
+          "hp": "(109 - 111 HP)",
+          "notes": "Innate #bBlock #b8. Innate #uMetallicize #u8. Wakes up in three turns or from losing hp. Loses #uMetallicize when awoken.",
+          "moves": [
+            {
+              "name": "Sleep / Stunned",
+              "effects": [
+                {
+                  "name": "Skip Turn",
+                  "color": "SKIP"
+                }
+              ]
+            },
+            {
+              "name": "Attack",
+              "effects": [
+                {
+                  "name": "20",
+                  "color": "DAMAGE"
+                }
+              ]
+            },
+            {
+              "name": "Siphon Soul",
+              "effects": [
+                {
+                  "name": "Player Str -1",
+                  "color": "DEBUFF"
+                },
+                {
+                  "name": "Player Dex -1",
+                  "color": "DEBUFF"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "min_asc": 8,
+          "desc": "After waking up, cycles in the order: #wAttack -> #wAttack -> #wSiphon #wSoul.",
           "hp": "(112 - 115 HP)",
+          "notes": "Innate #bBlock #b8. Innate #uMetallicize #u8. Wakes up in three turns or from losing hp. Loses #uMetallicize when awoken.",
+          "moves": [
+            {
+              "name": "Sleep / Stunned",
+              "effects": [
+                {
+                  "name": "Skip Turn",
+                  "color": "SKIP"
+                }
+              ]
+            },
+            {
+              "name": "Attack",
+              "effects": [
+                {
+                  "name": "20",
+                  "color": "DAMAGE"
+                }
+              ]
+            },
+            {
+              "name": "Siphon Soul",
+              "effects": [
+                {
+                  "name": "Player Str -1",
+                  "color": "DEBUFF"
+                },
+                {
+                  "name": "Player Dex -1",
+                  "color": "DEBUFF"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "min_asc": 18,
+          "desc": "After waking up, cycles in the order: #wAttack -> #wAttack -> #wSiphon #wSoul.",
+          "hp": "(112 - 115 HP)",
+          "notes": "Innate #bBlock #b8. Innate #uMetallicize #u8. Wakes up in three turns or from losing hp. Loses #uMetallicize when awoken.",
           "moves": [
             {
               "name": "Sleep / Stunned",
@@ -774,8 +2473,167 @@
         {
           "min_asc": 0,
           "desc": "On turn 1, 50% chance of either #wNip or #wHarden. Afterwards, has a 30-40-30 split between #wNip, #wChomp, and #wHarden, but #wHarden and #wChomp both cannot be used twice in a row, and #wNip cannot be used three times in a row. The middle Darkling cannot #wChomp and has a 50-50 split instead. When half-dead, uses #w???, followed by #wReincarnate.",
-          "hp": "(50 - 59 HP)",
+          "hp": "(48 - 56 HP)",
           "notes": "#rD randomly chosen between [7, 11] at the start of the fight",
+          "moves": [
+            {
+              "name": "Nip",
+              "effects": [
+                {
+                  "name": "D",
+                  "color": "DAMAGE"
+                }
+              ]
+            },
+            {
+              "name": "Harden",
+              "effects": [
+                {
+                  "name": "Block 12",
+                  "color": "BLOCK"
+                }
+              ]
+            },
+            {
+              "name": "Chomp",
+              "effects": [
+                {
+                  "name": "8x2",
+                  "color": "DAMAGE"
+                }
+              ]
+            },
+            {
+              "name": "???",
+              "effects": [
+                {
+                  "name": "Skip Turn",
+                  "color": "SKIP"
+                }
+              ]
+            },
+            {
+              "name": "Reincarnate",
+              "effects": [
+                {
+                  "name": "Revive 50% Max HP",
+                  "color": "BUFF"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "min_asc": 2,
+          "desc": "On turn 1, 50% chance of either #wNip or #wHarden. Afterwards, has a 30-40-30 split between #wNip, #wChomp, and #wHarden, but #wHarden and #wChomp both cannot be used twice in a row, and #wNip cannot be used three times in a row. The middle Darkling cannot #wChomp and has a 50-50 split instead. When half-dead, uses #w???, followed by #wReincarnate.",
+          "hp": "(48 - 56 HP)",
+          "notes": "#rD randomly chosen between [9, 13] at the start of the fight",
+          "moves": [
+            {
+              "name": "Nip",
+              "effects": [
+                {
+                  "name": "D",
+                  "color": "DAMAGE"
+                }
+              ]
+            },
+            {
+              "name": "Harden",
+              "effects": [
+                {
+                  "name": "Block 12",
+                  "color": "BLOCK"
+                }
+              ]
+            },
+            {
+              "name": "Chomp",
+              "effects": [
+                {
+                  "name": "9x2",
+                  "color": "DAMAGE"
+                }
+              ]
+            },
+            {
+              "name": "???",
+              "effects": [
+                {
+                  "name": "Skip Turn",
+                  "color": "SKIP"
+                }
+              ]
+            },
+            {
+              "name": "Reincarnate",
+              "effects": [
+                {
+                  "name": "Revive 50% Max HP",
+                  "color": "BUFF"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "min_asc": 7,
+          "desc": "On turn 1, 50% chance of either #wNip or #wHarden. Afterwards, has a 30-40-30 split between #wNip, #wChomp, and #wHarden, but #wHarden and #wChomp both cannot be used twice in a row, and #wNip cannot be used three times in a row. The middle Darkling cannot #wChomp and has a 50-50 split instead. When half-dead, uses #w???, followed by #wReincarnate.",
+          "hp": "(50 - 59 HP)",
+          "notes": "#rD randomly chosen between [9, 13] at the start of the fight",
+          "moves": [
+            {
+              "name": "Nip",
+              "effects": [
+                {
+                  "name": "D",
+                  "color": "DAMAGE"
+                }
+              ]
+            },
+            {
+              "name": "Harden",
+              "effects": [
+                {
+                  "name": "Block 12",
+                  "color": "BLOCK"
+                }
+              ]
+            },
+            {
+              "name": "Chomp",
+              "effects": [
+                {
+                  "name": "9x2",
+                  "color": "DAMAGE"
+                }
+              ]
+            },
+            {
+              "name": "???",
+              "effects": [
+                {
+                  "name": "Skip Turn",
+                  "color": "SKIP"
+                }
+              ]
+            },
+            {
+              "name": "Reincarnate",
+              "effects": [
+                {
+                  "name": "Revive 50% Max HP",
+                  "color": "BUFF"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "min_asc": 17,
+          "desc": "On turn 1, 50% chance of either #wNip or #wHarden. Afterwards, has a 30-40-30 split between #wNip, #wChomp, and #wHarden, but #wHarden and #wChomp both cannot be used twice in a row, and #wNip cannot be used three times in a row. The middle Darkling cannot #wChomp and has a 50-50 split instead. When half-dead, uses #w???, followed by #wReincarnate.",
+          "hp": "(50 - 59 HP)",
+          "notes": "#rD randomly chosen between [9, 13] at the start of the fight",
           "moves": [
             {
               "name": "Nip",
@@ -837,6 +2695,120 @@
         {
           "min_asc": 0,
           "desc": "Starts with #wBear #wHug, and then alternates between #wLunge and #wMaul",
+          "hp": "(38 - 42 HP)",
+          "moves": [
+            {
+              "name": "Bear Hug",
+              "effects": [
+                {
+                  "name": "Player's Dex: -2",
+                  "color": "DEBUFF"
+                }
+              ]
+            },
+            {
+              "name": "Maul",
+              "effects": [
+                {
+                  "name": "18",
+                  "color": "DAMAGE"
+                }
+              ]
+            },
+            {
+              "name": "Lunge",
+              "effects": [
+                {
+                  "name": "9",
+                  "color": "DAMAGE"
+                },
+                {
+                  "name": "Block 9",
+                  "color": "BLOCK"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "min_asc": 2,
+          "desc": "Starts with #wBear #wHug, and then alternates between #wLunge and #wMaul",
+          "hp": "(38 - 42 HP)",
+          "moves": [
+            {
+              "name": "Bear Hug",
+              "effects": [
+                {
+                  "name": "Player's Dex: -2",
+                  "color": "DEBUFF"
+                }
+              ]
+            },
+            {
+              "name": "Maul",
+              "effects": [
+                {
+                  "name": "20",
+                  "color": "DAMAGE"
+                }
+              ]
+            },
+            {
+              "name": "Lunge",
+              "effects": [
+                {
+                  "name": "10",
+                  "color": "DAMAGE"
+                },
+                {
+                  "name": "Block 9",
+                  "color": "BLOCK"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "min_asc": 7,
+          "desc": "Starts with #wBear #wHug, and then alternates between #wLunge and #wMaul",
+          "hp": "(40 - 44 HP)",
+          "moves": [
+            {
+              "name": "Bear Hug",
+              "effects": [
+                {
+                  "name": "Player's Dex: -2",
+                  "color": "DEBUFF"
+                }
+              ]
+            },
+            {
+              "name": "Maul",
+              "effects": [
+                {
+                  "name": "20",
+                  "color": "DAMAGE"
+                }
+              ]
+            },
+            {
+              "name": "Lunge",
+              "effects": [
+                {
+                  "name": "10",
+                  "color": "DAMAGE"
+                },
+                {
+                  "name": "Block 9",
+                  "color": "BLOCK"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "min_asc": 17,
+          "desc": "Starts with #wBear #wHug, and then alternates between #wLunge and #wMaul",
           "hp": "(40 - 44 HP)",
           "moves": [
             {
@@ -880,14 +2852,128 @@
       "ai": [
         {
           "min_asc": 0,
-          "desc": "If there is 21 HP to heal, uses #wHeal (up to twice in a row). Otherwise, has a 60% chance of #wAttack #w/ #wDebuff and a 40% chance of #wBuff. #wAttack #w/ #wDebuff cannot be used twice in a row, and #wBuff cannot be used three times in a row.",
+          "desc": "If there is at least 16 HP to heal in the entire party, uses #wHeal (up to twice in a row). Otherwise, has a 60% chance of #wAttack #w/ #wDebuff and a 40% chance of #wBuff, except neither non healing move can be used three times in a row.",
+          "hp": "(48 - 56 HP)",
+          "moves": [
+            {
+              "name": "Heal",
+              "effects": [
+                {
+                  "name": "Party Heal 16",
+                  "color": "BLOCK"
+                }
+              ]
+            },
+            {
+              "name": "Buff",
+              "effects": [
+                {
+                  "name": "Party Str +2",
+                  "color": "BUFF"
+                }
+              ]
+            },
+            {
+              "name": "Attack / Debuff",
+              "effects": [
+                {
+                  "name": "8",
+                  "color": "DAMAGE"
+                },
+                {
+                  "name": "Frail 2",
+                  "color": "DEBUFF"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "min_asc": 2,
+          "desc": "If there is at least 16 HP to heal in the entire party, uses #wHeal (up to twice in a row). Otherwise, has a 60% chance of #wAttack #w/ #wDebuff and a 40% chance of #wBuff, except neither non healing move can be used three times in a row.",
+          "hp": "(48 - 56 HP)",
+          "moves": [
+            {
+              "name": "Heal",
+              "effects": [
+                {
+                  "name": "Party Heal 16",
+                  "color": "BLOCK"
+                }
+              ]
+            },
+            {
+              "name": "Buff",
+              "effects": [
+                {
+                  "name": "Party Str +3",
+                  "color": "BUFF"
+                }
+              ]
+            },
+            {
+              "name": "Attack / Debuff",
+              "effects": [
+                {
+                  "name": "9",
+                  "color": "DAMAGE"
+                },
+                {
+                  "name": "Frail 2",
+                  "color": "DEBUFF"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "min_asc": 7,
+          "desc": "If there is at least 16 HP to heal in the entire party, uses #wHeal (up to twice in a row). Otherwise, has a 60% chance of #wAttack #w/ #wDebuff and a 40% chance of #wBuff, except neither non healing move can be used three times in a row.",
           "hp": "(50 - 58 HP)",
           "moves": [
             {
               "name": "Heal",
               "effects": [
                 {
-                  "name": "Party Heal 20",
+                  "name": "Party Heal 16",
+                  "color": "BLOCK"
+                }
+              ]
+            },
+            {
+              "name": "Buff",
+              "effects": [
+                {
+                  "name": "Party Str +3",
+                  "color": "BUFF"
+                }
+              ]
+            },
+            {
+              "name": "Attack / Debuff",
+              "effects": [
+                {
+                  "name": "9",
+                  "color": "DAMAGE"
+                },
+                {
+                  "name": "Frail 2",
+                  "color": "DEBUFF"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "min_asc": 17,
+          "desc": "If there is at least 21 HP to heal in the entire party, uses #wHeal (up to twice in a row). Otherwise, has a 60% chance of #wAttack #w/ #wDebuff and a 40% chance of #wBuff, except #wAttack #w/ #wDebuff cannot be used twice in a row, and #wBuff cannot be used three times in a row.",
+          "hp": "(50 - 58 HP)",
+          "moves": [
+            {
+              "name": "Heal",
+              "effects": [
+                {
+                  "name": "Party Heal 21",
                   "color": "BLOCK"
                 }
               ]

@@ -35,6 +35,8 @@ public class RenderingUtils {
                     return ExtraColors.OJB_BUFF_COLOR.cpy();
                 case 'b':
                     return ExtraColors.OJB_BLOCK_COLOR.cpy();
+                case 's':
+                    return ExtraColors.OJB_SPECIAL_COLOR.cpy();
                 default:
                     return null;
                 // NOTE: old version returned white; this returns null to let the modified smartText function handle it
