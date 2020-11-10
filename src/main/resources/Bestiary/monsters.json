@@ -5070,7 +5070,98 @@
         {
           "min_asc": 0,
           "desc": "Has a 60-40 split between #wLaser and #wClaw, but neither move can be used three times in a row.",
+          "hp": "(90 - 96 HP)",
+          "notes": "Innate #uStr #uUp #u3. #wLaser puts one #dBurn in the draw pile and the other in the discard pile.",
+          "moves": [
+            {
+              "name": "Laser",
+              "effects": [
+                {
+                  "name": "10",
+                  "color": "DAMAGE"
+                },
+                {
+                  "name": "Burn 2",
+                  "color": "DEBUFF"
+                }
+              ]
+            },
+            {
+              "name": "Claw",
+              "effects": [
+                {
+                  "name": "15",
+                  "color": "DAMAGE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "min_asc": 2,
+          "desc": "Has a 60-40 split between #wLaser and #wClaw, but neither move can be used three times in a row.",
+          "hp": "(90 - 96 HP)",
+          "notes": "Innate #uStr #uUp #u3. #wLaser puts one #dBurn in the draw pile and the other in the discard pile.",
+          "moves": [
+            {
+              "name": "Laser",
+              "effects": [
+                {
+                  "name": "11",
+                  "color": "DAMAGE"
+                },
+                {
+                  "name": "Burn 2",
+                  "color": "DEBUFF"
+                }
+              ]
+            },
+            {
+              "name": "Claw",
+              "effects": [
+                {
+                  "name": "16",
+                  "color": "DAMAGE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "min_asc": 7,
+          "desc": "Has a 60-40 split between #wLaser and #wClaw, but neither move can be used three times in a row.",
           "hp": "(92 - 102 HP)",
+          "notes": "Innate #uStr #uUp #u3. #wLaser puts one #dBurn in the draw pile and the other in the discard pile.",
+          "moves": [
+            {
+              "name": "Laser",
+              "effects": [
+                {
+                  "name": "11",
+                  "color": "DAMAGE"
+                },
+                {
+                  "name": "Burn 2",
+                  "color": "DEBUFF"
+                }
+              ]
+            },
+            {
+              "name": "Claw",
+              "effects": [
+                {
+                  "name": "16",
+                  "color": "DAMAGE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "min_asc": 17,
+          "desc": "Has a 60-40 split between #wLaser and #wClaw, but neither move can be used three times in a row.",
+          "hp": "(92 - 102 HP)",
+          "notes": "Innate #uStr #uUp #u5. #wLaser puts one #dBurn in the draw pile and the other in the discard pile.",
           "moves": [
             {
               "name": "Laser",
@@ -5104,8 +5195,192 @@
       "ai": [
         {
           "min_asc": 0,
-          "desc": "Always starts with #wHex. Then alternates between either #wDebilitate or #wDrain (50% each) and then between #wZap or #wPoke (40% #wZap : 60% #wPoke).",
+          "desc": "Always starts with #wPoke, followed by #wHex. Then alternates between a 50-50 split of #wDebilitate or #wDrain and then a 40-60 split between #wZap and #wPoke.",
+          "hp": "(95 - 99 HP)",
+          "notes": "#dHex debuff puts #dDazed status cards into the draw pile when skills are played.",
+          "moves": [
+            {
+              "name": "Hex",
+              "effects": [
+                {
+                  "name": "Hex 1",
+                  "color": "DEBUFF"
+                }
+              ]
+            },
+            {
+              "name": "Debilitate",
+              "effects": [
+                {
+                  "name": "10",
+                  "color": "DAMAGE"
+                },
+                {
+                  "name": "Vuln 2",
+                  "color": "DEBUFF"
+                }
+              ]
+            },
+            {
+              "name": "Drain",
+              "effects": [
+                {
+                  "name": "Weak 3",
+                  "color": "DEBUFF"
+                },
+                {
+                  "name": "Str +3",
+                  "color": "BUFF"
+                }
+              ]
+            },
+            {
+              "name": "Zap",
+              "effects": [
+                {
+                  "name": "18",
+                  "color": "DAMAGE"
+                }
+              ]
+            },
+            {
+              "name": "Poke",
+              "effects": [
+                {
+                  "name": "5x2",
+                  "color": "DAMAGE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "min_asc": 2,
+          "desc": "Always starts with #wPoke, followed by #wHex. Then alternates between a 50-50 split of #wDebilitate or #wDrain and then a 40-60 split between #wZap and #wPoke.",
+          "hp": "(95 - 99 HP)",
+          "notes": "#dHex debuff puts #dDazed status cards into the draw pile when skills are played.",
+          "moves": [
+            {
+              "name": "Hex",
+              "effects": [
+                {
+                  "name": "Hex 1",
+                  "color": "DEBUFF"
+                }
+              ]
+            },
+            {
+              "name": "Debilitate",
+              "effects": [
+                {
+                  "name": "12",
+                  "color": "DAMAGE"
+                },
+                {
+                  "name": "Vuln 2",
+                  "color": "DEBUFF"
+                }
+              ]
+            },
+            {
+              "name": "Drain",
+              "effects": [
+                {
+                  "name": "Weak 3",
+                  "color": "DEBUFF"
+                },
+                {
+                  "name": "Str +3",
+                  "color": "BUFF"
+                }
+              ]
+            },
+            {
+              "name": "Zap",
+              "effects": [
+                {
+                  "name": "21",
+                  "color": "DAMAGE"
+                }
+              ]
+            },
+            {
+              "name": "Poke",
+              "effects": [
+                {
+                  "name": "6x2",
+                  "color": "DAMAGE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "min_asc": 7,
+          "desc": "Always starts with #wPoke, followed by #wHex. Then alternates between a 50-50 split of #wDebilitate or #wDrain and then a 40-60 split between #wZap and #wPoke.",
           "hp": "(98 - 103 HP)",
+          "notes": "#dHex debuff puts #dDazed status cards into the draw pile when skills are played.",
+          "moves": [
+            {
+              "name": "Hex",
+              "effects": [
+                {
+                  "name": "Hex 1",
+                  "color": "DEBUFF"
+                }
+              ]
+            },
+            {
+              "name": "Debilitate",
+              "effects": [
+                {
+                  "name": "12",
+                  "color": "DAMAGE"
+                },
+                {
+                  "name": "Vuln 2",
+                  "color": "DEBUFF"
+                }
+              ]
+            },
+            {
+              "name": "Drain",
+              "effects": [
+                {
+                  "name": "Weak 3",
+                  "color": "DEBUFF"
+                },
+                {
+                  "name": "Str +3",
+                  "color": "BUFF"
+                }
+              ]
+            },
+            {
+              "name": "Zap",
+              "effects": [
+                {
+                  "name": "21",
+                  "color": "DAMAGE"
+                }
+              ]
+            },
+            {
+              "name": "Poke",
+              "effects": [
+                {
+                  "name": "6x2",
+                  "color": "DAMAGE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "min_asc": 17,
+          "desc": "Always starts with #wHex. Then alternates between a 50-50 split of #wDebilitate or #wDrain and then a 40-60 split between #wZap and #wPoke.",
+          "hp": "(98 - 103 HP)",
+          "notes": "#dHex debuff puts #dDazed status cards into the draw pile when skills are played.",
           "moves": [
             {
               "name": "Hex",
@@ -5170,8 +5445,87 @@
       "ai": [
         {
           "min_asc": 0,
-          "desc": "75% chance of #wBite, and 25% chance of #wGrow, but cannot #wGrow twice in a row or #wBite 3 times in a row.",
+          "desc": "75% chance of #wBite and 25% chance of #wGrow, but cannot use the same move three times in a row.",
+          "hp": "(10 - 15 HP)",
+          "notes": "Innate #uCurl #uUp #u[3 #u- #u7]. #rD is randomly chosen between [5, 7] at the start of combat. ",
+          "moves": [
+            {
+              "name": "Bite",
+              "effects": [
+                {
+                  "name": "D",
+                  "color": "DAMAGE"
+                }
+              ]
+            },
+            {
+              "name": "Grow",
+              "effects": [
+                {
+                  "name": "Str +3",
+                  "color": "BUFF"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "min_asc": 2,
+          "desc": "75% chance of #wBite and 25% chance of #wGrow, but cannot use the same move three times in a row.",
+          "hp": "(10 - 15 HP)",
+          "notes": "Innate #uCurl #uUp #u[3 #u- #u7]. #rD is randomly chosen between [6, 8] at the start of combat. ",
+          "moves": [
+            {
+              "name": "Bite",
+              "effects": [
+                {
+                  "name": "D",
+                  "color": "DAMAGE"
+                }
+              ]
+            },
+            {
+              "name": "Grow",
+              "effects": [
+                {
+                  "name": "Str +3",
+                  "color": "BUFF"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "min_asc": 7,
+          "desc": "75% chance of #wBite and 25% chance of #wGrow, but cannot use the same move three times in a row.",
           "hp": "(11 - 16 HP)",
+          "notes": "Innate #uCurl #uUp #u[4 #u- #u8]. #rD is randomly chosen between [6, 8] at the start of combat. ",
+          "moves": [
+            {
+              "name": "Bite",
+              "effects": [
+                {
+                  "name": "D",
+                  "color": "DAMAGE"
+                }
+              ]
+            },
+            {
+              "name": "Grow",
+              "effects": [
+                {
+                  "name": "Str +3",
+                  "color": "BUFF"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "min_asc": 17,
+          "desc": "75% chance of #wBite, and 25% chance of #wGrow, but cannot #wGrow twice in a row or #wBite three times in a row.",
+          "hp": "(11 - 16 HP)",
+          "notes": "Innate #uCurl #uUp #u[9 #u- #u12]. #rD is randomly chosen between [6, 8] at the start of combat. ",
           "moves": [
             {
               "name": "Bite",
@@ -5202,6 +5556,111 @@
         {
           "min_asc": 0,
           "desc": "Starts with #wActivate, followed by #wAttack #wDebuff. Then, alternates between #wSlam and #wHarden.",
+          "notes": "Innate #uBarricade. Innate #bBlock #b40. Innate #uArtifact #u3.",
+          "hp": "(20 HP)",
+          "moves": [
+            {
+              "name": "Activate",
+              "effects": [
+                {
+                  "name": "Block 25",
+                  "color": "BLOCK"
+                }
+              ]
+            },
+            {
+              "name": "Attack Debuff",
+              "effects": [
+                {
+                  "name": "10",
+                  "color": "DAMAGE"
+                },
+                {
+                  "name": "Frail 5",
+                  "color": "DEBUFF"
+                }
+              ]
+            },
+            {
+              "name": "Slam",
+              "effects": [
+                {
+                  "name": "10x2",
+                  "color": "DAMAGE"
+                }
+              ]
+            },
+            {
+              "name": "Harden",
+              "effects": [
+                {
+                  "name": "10",
+                  "color": "DAMAGE"
+                },
+                {
+                  "name": "Block 15",
+                  "color": "BLOCK"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "min_asc": 2,
+          "desc": "Starts with #wActivate, followed by #wAttack #wDebuff. Then, alternates between #wSlam and #wHarden.",
+          "notes": "Innate #uBarricade. Innate #bBlock #b40. Innate #uArtifact #u3.",
+          "hp": "(20 HP)",
+          "moves": [
+            {
+              "name": "Activate",
+              "effects": [
+                {
+                  "name": "Block 25",
+                  "color": "BLOCK"
+                }
+              ]
+            },
+            {
+              "name": "Attack Debuff",
+              "effects": [
+                {
+                  "name": "11",
+                  "color": "DAMAGE"
+                },
+                {
+                  "name": "Frail 5",
+                  "color": "DEBUFF"
+                }
+              ]
+            },
+            {
+              "name": "Slam",
+              "effects": [
+                {
+                  "name": "11x2",
+                  "color": "DAMAGE"
+                }
+              ]
+            },
+            {
+              "name": "Harden",
+              "effects": [
+                {
+                  "name": "11",
+                  "color": "DAMAGE"
+                },
+                {
+                  "name": "Block 15",
+                  "color": "BLOCK"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "min_asc": 17,
+          "desc": "Starts with #wActivate, followed by #wAttack #wDebuff. Then, alternates between #wSlam and #wHarden.",
+          "notes": "Innate #uBarricade. Innate #bBlock #b40. Innate #uArtifact #u3.",
           "hp": "(20 HP)",
           "moves": [
             {
@@ -5259,6 +5718,139 @@
         {
           "min_asc": 0,
           "desc": "#wMugs twice, then a 50% chance to #wLunge. After (or in place of) the #wLunge, uses #wSmoke #wBomb, and then #wEscape.",
+          "notes": "Innate #uThievery #u15",
+          "hp": "(48 - 52 HP)",
+          "moves": [
+            {
+              "name": "Mug",
+              "effects": [
+                {
+                  "name": "10",
+                  "color": "DAMAGE"
+                }
+              ]
+            },
+            {
+              "name": "Lunge",
+              "effects": [
+                {
+                  "name": "16",
+                  "color": "DAMAGE"
+                }
+              ]
+            },
+            {
+              "name": "Smoke Bomb",
+              "effects": [
+                {
+                  "name": "Block 11",
+                  "color": "BLOCK"
+                }
+              ]
+            },
+            {
+              "name": "Escape",
+              "effects": [
+                {
+                  "name": "Leave Combat",
+                  "color": "SPECIAL"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "min_asc": 2,
+          "desc": "#wMugs twice, then a 50% chance to #wLunge. After (or in place of) the #wLunge, uses #wSmoke #wBomb, and then #wEscape.",
+          "notes": "Innate #uThievery #u15",
+          "hp": "(48 - 52 HP)",
+          "moves": [
+            {
+              "name": "Mug",
+              "effects": [
+                {
+                  "name": "11",
+                  "color": "DAMAGE"
+                }
+              ]
+            },
+            {
+              "name": "Lunge",
+              "effects": [
+                {
+                  "name": "18",
+                  "color": "DAMAGE"
+                }
+              ]
+            },
+            {
+              "name": "Smoke Bomb",
+              "effects": [
+                {
+                  "name": "Block 11",
+                  "color": "BLOCK"
+                }
+              ]
+            },
+            {
+              "name": "Escape",
+              "effects": [
+                {
+                  "name": "Leave Combat",
+                  "color": "SPECIAL"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "min_asc": 7,
+          "desc": "#wMugs twice, then a 50% chance to #wLunge. After (or in place of) the #wLunge, uses #wSmoke #wBomb, and then #wEscape.",
+          "notes": "Innate #uThievery #u15",
+          "hp": "(50 - 54 HP)",
+          "moves": [
+            {
+              "name": "Mug",
+              "effects": [
+                {
+                  "name": "11",
+                  "color": "DAMAGE"
+                }
+              ]
+            },
+            {
+              "name": "Lunge",
+              "effects": [
+                {
+                  "name": "18",
+                  "color": "DAMAGE"
+                }
+              ]
+            },
+            {
+              "name": "Smoke Bomb",
+              "effects": [
+                {
+                  "name": "Block 11",
+                  "color": "BLOCK"
+                }
+              ]
+            },
+            {
+              "name": "Escape",
+              "effects": [
+                {
+                  "name": "Leave Combat",
+                  "color": "SPECIAL"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "min_asc": 17,
+          "desc": "#wMugs twice, then a 50% chance to #wLunge. After (or in place of) the #wLunge, uses #wSmoke #wBomb, and then #wEscape.",
+          "notes": "Innate #uThievery #u20",
           "hp": "(50 - 54 HP)",
           "moves": [
             {
@@ -5308,6 +5900,38 @@
         {
           "min_asc": 0,
           "desc": "Always #wAttacks.",
+          "hp": "(30 HP)",
+          "moves": [
+            {
+              "name": "Attack",
+              "effects": [
+                {
+                  "name": "5x2",
+                  "color": "DAMAGE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "min_asc": 2,
+          "desc": "Always #wAttacks.",
+          "hp": "(30 HP)",
+          "moves": [
+            {
+              "name": "Attack",
+              "effects": [
+                {
+                  "name": "6x2",
+                  "color": "DAMAGE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "min_asc": 7,
+          "desc": "Always #wAttacks.",
           "hp": "(34 HP)",
           "moves": [
             {
@@ -5316,10 +5940,6 @@
                 {
                   "name": "6x2",
                   "color": "DAMAGE"
-                },
-                {
-                  "name": "Burn 2",
-                  "color": "DEBUFF"
                 }
               ]
             }
@@ -5333,7 +5953,152 @@
       "ai": [
         {
           "min_asc": 0,
-          "desc": "Always starts with #wFell. Has a 40-40-20 split between #wDouble #wStrike, #wSuck, and #wFell, but #wDouble #wStrike and #wSuck cannot be used three times in a row and #wFell cannot be used twice in a row.",
+          "desc": "Cannot use #wFell on turn 1. Has a 40-40-20 split between #wDouble #wStrike, #wSuck, and #wFell, but #wDouble #wStrike and #wSuck cannot be used three times in a row, and #wFell cannot be used twice in a row.",
+          "notes": "Innate #uPlated #uArmor #u14. #wStunned if plated armor is broken.",
+          "hp": "(68 - 72 HP)",
+          "moves": [
+            {
+              "name": "Fell",
+              "effects": [
+                {
+                  "name": "18",
+                  "color": "DAMAGE"
+                },
+                {
+                  "name": "Frail 2",
+                  "color": "DEBUFF"
+                }
+              ]
+            },
+            {
+              "name": "Suck",
+              "effects": [
+                {
+                  "name": "Lifesteal 10",
+                  "color": "DAMAGE"
+                }
+              ]
+            },
+            {
+              "name": "Double Strike",
+              "effects": [
+                {
+                  "name": "6x2",
+                  "color": "DAMAGE"
+                }
+              ]
+            },
+            {
+              "name": "Stunned",
+              "effects": [
+                {
+                  "name": "Skip Turn",
+                  "color": "SKIP"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "min_asc": 2,
+          "desc": "Cannot use #wFell on turn 1. Has a 40-40-20 split between #wDouble #wStrike, #wSuck, and #wFell, but #wDouble #wStrike and #wSuck cannot be used three times in a row, and #wFell cannot be used twice in a row.",
+          "notes": "Innate #uPlated #uArmor #u14. #wStunned if plated armor is broken.",
+          "hp": "(68 - 72 HP)",
+          "moves": [
+            {
+              "name": "Fell",
+              "effects": [
+                {
+                  "name": "21",
+                  "color": "DAMAGE"
+                },
+                {
+                  "name": "Frail 2",
+                  "color": "DEBUFF"
+                }
+              ]
+            },
+            {
+              "name": "Suck",
+              "effects": [
+                {
+                  "name": "Lifesteal 12",
+                  "color": "DAMAGE"
+                }
+              ]
+            },
+            {
+              "name": "Double Strike",
+              "effects": [
+                {
+                  "name": "7x2",
+                  "color": "DAMAGE"
+                }
+              ]
+            },
+            {
+              "name": "Stunned",
+              "effects": [
+                {
+                  "name": "Skip Turn",
+                  "color": "SKIP"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "min_asc": 7,
+          "desc": "Cannot use #wFell on turn 1. Has a 40-40-20 split between #wDouble #wStrike, #wSuck, and #wFell, but #wDouble #wStrike and #wSuck cannot be used three times in a row, and #wFell cannot be used twice in a row.",
+          "notes": "Innate #uPlated #uArmor #u14. #wStunned if plated armor is broken.",
+          "hp": "(70 - 75 HP)",
+          "moves": [
+            {
+              "name": "Fell",
+              "effects": [
+                {
+                  "name": "21",
+                  "color": "DAMAGE"
+                },
+                {
+                  "name": "Frail 2",
+                  "color": "DEBUFF"
+                }
+              ]
+            },
+            {
+              "name": "Suck",
+              "effects": [
+                {
+                  "name": "Lifesteal 12",
+                  "color": "DAMAGE"
+                }
+              ]
+            },
+            {
+              "name": "Double Strike",
+              "effects": [
+                {
+                  "name": "7x2",
+                  "color": "DAMAGE"
+                }
+              ]
+            },
+            {
+              "name": "Stunned",
+              "effects": [
+                {
+                  "name": "Skip Turn",
+                  "color": "SKIP"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "min_asc": 17,
+          "desc": "Always starts with #wFell. Has a 40-40-20 split between #wDouble #wStrike, #wSuck, and #wFell, but #wDouble #wStrike and #wSuck cannot be used three times in a row, and #wFell cannot be used twice in a row.",
+          "notes": "Innate #uPlated #uArmor #u14. #wStunned if plated armor is broken.",
           "hp": "(70 - 75 HP)",
           "moves": [
             {
@@ -5386,7 +6151,83 @@
       "ai": [
         {
           "min_asc": 0,
-          "desc": "Always starts with #wBellow. Then cycles in the order: #wSkull #wBash -> #wRush -> #wRush.",
+          "desc": "Always starts with #wBellow. Afterwards, has a 33-67 split between #wSkull #wBash and #wRush, but cannot use #wRush three times in a row.",
+          "hp": "(82 - 86 HP)",
+          "moves": [
+            {
+              "name": "Bellow",
+              "effects": [
+                {
+                  "name": "Anger 2",
+                  "color": "BUFF"
+                }
+              ]
+            },
+            {
+              "name": "Skull Bash",
+              "effects": [
+                {
+                  "name": "6",
+                  "color": "DAMAGE"
+                },
+                {
+                  "name": "Vuln 2",
+                  "color": "DEBUFF"
+                }
+              ]
+            },
+            {
+              "name": "Rush",
+              "effects": [
+                {
+                  "name": "14",
+                  "color": "DAMAGE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "min_asc": 3,
+          "desc": "Always starts with #wBellow. Afterwards, has a 33-67 split between #wSkull #wBash and #wRush, but cannot use #wRush three times in a row.",
+          "hp": "(82 - 86 HP)",
+          "moves": [
+            {
+              "name": "Bellow",
+              "effects": [
+                {
+                  "name": "Anger 2",
+                  "color": "BUFF"
+                }
+              ]
+            },
+            {
+              "name": "Skull Bash",
+              "effects": [
+                {
+                  "name": "8",
+                  "color": "DAMAGE"
+                },
+                {
+                  "name": "Vuln 2",
+                  "color": "DEBUFF"
+                }
+              ]
+            },
+            {
+              "name": "Rush",
+              "effects": [
+                {
+                  "name": "16",
+                  "color": "DAMAGE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "min_asc": 8,
+          "desc": "Always starts with #wBellow. Afterwards, has a 33-67 split between #wSkull #wBash and #wRush, but cannot use #wRush three times in a row.",
           "hp": "(85 - 90 HP)",
           "moves": [
             {
@@ -5394,6 +6235,44 @@
               "effects": [
                 {
                   "name": "Anger 2",
+                  "color": "BUFF"
+                }
+              ]
+            },
+            {
+              "name": "Skull Bash",
+              "effects": [
+                {
+                  "name": "8",
+                  "color": "DAMAGE"
+                },
+                {
+                  "name": "Vuln 2",
+                  "color": "DEBUFF"
+                }
+              ]
+            },
+            {
+              "name": "Rush",
+              "effects": [
+                {
+                  "name": "16",
+                  "color": "DAMAGE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "min_asc": 18,
+          "desc": "Always starts with #wBellow. Then cycles in the order: #wSkull #wBash -> #wRush -> #wRush.",
+          "hp": "(85 - 90 HP)",
+          "moves": [
+            {
+              "name": "Bellow",
+              "effects": [
+                {
+                  "name": "Anger 3",
                   "color": "BUFF"
                 }
               ]
@@ -5430,6 +6309,81 @@
       "ai": [
         {
           "min_asc": 0,
+          "desc": "#wCharge for 2 turns, and then uses #wUltimate #wBlast. Then uses #wCharge for an additional three turns, and afterwards repeats #wUltimate #wBlast until defeated.",
+          "hp": "(21 - 25 HP)",
+          "moves": [
+            {
+              "name": "Charge",
+              "effects": [
+                {
+                  "name": "Skip Turn",
+                  "color": "SKIP"
+                }
+              ]
+            },
+            {
+              "name": "Ultimate Blast",
+              "effects": [
+                {
+                  "name": "25",
+                  "color": "DAMAGE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "min_asc": 2,
+          "desc": "#wCharge for 2 turns, and then uses #wUltimate #wBlast. Then uses #wCharge for an additional three turns, and afterwards repeats #wUltimate #wBlast until defeated.",
+          "hp": "(21 - 25 HP)",
+          "moves": [
+            {
+              "name": "Charge",
+              "effects": [
+                {
+                  "name": "Skip Turn",
+                  "color": "SKIP"
+                }
+              ]
+            },
+            {
+              "name": "Ultimate Blast",
+              "effects": [
+                {
+                  "name": "30",
+                  "color": "DAMAGE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "min_asc": 7,
+          "desc": "#wCharge for 2 turns, and then uses #wUltimate #wBlast. Then uses #wCharge for an additional three turns, and afterwards repeats #wUltimate #wBlast until defeated.",
+          "hp": "(22 - 26 HP)",
+          "moves": [
+            {
+              "name": "Charge",
+              "effects": [
+                {
+                  "name": "Skip Turn",
+                  "color": "SKIP"
+                }
+              ]
+            },
+            {
+              "name": "Ultimate Blast",
+              "effects": [
+                {
+                  "name": "30",
+                  "color": "DAMAGE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "min_asc": 17,
           "desc": "#wCharge for 2 turns, and then repeats #wUltimate #wBlast.",
           "hp": "(22 - 26 HP)",
           "moves": [
@@ -5462,6 +6416,41 @@
         {
           "min_asc": 0,
           "desc": "Always uses #wAttack.",
+          "notes": "Innate #sFading #s5. Innate #sShifting. #rX = 10 * (Turn number - 1)",
+          "hp": "(999 HP)",
+          "moves": [
+            {
+              "name": "Attack",
+              "effects": [
+                {
+                  "name": "X + 30",
+                  "color": "DAMAGE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "min_asc": 2,
+          "desc": "Always uses #wAttack.",
+          "notes": "Innate #sFading #s5. Innate #sShifting. #rX = 10 * (Turn number - 1)",
+          "hp": "(999 HP)",
+          "moves": [
+            {
+              "name": "Attack",
+              "effects": [
+                {
+                  "name": "X + 40",
+                  "color": "DAMAGE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "min_asc": 17,
+          "desc": "Always uses #wAttack.",
+          "notes": "Innate #sFading #s6. Innate #sShifting. #rX = 10 * (Turn number - 1)",
           "hp": "(999 HP)",
           "moves": [
             {
@@ -5483,7 +6472,199 @@
       "ai": [
         {
           "min_asc": 0,
-          "desc": "Always begins with #wSpawn. On turn 4, always uses the #wMega-Debuff. Otherwise, if a Torch Head is dead, has approximately a 25-45-30 probability split between #wRevive - #wFireball - #wBuff. If all Torch Heads are alive, the split becomes 70 - 30 between #wFireball - #wBuff. Cannot use #wRevive or #wBuff twice in a row, or #wFireball three times in a row.",
+          "desc": "Always begins with #wSpawn. Always uses the #wMega-Debuff on turn 4. Otherwise, if a Torch Head is dead, has approximately a 25-45-30 probability split between #wRevive - #wFireball - #wBuff. If all Torch Heads are alive, the split instead becomes 70-30 between #wFireball and #wBuff. Cannot use #wRevive or #wBuff twice in a row, or #wFireball three times in a row.",
+          "hp": "(282 HP)",
+          "moves": [
+            {
+              "name": "Spawn",
+              "effects": [
+                {
+                  "name": "Spawn 2 Torch Heads",
+                  "color": "SPECIAL"
+                }
+              ]
+            },
+            {
+              "name": "Revive",
+              "effects": [
+                {
+                  "name": "Spawn Torch Heads in Empty Slots (max 2)",
+                  "color": "SPECIAL"
+                }
+              ]
+            },
+            {
+              "name": "Buff",
+              "effects": [
+                {
+                  "name": "Block 15",
+                  "color": "BLOCK"
+                },
+                {
+                  "name": "Team Str +3",
+                  "color": "BUFF"
+                }
+              ]
+            },
+            {
+              "name": "Mega-Debuff",
+              "effects": [
+                {
+                  "name": "Weak 3",
+                  "color": "DEBUFF"
+                },
+                {
+                  "name": "Vuln 3",
+                  "color": "DEBUFF"
+                },
+                {
+                  "name": "Frail 3",
+                  "color": "DEBUFF"
+                }
+              ]
+            },
+            {
+              "name": "Fireball",
+              "effects": [
+                {
+                  "name": "18",
+                  "color": "DAMAGE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "min_asc": 4,
+          "desc": "Always begins with #wSpawn. Always uses the #wMega-Debuff on turn 4. Otherwise, if a Torch Head is dead, has approximately a 25-45-30 probability split between #wRevive - #wFireball - #wBuff. If all Torch Heads are alive, the split instead becomes 70-30 between #wFireball and #wBuff. Cannot use #wRevive or #wBuff twice in a row, or #wFireball three times in a row.",
+          "hp": "(282 HP)",
+          "moves": [
+            {
+              "name": "Spawn",
+              "effects": [
+                {
+                  "name": "Spawn 2 Torch Heads",
+                  "color": "SPECIAL"
+                }
+              ]
+            },
+            {
+              "name": "Revive",
+              "effects": [
+                {
+                  "name": "Spawn Torch Heads in Empty Slots (max 2)",
+                  "color": "SPECIAL"
+                }
+              ]
+            },
+            {
+              "name": "Buff",
+              "effects": [
+                {
+                  "name": "Block 15",
+                  "color": "BLOCK"
+                },
+                {
+                  "name": "Team Str +4",
+                  "color": "BUFF"
+                }
+              ]
+            },
+            {
+              "name": "Mega-Debuff",
+              "effects": [
+                {
+                  "name": "Weak 3",
+                  "color": "DEBUFF"
+                },
+                {
+                  "name": "Vuln 3",
+                  "color": "DEBUFF"
+                },
+                {
+                  "name": "Frail 3",
+                  "color": "DEBUFF"
+                }
+              ]
+            },
+            {
+              "name": "Fireball",
+              "effects": [
+                {
+                  "name": "21",
+                  "color": "DAMAGE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "min_asc": 9,
+          "desc": "Always begins with #wSpawn. Always uses the #wMega-Debuff on turn 4. Otherwise, if a Torch Head is dead, has approximately a 25-45-30 probability split between #wRevive - #wFireball - #wBuff. If all Torch Heads are alive, the split instead becomes 70-30 between #wFireball and #wBuff. Cannot use #wRevive or #wBuff twice in a row, or #wFireball three times in a row.",
+          "hp": "(300 HP)",
+          "moves": [
+            {
+              "name": "Spawn",
+              "effects": [
+                {
+                  "name": "Spawn 2 Torch Heads",
+                  "color": "SPECIAL"
+                }
+              ]
+            },
+            {
+              "name": "Revive",
+              "effects": [
+                {
+                  "name": "Spawn Torch Heads in Empty Slots (max 2)",
+                  "color": "SPECIAL"
+                }
+              ]
+            },
+            {
+              "name": "Buff",
+              "effects": [
+                {
+                  "name": "Block 18",
+                  "color": "BLOCK"
+                },
+                {
+                  "name": "Team Str +4",
+                  "color": "BUFF"
+                }
+              ]
+            },
+            {
+              "name": "Mega-Debuff",
+              "effects": [
+                {
+                  "name": "Weak 3",
+                  "color": "DEBUFF"
+                },
+                {
+                  "name": "Vuln 3",
+                  "color": "DEBUFF"
+                },
+                {
+                  "name": "Frail 3",
+                  "color": "DEBUFF"
+                }
+              ]
+            },
+            {
+              "name": "Fireball",
+              "effects": [
+                {
+                  "name": "21",
+                  "color": "DAMAGE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "min_asc": 19,
+          "desc": "Always begins with #wSpawn. Always uses the #wMega-Debuff on turn 4. Otherwise, if a Torch Head is dead, has approximately a 25-45-30 probability split between #wRevive - #wFireball - #wBuff. If all Torch Heads are alive, the split instead becomes 70-30 between #wFireball and #wBuff. Cannot use #wRevive or #wBuff twice in a row, or #wFireball three times in a row.",
           "hp": "(300 HP)",
           "moves": [
             {
@@ -5553,7 +6734,121 @@
       "ai": [
         {
           "min_asc": 0,
-          "desc": "With 0 allies alive, has a 75-25 split between #wRally and #wStab. With 1 ally, has a 50-50 split between #wRally and #wStab if the last move was #wEncourage, and a 62.5-37.5 split between #wRally and #wEncourage if the last move was #wStab. With more than 1 ally, has a 66-34 split between #wEncourage and #wStab. Cannot use any move twice in a row.",
+          "desc": "With 0 allies alive, has a 75-25 split between #wRally and #wStab. With 1 ally alive, there is a 50-50 split between #wRally and #wStab if the previous move was #wEncourage, and a 62.5-37.5 split between #wRally and #wEncourage if the previous move was #wStab. With more than 1 ally, has a 66-34 split between #wEncourage and #wStab. Cannot use any move twice in a row.",
+          "hp": "(140 - 148 HP)",
+          "moves": [
+            {
+              "name": "Rally!",
+              "effects": [
+                {
+                  "name": "Summon 2 Gremlins",
+                  "color": "SPECIAL"
+                }
+              ]
+            },
+            {
+              "name": "Stab",
+              "effects": [
+                {
+                  "name": "6x3",
+                  "color": "DAMAGE"
+                }
+              ]
+            },
+            {
+              "name": "Encourage",
+              "effects": [
+                {
+                  "name": "Party Str +3",
+                  "color": "BUFF"
+                },
+                {
+                  "name": "Minions Block 6",
+                  "color": "BLOCK"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "min_asc": 3,
+          "desc": "With 0 allies alive, has a 75-25 split between #wRally and #wStab. With 1 ally alive, there is a 50-50 split between #wRally and #wStab if the previous move was #wEncourage, and a 62.5-37.5 split between #wRally and #wEncourage if the previous move was #wStab. With more than 1 ally, has a 66-34 split between #wEncourage and #wStab. Cannot use any move twice in a row.",
+          "hp": "(140 - 148 HP)",
+          "moves": [
+            {
+              "name": "Rally!",
+              "effects": [
+                {
+                  "name": "Summon 2 Gremlins",
+                  "color": "SPECIAL"
+                }
+              ]
+            },
+            {
+              "name": "Stab",
+              "effects": [
+                {
+                  "name": "6x3",
+                  "color": "DAMAGE"
+                }
+              ]
+            },
+            {
+              "name": "Encourage",
+              "effects": [
+                {
+                  "name": "Party Str +4",
+                  "color": "BUFF"
+                },
+                {
+                  "name": "Minions Block 6",
+                  "color": "BLOCK"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "min_asc": 8,
+          "desc": "With 0 allies alive, has a 75-25 split between #wRally and #wStab. With 1 ally alive, there is a 50-50 split between #wRally and #wStab if the previous move was #wEncourage, and a 62.5-37.5 split between #wRally and #wEncourage if the previous move was #wStab. With more than 1 ally, has a 66-34 split between #wEncourage and #wStab. Cannot use any move twice in a row.",
+          "hp": "(145 - 155 HP)",
+          "moves": [
+            {
+              "name": "Rally!",
+              "effects": [
+                {
+                  "name": "Summon 2 Gremlins",
+                  "color": "SPECIAL"
+                }
+              ]
+            },
+            {
+              "name": "Stab",
+              "effects": [
+                {
+                  "name": "6x3",
+                  "color": "DAMAGE"
+                }
+              ]
+            },
+            {
+              "name": "Encourage",
+              "effects": [
+                {
+                  "name": "Party Str +4",
+                  "color": "BUFF"
+                },
+                {
+                  "name": "Minions Block 6",
+                  "color": "BLOCK"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "min_asc": 18,
+          "desc": "With 0 allies alive, has a 75-25 split between #wRally and #wStab. With 1 ally alive, there is a 50-50 split between #wRally and #wStab if the previous move was #wEncourage, and a 62.5-37.5 split between #wRally and #wEncourage if the previous move was #wStab. With more than 1 ally, has a 66-34 split between #wEncourage and #wStab. Cannot use any move twice in a row.",
           "hp": "(145 - 155 HP)",
           "moves": [
             {
