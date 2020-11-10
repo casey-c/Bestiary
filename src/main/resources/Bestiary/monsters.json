@@ -719,7 +719,7 @@
         {
           "min_asc": 0,
           "desc": "When not splitting, approximately a 30-40-30 probability split between #wCorrosive #wSpit, #wTackle, and #wLick. #wTackle cannot be used twice in a row while the other moves cannot be used three times in a row.",
-          "notes": "Splits into two #sAcid #sSlime #s(Medium)'s each with the current HP when it falls below half its max HP. #dSlimed status cards go into the discard pile.",
+          "notes": "Splits into two #sAcid #sSlime #s(M)'s each with the current HP when it falls below half its max HP. #dSlimed status cards go into the discard pile.",
           "hp": "(65 - 69 HP)",
           "moves": [
             {
@@ -762,7 +762,7 @@
         {
           "min_asc": 2,
           "desc": "When not splitting, approximately a 30-40-30 probability split between #wCorrosive #wSpit, #wTackle, and #wLick. #wTackle cannot be used twice in a row while the other moves cannot be used three times in a row.",
-          "notes": "Splits into two #sAcid #sSlime #s(Medium)'s each with the current HP when it falls below half its max HP. #dSlimed status cards go into the discard pile.",
+          "notes": "Splits into two #sAcid #sSlime #s(M)'s each with the current HP when it falls below half its max HP. #dSlimed status cards go into the discard pile.",
           "hp": "(65 - 69 HP)",
           "moves": [
             {
@@ -805,7 +805,7 @@
         {
           "min_asc": 7,
           "desc": "When not splitting, approximately a 30-40-30 probability split between #wCorrosive #wSpit, #wTackle, and #wLick. #wTackle cannot be used twice in a row while the other moves cannot be used three times in a row.",
-          "notes": "Splits into two #sAcid #sSlime #s(Medium)'s each with the current HP when it falls below half its max HP. #dSlimed status cards go into the discard pile.",
+          "notes": "Splits into two #sAcid #sSlime #s(M)'s each with the current HP when it falls below half its max HP. #dSlimed status cards go into the discard pile.",
           "hp": "(68 - 72 HP)",
           "moves": [
             {
@@ -848,7 +848,7 @@
         {
           "min_asc": 17,
           "desc": "When not splitting, approximately a 40-30-30 probability split between #wCorrosive #wSpit, #wTackle, and #wLick. #wLick cannot be used twice in a row while the other moves cannot be used three times in a row.",
-          "notes": "Splits into two #sAcid #sSlime #s(Medium)'s each with the current HP when it falls below half its max HP. #dSlimed status cards go into the discard pile.",
+          "notes": "Splits into two #sAcid #sSlime #s(M)'s each with the current HP when it falls below half its max HP. #dSlimed status cards go into the discard pile.",
           "hp": "(68 - 72 HP)",
           "moves": [
             {
@@ -6893,6 +6893,112 @@
         {
           "min_asc": 0,
           "desc": "On turn 1, has a 50% chance of #wBurn or #wMulti-Attack. Afterwards, has a 35-35-30 split between #wBurn, #wMulti-Attack, and #wScythe, except #wScythe and #wBurn cannot be used twice in a row, and #wMulti-Attack cannot be used three times in a row.",
+          "notes": "Gains 1 #uIntangible every second turn.",
+          "hp": "(185 HP)",
+          "moves": [
+            {
+              "name": "Burn",
+              "effects": [
+                {
+                  "name": "Burn 3",
+                  "color": "DEBUFF"
+                }
+              ]
+            },
+            {
+              "name": "Multi-Attack",
+              "effects": [
+                {
+                  "name": "6x3",
+                  "color": "DAMAGE"
+                }
+              ]
+            },
+            {
+              "name": "Scythe",
+              "effects": [
+                {
+                  "name": "45",
+                  "color": "DAMAGE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "min_asc": 3,
+          "desc": "On turn 1, has a 50% chance of #wBurn or #wMulti-Attack. Afterwards, has a 35-35-30 split between #wBurn, #wMulti-Attack, and #wScythe, except #wScythe and #wBurn cannot be used twice in a row, and #wMulti-Attack cannot be used three times in a row.",
+          "notes": "Gains 1 #uIntangible every second turn.",
+          "hp": "(185 HP)",
+          "moves": [
+            {
+              "name": "Burn",
+              "effects": [
+                {
+                  "name": "Burn 3",
+                  "color": "DEBUFF"
+                }
+              ]
+            },
+            {
+              "name": "Multi-Attack",
+              "effects": [
+                {
+                  "name": "7x3",
+                  "color": "DAMAGE"
+                }
+              ]
+            },
+            {
+              "name": "Scythe",
+              "effects": [
+                {
+                  "name": "45",
+                  "color": "DAMAGE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "min_asc": 8,
+          "desc": "On turn 1, has a 50% chance of #wBurn or #wMulti-Attack. Afterwards, has a 35-35-30 split between #wBurn, #wMulti-Attack, and #wScythe, except #wScythe and #wBurn cannot be used twice in a row, and #wMulti-Attack cannot be used three times in a row.",
+          "notes": "Gains 1 #uIntangible every second turn.",
+          "hp": "(200 HP)",
+          "moves": [
+            {
+              "name": "Burn",
+              "effects": [
+                {
+                  "name": "Burn 3",
+                  "color": "DEBUFF"
+                }
+              ]
+            },
+            {
+              "name": "Multi-Attack",
+              "effects": [
+                {
+                  "name": "7x3",
+                  "color": "DAMAGE"
+                }
+              ]
+            },
+            {
+              "name": "Scythe",
+              "effects": [
+                {
+                  "name": "45",
+                  "color": "DAMAGE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "min_asc": 18,
+          "desc": "On turn 1, has a 50% chance of #wBurn or #wMulti-Attack. Afterwards, has a 35-35-30 split between #wBurn, #wMulti-Attack, and #wScythe, except #wScythe and #wBurn cannot be used twice in a row, and #wMulti-Attack cannot be used three times in a row.",
+          "notes": "Gains 1 #uIntangible every second turn.",
           "hp": "(200 HP)",
           "moves": [
             {
@@ -6932,7 +7038,86 @@
       "ai": [
         {
           "min_asc": 0,
-          "desc": "75% chance of #wBite, and 25% chance of #wSpit #wWeb, but cannot #wSpit #wWeb twice in a row or #wBite 3 times in a row.",
+          "desc": "75% chance of #wBite and 25% chance of #wSpit #wWeb, but cannot use the same move three times in a row.",
+          "notes": "Innate #uCurl #uUp #u[3 #u- #u7]. #rD is randomly chosen between [5, 7] at the start of combat. ",
+          "hp": "(11 - 17 HP)",
+          "moves": [
+            {
+              "name": "Bite",
+              "effects": [
+                {
+                  "name": "D",
+                  "color": "DAMAGE"
+                }
+              ]
+            },
+            {
+              "name": "Spit Web",
+              "effects": [
+                {
+                  "name": "Weak 2",
+                  "color": "DEBUFF"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "min_asc": 2,
+          "desc": "75% chance of #wBite and 25% chance of #wSpit #wWeb, but cannot use the same move three times in a row.",
+          "notes": "Innate #uCurl #uUp #u[3 #u- #u7]. #rD is randomly chosen between [6, 8] at the start of combat. ",
+          "hp": "(11 - 17 HP)",
+          "moves": [
+            {
+              "name": "Bite",
+              "effects": [
+                {
+                  "name": "D",
+                  "color": "DAMAGE"
+                }
+              ]
+            },
+            {
+              "name": "Spit Web",
+              "effects": [
+                {
+                  "name": "Weak 2",
+                  "color": "DEBUFF"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "min_asc": 7,
+          "desc": "75% chance of #wBite and 25% chance of #wSpit #wWeb, but cannot use the same move three times in a row.",
+          "notes": "Innate #uCurl #uUp #u[4 #u- #u8]. #rD is randomly chosen between [6, 8] at the start of combat. ",
+          "hp": "(12 - 18 HP)",
+          "moves": [
+            {
+              "name": "Bite",
+              "effects": [
+                {
+                  "name": "D",
+                  "color": "DAMAGE"
+                }
+              ]
+            },
+            {
+              "name": "Spit Web",
+              "effects": [
+                {
+                  "name": "Weak 2",
+                  "color": "DEBUFF"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "min_asc": 17,
+          "desc": "75% chance of #wBite and 25% chance of #wSpit #wWeb, but cannot #wSpit #wWeb twice in a row or #wBite 3 times in a row.",
+          "notes": "Innate #uCurl #uUp #u[9 #u- #u12]. #rD is randomly chosen between [6, 8] at the start of combat. ",
           "hp": "(12 - 18 HP)",
           "moves": [
             {
@@ -6964,6 +7149,85 @@
         {
           "min_asc": 0,
           "desc": "60% chance of #wBite, but cannot #wBite three times in a row, or #wGrow twice in a row.",
+          "notes": "Innate #uSpore #uCloud #u2.",
+          "hp": "(22 - 28 HP)",
+          "moves": [
+            {
+              "name": "Bite",
+              "effects": [
+                {
+                  "name": "6",
+                  "color": "DAMAGE"
+                }
+              ]
+            },
+            {
+              "name": "Grow",
+              "effects": [
+                {
+                  "name": "Str +3",
+                  "color": "BUFF"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "min_asc": 2,
+          "desc": "60% chance of #wBite, but cannot #wBite three times in a row, or #wGrow twice in a row.",
+          "notes": "Innate #uSpore #uCloud #u2.",
+          "hp": "(22 - 28 HP)",
+          "moves": [
+            {
+              "name": "Bite",
+              "effects": [
+                {
+                  "name": "6",
+                  "color": "DAMAGE"
+                }
+              ]
+            },
+            {
+              "name": "Grow",
+              "effects": [
+                {
+                  "name": "Str +4",
+                  "color": "BUFF"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "min_asc": 7,
+          "desc": "60% chance of #wBite, but cannot #wBite three times in a row, or #wGrow twice in a row.",
+          "notes": "Innate #uSpore #uCloud #u2.",
+          "hp": "(24 - 28 HP)",
+          "moves": [
+            {
+              "name": "Bite",
+              "effects": [
+                {
+                  "name": "6",
+                  "color": "DAMAGE"
+                }
+              ]
+            },
+            {
+              "name": "Grow",
+              "effects": [
+                {
+                  "name": "Str +4",
+                  "color": "BUFF"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "min_asc": 17,
+          "desc": "60% chance of #wBite, but cannot #wBite three times in a row, or #wGrow twice in a row.",
+          "notes": "Innate #uSpore #uCloud #u2.",
           "hp": "(24 - 28 HP)",
           "moves": [
             {
@@ -6994,7 +7258,113 @@
       "ai": [
         {
           "min_asc": 0,
+          "desc": "For the first 4 turns, has a 50-50 split between #wCount and #wGlare, but cannot use either move three times in a row. Afterwards, repeats #wIt #wIs #wTime.",
+          "notes": "Innate #sSlow. #rT starts at 0 and increases by 5 each time #wIt #wIs #wTime is used, up to a maximum of 30.",
+          "hp": "(500 HP)",
+          "moves": [
+            {
+              "name": "Count",
+              "effects": [
+                {
+                  "name": "13",
+                  "color": "DAMAGE"
+                }
+              ]
+            },
+            {
+              "name": "Glare",
+              "effects": [
+                {
+                  "name": "Weak 1",
+                  "color": "DEBUFF"
+                }
+              ]
+            },
+            {
+              "name": "It Is Time",
+              "effects": [
+                {
+                  "name": "T + 30",
+                  "color": "DAMAGE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "min_asc": 3,
+          "desc": "For the first 4 turns, has a 50-50 split between #wCount and #wGlare, but cannot use either move three times in a row. Afterwards, repeats #wIt #wIs #wTime.",
+          "notes": "Innate #sSlow. #rT starts at 0 and increases by 5 each time #wIt #wIs #wTime is used, up to a maximum of 30.",
+          "hp": "(500 HP)",
+          "moves": [
+            {
+              "name": "Count",
+              "effects": [
+                {
+                  "name": "13",
+                  "color": "DAMAGE"
+                }
+              ]
+            },
+            {
+              "name": "Glare",
+              "effects": [
+                {
+                  "name": "Weak 1",
+                  "color": "DEBUFF"
+                }
+              ]
+            },
+            {
+              "name": "It Is Time",
+              "effects": [
+                {
+                  "name": "T + 40",
+                  "color": "DAMAGE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "min_asc": 8,
+          "desc": "For the first 4 turns, has a 50-50 split between #wCount and #wGlare, but cannot use either move three times in a row. Afterwards, repeats #wIt #wIs #wTime.",
+          "notes": "Innate #sSlow. #rT starts at 0 and increases by 5 each time #wIt #wIs #wTime is used, up to a maximum of 30.",
+          "hp": "(520 HP)",
+          "moves": [
+            {
+              "name": "Count",
+              "effects": [
+                {
+                  "name": "13",
+                  "color": "DAMAGE"
+                }
+              ]
+            },
+            {
+              "name": "Glare",
+              "effects": [
+                {
+                  "name": "Weak 1",
+                  "color": "DEBUFF"
+                }
+              ]
+            },
+            {
+              "name": "It Is Time",
+              "effects": [
+                {
+                  "name": "T + 40",
+                  "color": "DAMAGE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "min_asc": 18,
           "desc": "For the first 3 turns, has a 50-50 split between #wCount and #wGlare, but cannot use either move three times in a row. Afterwards, repeats #wIt #wIs #wTime.",
+          "notes": "Innate #sSlow. #rT starts at 0 and increases by 5 each time #wIt #wIs #wTime is used, up to a maximum of 30.",
           "hp": "(520 HP)",
           "moves": [
             {
@@ -7034,7 +7404,125 @@
       "ai": [
         {
           "min_asc": 0,
-          "desc": "Has 30-70 probability between #wFlame #wTackle and #wLick, though #wLick cannot be used twice in a row and #wFlame #wTackle cannot be used three times in a row. Will #wSplit once it reaches half its max HP, producing 2 slimes of its current HP.",
+          "desc": "When not splitting, 70% chance to use #wLick and 30% to use #wFlame #wTackle, although neither can be used three times in a row.",
+          "notes": "Splits into two #sSpiked #sSlime #s(M)'s each with the current HP when it falls below half its max HP. #dSlimed status cards go into the discard pile.",
+          "hp": "(64 - 70 HP)",
+          "moves": [
+            {
+              "name": "Flame Tackle",
+              "effects": [
+                {
+                  "name": "16",
+                  "color": "DAMAGE"
+                },
+                {
+                  "name": "Slimed 2",
+                  "color": "DEBUFF"
+                }
+              ]
+            },
+            {
+              "name": "Lick",
+              "effects": [
+                {
+                  "name": "Frail 2",
+                  "color": "DEBUFF"
+                }
+              ]
+            },
+            {
+              "name": "Split",
+              "effects": [
+                {
+                  "name": "Split in two",
+                  "color": "SPECIAL"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "min_asc": 2,
+          "desc": "When not splitting, 70% chance to use #wLick and 30% to use #wFlame #wTackle, although neither can be used three times in a row.",
+          "notes": "Splits into two #sSpiked #sSlime #s(M)'s each with the current HP when it falls below half its max HP. #dSlimed status cards go into the discard pile.",
+          "hp": "(64 - 70 HP)",
+          "moves": [
+            {
+              "name": "Flame Tackle",
+              "effects": [
+                {
+                  "name": "18",
+                  "color": "DAMAGE"
+                },
+                {
+                  "name": "Slimed 2",
+                  "color": "DEBUFF"
+                }
+              ]
+            },
+            {
+              "name": "Lick",
+              "effects": [
+                {
+                  "name": "Frail 2",
+                  "color": "DEBUFF"
+                }
+              ]
+            },
+            {
+              "name": "Split",
+              "effects": [
+                {
+                  "name": "Split in two",
+                  "color": "SPECIAL"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "min_asc": 7,
+          "desc": "When not splitting, 70% chance to use #wLick and 30% to use #wFlame #wTackle, although neither can be used three times in a row.",
+          "notes": "Splits into two #sSpiked #sSlime #s(M)'s each with the current HP when it falls below half its max HP. #dSlimed status cards go into the discard pile.",
+          "hp": "(67 - 73 HP)",
+          "moves": [
+            {
+              "name": "Flame Tackle",
+              "effects": [
+                {
+                  "name": "18",
+                  "color": "DAMAGE"
+                },
+                {
+                  "name": "Slimed 2",
+                  "color": "DEBUFF"
+                }
+              ]
+            },
+            {
+              "name": "Lick",
+              "effects": [
+                {
+                  "name": "Frail 2",
+                  "color": "DEBUFF"
+                }
+              ]
+            },
+            {
+              "name": "Split",
+              "effects": [
+                {
+                  "name": "Split in two",
+                  "color": "SPECIAL"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "min_asc": 17,
+          "desc": "When not splitting, 70% chance to use #wLick and 30% to use #wFlame #wTackle, although #wLick cannot be used twice in a row, and #wFlame #wTackle cannot be used three times in a row.",
+          "notes": "Splits into two #sSpiked #sSlime #s(M)'s each with the current HP when it falls below half its max HP. #dSlimed status cards go into the discard pile.",
           "hp": "(67 - 73 HP)",
           "moves": [
             {
@@ -7078,7 +7566,230 @@
       "ai": [
         {
           "min_asc": 0,
-          "desc": "Starts with #wActivate, then  #wDivider. Afterwards, cycles in the order #wSear -> #wTackle -> #wSear -> #wInflame -> #wTackle -> #wSear -> #wInferno.",
+          "desc": "Starts with #wActivate followed by #wDivider. Afterwards, cycles in the order #wSear -> #wTackle -> #wSear -> #wInflame -> #wTackle -> #wSear -> #wInferno.",
+          "notes": "#rH = (Player's current HP / 12) + 1, down to the nearest integer. #dBurn status cards go into the discard pile.",
+          "hp": "(250 HP)",
+          "moves": [
+            {
+              "name": "Activate",
+              "effects": [
+                {
+                  "name": "Do Nothing",
+                  "color": "SKIP"
+                }
+              ]
+            },
+            {
+              "name": "Divider",
+              "effects": [
+                {
+                  "name": "Hx6",
+                  "color": "DAMAGE"
+                }
+              ]
+            },
+            {
+              "name": "Sear",
+              "effects": [
+                {
+                  "name": "6",
+                  "color": "DAMAGE"
+                },
+                {
+                  "name": "Burn 1",
+                  "color": "DEBUFF"
+                }
+              ]
+            },
+            {
+              "name": "Tackle",
+              "effects": [
+                {
+                  "name": "5x2",
+                  "color": "DAMAGE"
+                }
+              ]
+            },
+            {
+              "name": "Inflame",
+              "effects": [
+                {
+                  "name": "Str +2",
+                  "color": "BUFF"
+                },
+                {
+                  "name": "Block 12",
+                  "color": "BLOCK"
+                }
+              ]
+            },
+            {
+              "name": "Inferno",
+              "effects": [
+                {
+                  "name": "2x6",
+                  "color": "DAMAGE"
+                },
+                {
+                  "name": "Upgrade All Burns / Future Burns",
+                  "color": "DEBUFF"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "min_asc": 4,
+          "desc": "Starts with #wActivate followed by #wDivider. Afterwards, cycles in the order #wSear -> #wTackle -> #wSear -> #wInflame -> #wTackle -> #wSear -> #wInferno.",
+          "notes": "#rH = (Player's current HP / 12) + 1, down to the nearest integer. #dBurn status cards go into the discard pile.",
+          "hp": "(250 HP)",
+          "moves": [
+            {
+              "name": "Activate",
+              "effects": [
+                {
+                  "name": "Do Nothing",
+                  "color": "SKIP"
+                }
+              ]
+            },
+            {
+              "name": "Divider",
+              "effects": [
+                {
+                  "name": "Hx6",
+                  "color": "DAMAGE"
+                }
+              ]
+            },
+            {
+              "name": "Sear",
+              "effects": [
+                {
+                  "name": "6",
+                  "color": "DAMAGE"
+                },
+                {
+                  "name": "Burn 1",
+                  "color": "DEBUFF"
+                }
+              ]
+            },
+            {
+              "name": "Tackle",
+              "effects": [
+                {
+                  "name": "6x2",
+                  "color": "DAMAGE"
+                }
+              ]
+            },
+            {
+              "name": "Inflame",
+              "effects": [
+                {
+                  "name": "Str +2",
+                  "color": "BUFF"
+                },
+                {
+                  "name": "Block 12",
+                  "color": "BLOCK"
+                }
+              ]
+            },
+            {
+              "name": "Inferno",
+              "effects": [
+                {
+                  "name": "3x6",
+                  "color": "DAMAGE"
+                },
+                {
+                  "name": "Upgrade All Burns / Future Burns",
+                  "color": "DEBUFF"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "min_asc": 9,
+          "desc": "Starts with #wActivate followed by #wDivider. Afterwards, cycles in the order #wSear -> #wTackle -> #wSear -> #wInflame -> #wTackle -> #wSear -> #wInferno.",
+          "notes": "#rH = (Player's current HP / 12) + 1, down to the nearest integer. #dBurn status cards go into the discard pile.",
+          "hp": "(264 HP)",
+          "moves": [
+            {
+              "name": "Activate",
+              "effects": [
+                {
+                  "name": "Do Nothing",
+                  "color": "SKIP"
+                }
+              ]
+            },
+            {
+              "name": "Divider",
+              "effects": [
+                {
+                  "name": "Hx6",
+                  "color": "DAMAGE"
+                }
+              ]
+            },
+            {
+              "name": "Sear",
+              "effects": [
+                {
+                  "name": "6",
+                  "color": "DAMAGE"
+                },
+                {
+                  "name": "Burn 1",
+                  "color": "DEBUFF"
+                }
+              ]
+            },
+            {
+              "name": "Tackle",
+              "effects": [
+                {
+                  "name": "6x2",
+                  "color": "DAMAGE"
+                }
+              ]
+            },
+            {
+              "name": "Inflame",
+              "effects": [
+                {
+                  "name": "Str +2",
+                  "color": "BUFF"
+                },
+                {
+                  "name": "Block 12",
+                  "color": "BLOCK"
+                }
+              ]
+            },
+            {
+              "name": "Inferno",
+              "effects": [
+                {
+                  "name": "3x6",
+                  "color": "DAMAGE"
+                },
+                {
+                  "name": "Upgrade All Burns / Future Burns",
+                  "color": "DEBUFF"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "min_asc": 19,
+          "desc": "Starts with #wActivate followed by #wDivider. Afterwards, cycles in the order #wSear -> #wTackle -> #wSear -> #wInflame -> #wTackle -> #wSear -> #wInferno.",
+          "notes": "#rH = (Player's current HP / 12) + 1, down to the nearest integer. #dBurn status cards go into the discard pile.",
           "hp": "(264 HP)",
           "moves": [
             {
@@ -7138,7 +7849,7 @@
               "name": "Inferno",
               "effects": [
                 {
-                  "name": "2x6",
+                  "name": "3x6",
                   "color": "DAMAGE"
                 },
                 {
@@ -7157,7 +7868,98 @@
       "ai": [
         {
           "min_asc": 0,
-          "desc": "Has 30-70 probability between #wFlame #wTackle and #wLick, though #wLick cannot be used twice in a row and #wFlame #wTackle cannot be used three times in a row.",
+          "desc": "70% chance to use #wLick and 30% to use #wFlame #wTackle, although neither move can be used three times in a row.",
+          "notes": "#dSlimed status cards go into the discard pile.",
+          "hp": "(28 - 32 HP)",
+          "moves": [
+            {
+              "name": "Flame Tackle",
+              "effects": [
+                {
+                  "name": "8",
+                  "color": "DAMAGE"
+                },
+                {
+                  "name": "Slimed 1",
+                  "color": "DEBUFF"
+                }
+              ]
+            },
+            {
+              "name": "Lick",
+              "effects": [
+                {
+                  "name": "Frail 1",
+                  "color": "DEBUFF"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "min_asc": 2,
+          "desc": "70% chance to use #wLick and 30% to use #wFlame #wTackle, although neither move can be used three times in a row.",
+          "notes": "#dSlimed status cards go into the discard pile.",
+          "hp": "(28 - 32 HP)",
+          "moves": [
+            {
+              "name": "Flame Tackle",
+              "effects": [
+                {
+                  "name": "10",
+                  "color": "DAMAGE"
+                },
+                {
+                  "name": "Slimed 1",
+                  "color": "DEBUFF"
+                }
+              ]
+            },
+            {
+              "name": "Lick",
+              "effects": [
+                {
+                  "name": "Frail 1",
+                  "color": "DEBUFF"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "min_asc": 7,
+          "desc": "70% chance to use #wLick and 30% to use #wFlame #wTackle, although neither move can be used three times in a row.",
+          "notes": "#dSlimed status cards go into the discard pile.",
+          "hp": "(29 - 34 HP)",
+          "moves": [
+            {
+              "name": "Flame Tackle",
+              "effects": [
+                {
+                  "name": "10",
+                  "color": "DAMAGE"
+                },
+                {
+                  "name": "Slimed 1",
+                  "color": "DEBUFF"
+                }
+              ]
+            },
+            {
+              "name": "Lick",
+              "effects": [
+                {
+                  "name": "Frail 1",
+                  "color": "DEBUFF"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "min_asc": 17,
+          "desc": "70% chance to use #wLick and 30% to use #wFlame #wTackle, although #wLick cannot be used twice in a row and #wFlame #wTackle cannot be used three times in a row.",
+          "notes": "#dSlimed status cards go into the discard pile.",
           "hp": "(29 - 34 HP)",
           "moves": [
             {
@@ -7192,7 +7994,122 @@
       "ai": [
         {
           "min_asc": 0,
-          "desc": "Starts with #wSpawn #wOrbs. Then, cycles deterministically through #wFlail -> #wBoost -> #wFlail -> #wBoost -> #wHYPERBEAM -> #wBoost.",
+          "desc": "Starts with #wSpawn #wOrbs. Then, cycles deterministically through #wFlail -> #wBoost -> #wFlail -> #wBoost -> #wHYPERBEAM -> #wStunned.",
+          "notes": "Innate #uArtifact #u3.",
+          "hp": "(300 HP)",
+          "moves": [
+            {
+              "name": "Spawn Orbs",
+              "effects": [
+                {
+                  "name": "Summon 2 Bronze Orbs",
+                  "color": "SPECIAL"
+                }
+              ]
+            },
+            {
+              "name": "Flail",
+              "effects": [
+                {
+                  "name": "7x2",
+                  "color": "DAMAGE"
+                }
+              ]
+            },
+            {
+              "name": "Boost",
+              "effects": [
+                {
+                  "name": "Str +3",
+                  "color": "BUFF"
+                },
+                {
+                  "name": "Block 9",
+                  "color": "BLOCK"
+                }
+              ]
+            },
+            {
+              "name": "HYPERBEAM",
+              "effects": [
+                {
+                  "name": "45",
+                  "color": "DAMAGE"
+                }
+              ]
+            },
+            {
+              "name": "Stunned",
+              "effects": [
+                {
+                  "name": "Skip Turn",
+                  "color": "SKIP"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "min_asc": 4,
+          "desc": "Starts with #wSpawn #wOrbs. Then, cycles deterministically through #wFlail -> #wBoost -> #wFlail -> #wBoost -> #wHYPERBEAM -> #wStunned.",
+          "notes": "Innate #uArtifact #u3.",
+          "hp": "(300 HP)",
+          "moves": [
+            {
+              "name": "Spawn Orbs",
+              "effects": [
+                {
+                  "name": "Summon 2 Bronze Orbs",
+                  "color": "SPECIAL"
+                }
+              ]
+            },
+            {
+              "name": "Flail",
+              "effects": [
+                {
+                  "name": "8x2",
+                  "color": "DAMAGE"
+                }
+              ]
+            },
+            {
+              "name": "Boost",
+              "effects": [
+                {
+                  "name": "Str +4",
+                  "color": "BUFF"
+                },
+                {
+                  "name": "Block 9",
+                  "color": "BLOCK"
+                }
+              ]
+            },
+            {
+              "name": "HYPERBEAM",
+              "effects": [
+                {
+                  "name": "50",
+                  "color": "DAMAGE"
+                }
+              ]
+            },
+            {
+              "name": "Stunned",
+              "effects": [
+                {
+                  "name": "Skip Turn",
+                  "color": "SKIP"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "min_asc": 9,
+          "desc": "Starts with #wSpawn #wOrbs. Then, cycles deterministically through #wFlail -> #wBoost -> #wFlail -> #wBoost -> #wHYPERBEAM -> #wStunned.",
+          "notes": "Innate #uArtifact #u3.",
           "hp": "(320 HP)",
           "moves": [
             {
@@ -7219,6 +8136,67 @@
                 {
                   "name": "Str +4",
                   "color": "BUFF"
+                },
+                {
+                  "name": "Block 12",
+                  "color": "BLOCK"
+                }
+              ]
+            },
+            {
+              "name": "HYPERBEAM",
+              "effects": [
+                {
+                  "name": "50",
+                  "color": "DAMAGE"
+                }
+              ]
+            },
+            {
+              "name": "Stunned",
+              "effects": [
+                {
+                  "name": "Skip Turn",
+                  "color": "SKIP"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "min_asc": 19,
+          "desc": "Starts with #wSpawn #wOrbs. Then, cycles deterministically through #wFlail -> #wBoost -> #wFlail -> #wBoost -> #wHYPERBEAM -> #wBoost.",
+          "notes": "Innate #uArtifact #u3.",
+          "hp": "(320 HP)",
+          "moves": [
+            {
+              "name": "Spawn Orbs",
+              "effects": [
+                {
+                  "name": "Summon 2 Bronze Orbs",
+                  "color": "SPECIAL"
+                }
+              ]
+            },
+            {
+              "name": "Flail",
+              "effects": [
+                {
+                  "name": "8x2",
+                  "color": "DAMAGE"
+                }
+              ]
+            },
+            {
+              "name": "Boost",
+              "effects": [
+                {
+                  "name": "Str +4",
+                  "color": "BUFF"
+                },
+                {
+                  "name": "Block 12",
+                  "color": "BLOCK"
                 }
               ]
             },
