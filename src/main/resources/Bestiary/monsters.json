@@ -3010,8 +3010,61 @@
       "ai": [
         {
           "min_asc": 0,
-          "desc": "#wAttacks twice, and then #wExplodes, doing 30 damage in the explosion if not killed.",
+          "desc": "#wAttacks twice, and then #wExplodes unless killed.",
+          "hp": "(30 HP)",
+          "notes": "Innate #sExplode #s3",
+          "moves": [
+            {
+              "name": "Attack",
+              "effects": [
+                {
+                  "name": "9",
+                  "color": "DAMAGE"
+                }
+              ]
+            },
+            {
+              "name": "Explode",
+              "effects": [
+                {
+                  "name": "30",
+                  "color": "DAMAGE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "min_asc": 2,
+          "desc": "#wAttacks twice, and then #wExplodes unless killed.",
+          "hp": "(30 HP)",
+          "notes": "Innate #sExplode #s3",
+          "moves": [
+            {
+              "name": "Attack",
+              "effects": [
+                {
+                  "name": "11",
+                  "color": "DAMAGE"
+                }
+              ]
+            },
+            {
+              "name": "Explode",
+              "effects": [
+                {
+                  "name": "30",
+                  "color": "DAMAGE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "min_asc": 7,
+          "desc": "#wAttacks twice, and then #wExplodes unless killed.",
           "hp": "(30 - 35 HP)",
+          "notes": "Innate #sExplode #s3",
           "moves": [
             {
               "name": "Attack",
@@ -3041,7 +3094,121 @@
       "ai": [
         {
           "min_asc": 0,
-          "desc": "Starts with #wMock. Afterwards, cycles in the order of #wAgonizing #wSlash -> #wCross #wSlash -> #wCross #wSlash.",
+          "desc": "Starts with #wMock. Afterwards, Romeo alternates between #wAgonizing #wSlash and #wCross #wSlash.",
+          "hp": "(35 - 39 HP)",
+          "moves": [
+            {
+              "name": "Mock",
+              "effects": [
+                {
+                  "name": "Skip Turn",
+                  "color": "SKIP"
+                }
+              ]
+            },
+            {
+              "name": "Agonizing Slash",
+              "effects": [
+                {
+                  "name": "10",
+                  "color": "DAMAGE"
+                },
+                {
+                  "name": "Weak 2",
+                  "color": "DEBUFF"
+                }
+              ]
+            },
+            {
+              "name": "Cross Slash",
+              "effects": [
+                {
+                  "name": "15",
+                  "color": "DAMAGE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "min_asc": 2,
+          "desc": "Starts with #wMock. Afterwards, Romeo alternates between #wAgonizing #wSlash and #wCross #wSlash.",
+          "hp": "(35 - 39 HP)",
+          "moves": [
+            {
+              "name": "Mock",
+              "effects": [
+                {
+                  "name": "Skip Turn",
+                  "color": "SKIP"
+                }
+              ]
+            },
+            {
+              "name": "Agonizing Slash",
+              "effects": [
+                {
+                  "name": "12",
+                  "color": "DAMAGE"
+                },
+                {
+                  "name": "Weak 2",
+                  "color": "DEBUFF"
+                }
+              ]
+            },
+            {
+              "name": "Cross Slash",
+              "effects": [
+                {
+                  "name": "17",
+                  "color": "DAMAGE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "min_asc": 7,
+          "desc": "Starts with #wMock. Afterwards, Romeo alternates between #wAgonizing #wSlash and #wCross #wSlash.",
+          "hp": "(37 - 41 HP)",
+          "moves": [
+            {
+              "name": "Mock",
+              "effects": [
+                {
+                  "name": "Skip Turn",
+                  "color": "SKIP"
+                }
+              ]
+            },
+            {
+              "name": "Agonizing Slash",
+              "effects": [
+                {
+                  "name": "12",
+                  "color": "DAMAGE"
+                },
+                {
+                  "name": "Weak 2",
+                  "color": "DEBUFF"
+                }
+              ]
+            },
+            {
+              "name": "Cross Slash",
+              "effects": [
+                {
+                  "name": "17",
+                  "color": "DAMAGE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "min_asc": 17,
+          "desc": "Starts with #wMock. Afterwards, Romeo cycles in the order of #wAgonizing #wSlash -> #wCross #wSlash -> #wCross #wSlash.",
           "hp": "(37 - 41 HP)",
           "moves": [
             {
@@ -3086,7 +3253,86 @@
         {
           "min_asc": 0,
           "desc": "50% chance of each action, but cannot #wAttack twice in a row. Cannot use #wBuff once it has been used 6 times.",
+          "hp": "(42 - 56 HP)",
+          "notes": "Innate #bThorns #b3",
+          "moves": [
+            {
+              "name": "Attack",
+              "effects": [
+                {
+                  "name": "7",
+                  "color": "DAMAGE"
+                }
+              ]
+            },
+            {
+              "name": "Buff",
+              "effects": [
+                {
+                  "name": "Thorns 2",
+                  "color": "BUFF"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "min_asc": 2,
+          "desc": "50% chance of each action, but cannot #wAttack twice in a row. Cannot use #wBuff once it has been used 6 times.",
+          "hp": "(42 - 56 HP)",
+          "notes": "Innate #bThorns #b4",
+          "moves": [
+            {
+              "name": "Attack",
+              "effects": [
+                {
+                  "name": "9",
+                  "color": "DAMAGE"
+                }
+              ]
+            },
+            {
+              "name": "Buff",
+              "effects": [
+                {
+                  "name": "Thorns 2",
+                  "color": "BUFF"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "min_asc": 7,
+          "desc": "50% chance of each action, but cannot #wAttack twice in a row. Cannot use #wBuff once it has been used 6 times.",
           "hp": "(44 - 60 HP)",
+          "notes": "Innate #bThorns #b4",
+          "moves": [
+            {
+              "name": "Attack",
+              "effects": [
+                {
+                  "name": "9",
+                  "color": "DAMAGE"
+                }
+              ]
+            },
+            {
+              "name": "Buff",
+              "effects": [
+                {
+                  "name": "Thorns 2",
+                  "color": "BUFF"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "min_asc": 17,
+          "desc": "50% chance of each action, but cannot #wAttack twice in a row. Cannot use #wBuff once it has been used 6 times.",
+          "hp": "(44 - 60 HP)",
+          "notes": "Innate #bThorns #b7",
           "moves": [
             {
               "name": "Attack",
@@ -3117,13 +3363,79 @@
         {
           "min_asc": 0,
           "desc": "For the first move, has an approximately equal chance of using the #wMulti-Attack, #wSingle-Attack, and #wAttack #w/ #wDebuff. Then, has about a 10-30-20-30-10 split between #wParasite, #wAttack #w/ #wDefend, #wAttack #w/ #wDebuff, #wMulti-Attack, and #wSingle-Attack, but can only (successfully) use #wParasite once each combat. The same move cannot be used (or rerolled) twice in a row.",
-          "hp": "(175 HP)",
+          "hp": "(160 HP)",
+          "notes": "#sParasite curse will only affect future combats.",
           "moves": [
             {
               "name": "Parasite",
               "effects": [
                 {
-                  "name": "Permanently add a Parasite to deck (future combats)",
+                  "name": "Permanently add a Parasite to Player's deck",
+                  "color": "DEBUFF"
+                }
+              ]
+            },
+            {
+              "name": "Attack / Defend",
+              "effects": [
+                {
+                  "name": "15",
+                  "color": "DAMAGE"
+                },
+                {
+                  "name": "Block 16",
+                  "color": "BLOCK"
+                }
+              ]
+            },
+            {
+              "name": "Attack / Debuff",
+              "effects": [
+                {
+                  "name": "10",
+                  "color": "DAMAGE"
+                },
+                {
+                  "name": "Weak 2",
+                  "color": "DEBUFF"
+                },
+                {
+                  "name": "Vuln 2",
+                  "color": "DEBUFF"
+                }
+              ]
+            },
+            {
+              "name": "Multi-Attack",
+              "effects": [
+                {
+                  "name": "7x3",
+                  "color": "DAMAGE"
+                }
+              ]
+            },
+            {
+              "name": "Single-Attack",
+              "effects": [
+                {
+                  "name": "32",
+                  "color": "DAMAGE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "min_asc": 2,
+          "desc": "For the first move, has an approximately equal chance of using the #wMulti-Attack, #wSingle-Attack, and #wAttack #w/ #wDebuff. Then, has about a 10-30-20-30-10 split between #wParasite, #wAttack #w/ #wDefend, #wAttack #w/ #wDebuff, #wMulti-Attack, and #wSingle-Attack, but can only (successfully) use #wParasite once each combat. The same move cannot be used (or rerolled) twice in a row.",
+          "hp": "(160 HP)",
+          "notes": "#sParasite curse will only affect future combats.",
+          "moves": [
+            {
+              "name": "Parasite",
+              "effects": [
+                {
+                  "name": "Permanently add a Parasite to Player's deck",
                   "color": "DEBUFF"
                 }
               ]
@@ -3136,7 +3448,72 @@
                   "color": "DAMAGE"
                 },
                 {
-                  "name": "Block 18",
+                  "name": "Block 16",
+                  "color": "BLOCK"
+                }
+              ]
+            },
+            {
+              "name": "Attack / Debuff",
+              "effects": [
+                {
+                  "name": "12",
+                  "color": "DAMAGE"
+                },
+                {
+                  "name": "Weak 2",
+                  "color": "DEBUFF"
+                },
+                {
+                  "name": "Vuln 2",
+                  "color": "DEBUFF"
+                }
+              ]
+            },
+            {
+              "name": "Multi-Attack",
+              "effects": [
+                {
+                  "name": "9x3",
+                  "color": "DAMAGE"
+                }
+              ]
+            },
+            {
+              "name": "Single-Attack",
+              "effects": [
+                {
+                  "name": "38",
+                  "color": "DAMAGE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "min_asc": 7,
+          "desc": "For the first move, has an approximately equal chance of using the #wMulti-Attack, #wSingle-Attack, and #wAttack #w/ #wDebuff. Then, has about a 10-30-20-30-10 split between #wParasite, #wAttack #w/ #wDefend, #wAttack #w/ #wDebuff, #wMulti-Attack, and #wSingle-Attack, but can only (successfully) use #wParasite once each combat. The same move cannot be used (or rerolled) twice in a row.",
+          "hp": "(175 HP)",
+          "notes": "#sParasite curse will only affect future combats.",
+          "moves": [
+            {
+              "name": "Parasite",
+              "effects": [
+                {
+                  "name": "Permanently add a Parasite to Player's deck",
+                  "color": "DEBUFF"
+                }
+              ]
+            },
+            {
+              "name": "Attack / Defend",
+              "effects": [
+                {
+                  "name": "16",
+                  "color": "DAMAGE"
+                },
+                {
+                  "name": "Block 16",
                   "color": "BLOCK"
                 }
               ]
@@ -3187,7 +3564,188 @@
         {
           "min_asc": 0,
           "desc": "Always uses #wHaste once, immediately after reaching below 50% HP. Otherwise, approximately a 20-45-35 probability split between #wRipple, #wReverberate, and #wHead #wSlam, except #wRipple and #wHead #wSlam cannot be used twice in a row, and #wReverberate cannot be used three times in a row.",
+          "hp": "(456 HP)",
+          "notes": "Innate #uTime #uWarp. #dSlimed status cards go into the discard pile.",
+          "moves": [
+            {
+              "name": "Ripple",
+              "effects": [
+                {
+                  "name": "Block 20",
+                  "color": "BLOCK"
+                },
+                {
+                  "name": "Vuln 1",
+                  "color": "DEBUFF"
+                },
+                {
+                  "name": "Weak 1",
+                  "color": "DEBUFF"
+                }
+              ]
+            },
+            {
+              "name": "Reverberate",
+              "effects": [
+                {
+                  "name": "7x3",
+                  "color": "DAMAGE"
+                }
+              ]
+            },
+            {
+              "name": "Head Slam",
+              "effects": [
+                {
+                  "name": "26",
+                  "color": "DAMAGE"
+                },
+                {
+                  "name": "Draw Reduction 1",
+                  "color": "DEBUFF"
+                }
+              ]
+            },
+            {
+              "name": "Haste",
+              "effects": [
+                {
+                  "name": "Cleanse Debuffs",
+                  "color": "SPECIAL"
+                },
+                {
+                  "name": "Heal to 50% HP",
+                  "color": "SPECIAL"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "min_asc": 4,
+          "desc": "Always uses #wHaste once, immediately after reaching below 50% HP. Otherwise, approximately a 20-45-35 probability split between #wRipple, #wReverberate, and #wHead #wSlam, except #wRipple and #wHead #wSlam cannot be used twice in a row, and #wReverberate cannot be used three times in a row.",
+          "hp": "(456 HP)",
+          "notes": "Innate #uTime #uWarp. #dSlimed status cards go into the discard pile.",
+          "moves": [
+            {
+              "name": "Ripple",
+              "effects": [
+                {
+                  "name": "Block 20",
+                  "color": "BLOCK"
+                },
+                {
+                  "name": "Vuln 1",
+                  "color": "DEBUFF"
+                },
+                {
+                  "name": "Weak 1",
+                  "color": "DEBUFF"
+                }
+              ]
+            },
+            {
+              "name": "Reverberate",
+              "effects": [
+                {
+                  "name": "8x3",
+                  "color": "DAMAGE"
+                }
+              ]
+            },
+            {
+              "name": "Head Slam",
+              "effects": [
+                {
+                  "name": "32",
+                  "color": "DAMAGE"
+                },
+                {
+                  "name": "Draw Reduction 1",
+                  "color": "DEBUFF"
+                }
+              ]
+            },
+            {
+              "name": "Haste",
+              "effects": [
+                {
+                  "name": "Cleanse Debuffs",
+                  "color": "SPECIAL"
+                },
+                {
+                  "name": "Heal to 50% HP",
+                  "color": "SPECIAL"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "min_asc": 9,
+          "desc": "Always uses #wHaste once, immediately after reaching below 50% HP. Otherwise, approximately a 20-45-35 probability split between #wRipple, #wReverberate, and #wHead #wSlam, except #wRipple and #wHead #wSlam cannot be used twice in a row, and #wReverberate cannot be used three times in a row.",
           "hp": "(480 HP)",
+          "notes": "Innate #uTime #uWarp. #dSlimed status cards go into the discard pile.",
+          "moves": [
+            {
+              "name": "Ripple",
+              "effects": [
+                {
+                  "name": "Block 20",
+                  "color": "BLOCK"
+                },
+                {
+                  "name": "Vuln 1",
+                  "color": "DEBUFF"
+                },
+                {
+                  "name": "Weak 1",
+                  "color": "DEBUFF"
+                }
+              ]
+            },
+            {
+              "name": "Reverberate",
+              "effects": [
+                {
+                  "name": "8x3",
+                  "color": "DAMAGE"
+                }
+              ]
+            },
+            {
+              "name": "Head Slam",
+              "effects": [
+                {
+                  "name": "32",
+                  "color": "DAMAGE"
+                },
+                {
+                  "name": "Draw Reduction 1",
+                  "color": "DEBUFF"
+                }
+              ]
+            },
+            {
+              "name": "Haste",
+              "effects": [
+                {
+                  "name": "Cleanse Debuffs",
+                  "color": "SPECIAL"
+                },
+                {
+                  "name": "Heal to 50% HP",
+                  "color": "SPECIAL"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "min_asc": 19,
+          "desc": "Always uses #wHaste once, immediately after reaching below 50% HP. Otherwise, approximately a 20-45-35 probability split between #wRipple, #wReverberate, and #wHead #wSlam, except #wRipple and #wHead #wSlam cannot be used twice in a row, and #wReverberate cannot be used three times in a row.",
+          "hp": "(480 HP)",
+          "notes": "Innate #uTime #uWarp. #dSlimed status cards go into the discard pile.",
           "moves": [
             {
               "name": "Ripple",
@@ -3245,7 +3803,11 @@
                 },
                 {
                   "name": "Heal to 50% HP",
-                  "color": "BUFF"
+                  "color": "SPECIAL"
+                },
+                {
+                  "name": "Block 32",
+                  "color": "BLOCK"
                 }
               ]
             }
@@ -3259,6 +3821,22 @@
       "ai": [
         {
           "min_asc": 0,
+          "desc": "Always uses #wTackle.",
+          "hp": "(38 - 40 HP)",
+          "moves": [
+            {
+              "name": "Tackle",
+              "effects": [
+                {
+                  "name": "7",
+                  "color": "DAMAGE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "min_asc": 9,
           "desc": "Always uses #wTackle.",
           "hp": "(40 - 45 HP)",
           "moves": [
@@ -3281,8 +3859,207 @@
       "ai": [
         {
           "min_asc": 0,
-          "desc": "Phase 1: Always begins with #wSlash. Then, has 25% chance of using #wSoul #wStrike and a 75% chance of using #wSlash, except #wSoul #wStrike cannot be used twice in a row and #wSlash cannot be used three times in a row. Becomes half-dead and uses #wRebirth upon hitting 0 hp. NL NL Phase 2: Always begins with #wDark #wEcho. Then, 50-50 chance of using #wSludge or #wTackle, except neither can be used three times in a row.",
+          "desc": "Phase 1: Always begins with #wSlash. Then, has 25% chance of using #wSoul #wStrike and a 75% chance of using #wSlash, except #wSoul #wStrike cannot be used twice in a row and #wSlash cannot be used three times in a row. Becomes half-dead and uses #wRebirth upon hitting 0 hp in order to enter the second phase. NL NL Phase 2: Always begins with #wDark #wEcho. Then, 50-50 chance of using #wSludge or #wTackle, except neither can be used three times in a row.",
+          "hp": "(300 HP and 300 HP)",
+          "notes": "Spawns with 2 cultists. Innate #uRegen #u10. Innate #uCuriosity #u1.",
+          "moves": [
+            {
+              "name": "Soul Strike (Phase 1)",
+              "effects": [
+                {
+                  "name": "6x4",
+                  "color": "DAMAGE"
+                }
+              ]
+            },
+            {
+              "name": "Slash (Phase 1)",
+              "effects": [
+                {
+                  "name": "20",
+                  "color": "DAMAGE"
+                }
+              ]
+            },
+            {
+              "name": "Rebirth (Phase 1)",
+              "effects": [
+                {
+                  "name": "Start Stage 2",
+                  "color": "SPECIAL"
+                }
+              ]
+            },
+            {
+              "name": "Dark Echo (Phase 2)",
+              "effects": [
+                {
+                  "name": "40",
+                  "color": "DAMAGE"
+                }
+              ]
+            },
+            {
+              "name": "Sludge (Phase 2)",
+              "effects": [
+                {
+                  "name": "18",
+                  "color": "DAMAGE"
+                },
+                {
+                  "name": "Void 1",
+                  "color": "DEBUFF"
+                }
+              ]
+            },
+            {
+              "name": "Tackle (Phase 2)",
+              "effects": [
+                {
+                  "name": "10x3",
+                  "color": "DAMAGE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "min_asc": 4,
+          "desc": "Phase 1: Always begins with #wSlash. Then, has 25% chance of using #wSoul #wStrike and a 75% chance of using #wSlash, except #wSoul #wStrike cannot be used twice in a row and #wSlash cannot be used three times in a row. Becomes half-dead and uses #wRebirth upon hitting 0 hp in order to enter the second phase. NL NL Phase 2: Always begins with #wDark #wEcho. Then, 50-50 chance of using #wSludge or #wTackle, except neither can be used three times in a row.",
+          "hp": "(300 HP and 300 HP)",
+          "notes": "Spawns with 2 cultists. Innate #uRegen #u10. Innate #uCuriosity #u1. Innate #uStr #u2",
+          "moves": [
+            {
+              "name": "Soul Strike (Phase 1)",
+              "effects": [
+                {
+                  "name": "6x4",
+                  "color": "DAMAGE"
+                }
+              ]
+            },
+            {
+              "name": "Slash (Phase 1)",
+              "effects": [
+                {
+                  "name": "20",
+                  "color": "DAMAGE"
+                }
+              ]
+            },
+            {
+              "name": "Rebirth (Phase 1)",
+              "effects": [
+                {
+                  "name": "Start Stage 2",
+                  "color": "SPECIAL"
+                }
+              ]
+            },
+            {
+              "name": "Dark Echo (Phase 2)",
+              "effects": [
+                {
+                  "name": "40",
+                  "color": "DAMAGE"
+                }
+              ]
+            },
+            {
+              "name": "Sludge (Phase 2)",
+              "effects": [
+                {
+                  "name": "18",
+                  "color": "DAMAGE"
+                },
+                {
+                  "name": "Void 1",
+                  "color": "DEBUFF"
+                }
+              ]
+            },
+            {
+              "name": "Tackle (Phase 2)",
+              "effects": [
+                {
+                  "name": "10x3",
+                  "color": "DAMAGE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "min_asc": 9,
+          "desc": "Phase 1: Always begins with #wSlash. Then, has 25% chance of using #wSoul #wStrike and a 75% chance of using #wSlash, except #wSoul #wStrike cannot be used twice in a row and #wSlash cannot be used three times in a row. Becomes half-dead and uses #wRebirth upon hitting 0 hp in order to enter the second phase. NL NL Phase 2: Always begins with #wDark #wEcho. Then, 50-50 chance of using #wSludge or #wTackle, except neither can be used three times in a row.",
           "hp": "(320 HP and 320 HP)",
+          "notes": "Spawns with 2 cultists. Innate #uRegen #u10. Innate #uCuriosity #u1. Innate #uStr #u2",
+          "moves": [
+            {
+              "name": "Soul Strike (Phase 1)",
+              "effects": [
+                {
+                  "name": "6x4",
+                  "color": "DAMAGE"
+                }
+              ]
+            },
+            {
+              "name": "Slash (Phase 1)",
+              "effects": [
+                {
+                  "name": "20",
+                  "color": "DAMAGE"
+                }
+              ]
+            },
+            {
+              "name": "Rebirth (Phase 1)",
+              "effects": [
+                {
+                  "name": "Start Stage 2",
+                  "color": "SPECIAL"
+                }
+              ]
+            },
+            {
+              "name": "Dark Echo (Phase 2)",
+              "effects": [
+                {
+                  "name": "40",
+                  "color": "DAMAGE"
+                }
+              ]
+            },
+            {
+              "name": "Sludge (Phase 2)",
+              "effects": [
+                {
+                  "name": "18",
+                  "color": "DAMAGE"
+                },
+                {
+                  "name": "Void 1",
+                  "color": "DEBUFF"
+                }
+              ]
+            },
+            {
+              "name": "Tackle (Phase 2)",
+              "effects": [
+                {
+                  "name": "10x3",
+                  "color": "DAMAGE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "min_asc": 19,
+          "desc": "Phase 1: Always begins with #wSlash. Then, has 25% chance of using #wSoul #wStrike and a 75% chance of using #wSlash, except #wSoul #wStrike cannot be used twice in a row and #wSlash cannot be used three times in a row. Becomes half-dead and uses #wRebirth upon hitting 0 hp in order to enter the second phase. NL NL Phase 2: Always begins with #wDark #wEcho. Then, 50-50 chance of using #wSludge or #wTackle, except neither can be used three times in a row.",
+          "hp": "(320 HP and 320 HP)",
+          "notes": "Spawns with 2 cultists. Innate #uRegen #u15. Innate #uCuriosity #u2. Innate #uStr #u2",
           "moves": [
             {
               "name": "Soul Strike (Phase 1)",
@@ -3354,6 +4131,7 @@
           "min_asc": 0,
           "desc": "Uses #wStab and then #wExplode.",
           "hp": "(20 - 25 HP)",
+          "notes": "#dWound status cards go into the discard pile.",
           "moves": [
             {
               "name": "Stab",
@@ -3363,7 +4141,7 @@
                   "color": "DAMAGE"
                 },
                 {
-                  "name": "Wound 2",
+                  "name": "Wound 1",
                   "color": "DEBUFF"
                 }
               ]
@@ -3393,12 +4171,109 @@
           "min_asc": 0,
           "desc": "Always starts with #wRoar. Afterwards and after using #wDrool, has a 50-50 split between #wSlam and #wNom. If used #wSlam, then has a 50-50 split between #wNom and #wDrool. Always uses #wDrool after #wNom.",
           "hp": "(300 HP)",
+          "notes": "#rT = Turn number / 2, rounded up",
           "moves": [
             {
               "name": "Roar",
               "effects": [
                 {
                   "name": "Weak 3",
+                  "color": "DEBUFF"
+                },
+                {
+                  "name": "Frail 3",
+                  "color": "DEBUFF"
+                }
+              ]
+            },
+            {
+              "name": "Drool",
+              "effects": [
+                {
+                  "name": "Str +3",
+                  "color": "BUFF"
+                }
+              ]
+            },
+            {
+              "name": "Slam",
+              "effects": [
+                {
+                  "name": "25",
+                  "color": "DAMAGE"
+                }
+              ]
+            },
+            {
+              "name": "Nom",
+              "effects": [
+                {
+                  "name": "5xT",
+                  "color": "DAMAGE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "min_asc": 2,
+          "desc": "Always starts with #wRoar. Afterwards and after using #wDrool, has a 50-50 split between #wSlam and #wNom. If used #wSlam, then has a 50-50 split between #wNom and #wDrool. Always uses #wDrool after #wNom.",
+          "hp": "(300 HP)",
+          "notes": "#rT = Turn number / 2, rounded up",
+          "moves": [
+            {
+              "name": "Roar",
+              "effects": [
+                {
+                  "name": "Weak 3",
+                  "color": "DEBUFF"
+                },
+                {
+                  "name": "Frail 3",
+                  "color": "DEBUFF"
+                }
+              ]
+            },
+            {
+              "name": "Drool",
+              "effects": [
+                {
+                  "name": "Str +3",
+                  "color": "BUFF"
+                }
+              ]
+            },
+            {
+              "name": "Slam",
+              "effects": [
+                {
+                  "name": "30",
+                  "color": "DAMAGE"
+                }
+              ]
+            },
+            {
+              "name": "Nom",
+              "effects": [
+                {
+                  "name": "5xT",
+                  "color": "DAMAGE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "min_asc": 17,
+          "desc": "Always starts with #wRoar. Afterwards and after using #wDrool, has a 50-50 split between #wSlam and #wNom. If used #wSlam, then has a 50-50 split between #wNom and #wDrool. Always uses #wDrool after #wNom.",
+          "hp": "(300 HP)",
+          "notes": "#rT = Turn number / 2, rounded up",
+          "moves": [
+            {
+              "name": "Roar",
+              "effects": [
+                {
+                  "name": "Weak 5",
                   "color": "DEBUFF"
                 },
                 {
@@ -3444,8 +4319,114 @@
       "ai": [
         {
           "min_asc": 0,
-          "desc": "Always uses #wConstrict unless it was used last turn or if the player is already #dConstricted. Otherwise, has a 50-50 chance to use #wQuick #wTackle or #wSmash, but cannot use either three times in a row.",
+          "desc": "Has a 50% chance to use #wQuick #wTackle and a 50% chance to #wConstrict. If player is currently constricted, there is a 50-50 split between #wQuick #wTackle and #wSmash, although neither attack can be used three times in a row. Cannot attempt to #wConstrict two times in a row.",
+          "hp": "(170 HP)",
+          "notes": "#dConstrict can be blocked by #uArtifact.",
+          "moves": [
+            {
+              "name": "Quick Tackle",
+              "effects": [
+                {
+                  "name": "16",
+                  "color": "DAMAGE"
+                }
+              ]
+            },
+            {
+              "name": "Smash",
+              "effects": [
+                {
+                  "name": "22",
+                  "color": "DAMAGE"
+                }
+              ]
+            },
+            {
+              "name": "Constrict",
+              "effects": [
+                {
+                  "name": "Constrict 10",
+                  "color": "DEBUFF"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "min_asc": 2,
+          "desc": "Has a 50% chance to use #wQuick #wTackle and a 50% chance to #wConstrict. If player is currently constricted, there is a 50-50 split between #wQuick #wTackle and #wSmash, although neither attack can be used three times in a row. Cannot attempt to #wConstrict two times in a row.",
+          "hp": "(170 HP)",
+          "notes": "#dConstrict can be blocked by #uArtifact.",
+          "moves": [
+            {
+              "name": "Quick Tackle",
+              "effects": [
+                {
+                  "name": "18",
+                  "color": "DAMAGE"
+                }
+              ]
+            },
+            {
+              "name": "Smash",
+              "effects": [
+                {
+                  "name": "25",
+                  "color": "DAMAGE"
+                }
+              ]
+            },
+            {
+              "name": "Constrict",
+              "effects": [
+                {
+                  "name": "Constrict 10",
+                  "color": "DEBUFF"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "min_asc": 7,
+          "desc": "Has a 50% chance to use #wQuick #wTackle and a 50% chance to #wConstrict. If player is currently constricted, there is a 50-50 split between #wQuick #wTackle and #wSmash, although neither attack can be used three times in a row. Cannot attempt to #wConstrict two times in a row.",
           "hp": "(190 HP)",
+          "notes": "#dConstrict can be blocked by #uArtifact.",
+          "moves": [
+            {
+              "name": "Quick Tackle",
+              "effects": [
+                {
+                  "name": "18",
+                  "color": "DAMAGE"
+                }
+              ]
+            },
+            {
+              "name": "Smash",
+              "effects": [
+                {
+                  "name": "25",
+                  "color": "DAMAGE"
+                }
+              ]
+            },
+            {
+              "name": "Constrict",
+              "effects": [
+                {
+                  "name": "Constrict 10",
+                  "color": "DEBUFF"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "min_asc": 17,
+          "desc": "Always uses #wConstrict unless it was used the previous turn or if the player is already constricted. Otherwise, there is a 50-50 split between #wQuick #wTackle and #wSmash, although neither move can be used three times in a row.",
+          "hp": "(190 HP)",
+          "notes": "#dConstrict can be blocked by #uArtifact.",
           "moves": [
             {
               "name": "Quick Tackle",
@@ -3485,7 +4466,59 @@
         {
           "min_asc": 0,
           "desc": "Always uses #wScratch.",
+          "hp": "(20 - 24 HP)",
+          "notes": "Innate #bAngry #b1",
+          "moves": [
+            {
+              "name": "Scratch",
+              "effects": [
+                {
+                  "name": "4",
+                  "color": "DAMAGE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "min_asc": 2,
+          "desc": "Always uses #wScratch.",
+          "hp": "(20 - 24 HP)",
+          "notes": "Innate #bAngry #b1",
+          "moves": [
+            {
+              "name": "Scratch",
+              "effects": [
+                {
+                  "name": "5",
+                  "color": "DAMAGE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "min_asc": 7,
+          "desc": "Always uses #wScratch.",
           "hp": "(21 - 25 HP)",
+          "notes": "Innate #bAngry #b1",
+          "moves": [
+            {
+              "name": "Scratch",
+              "effects": [
+                {
+                  "name": "5",
+                  "color": "DAMAGE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "min_asc": 7,
+          "desc": "Always uses #wScratch.",
+          "hp": "(21 - 25 HP)",
+          "notes": "Innate #bAngry #b2",
           "moves": [
             {
               "name": "Scratch",
@@ -3507,6 +4540,112 @@
         {
           "min_asc": 0,
           "desc": "While the Mystic is alive, 65% chance to #wDefend, 35% chance to #wSlash. Once the Mystic dies, #wDefend is replaced by #wFury.",
+          "notes": "Will #wDefend itself if it was attempting to #wDefend and the Mystic dies",
+          "hp": "(76 - 80 HP)",
+          "moves": [
+            {
+              "name": "Slash",
+              "effects": [
+                {
+                  "name": "12",
+                  "color": "DAMAGE"
+                }
+              ]
+            },
+            {
+              "name": "Fury",
+              "effects": [
+                {
+                  "name": "6x3",
+                  "color": "DAMAGE"
+                }
+              ]
+            },
+            {
+              "name": "Defend",
+              "effects": [
+                {
+                  "name": "Ally: Block 15",
+                  "color": "BLOCK"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "min_asc": 2,
+          "desc": "While the Mystic is alive, 65% chance to #wDefend, 35% chance to #wSlash. Once the Mystic dies, #wDefend is replaced by #wFury.",
+          "notes": "Will #wDefend itself if it was attempting to #wDefend and the Mystic dies",
+          "hp": "(76 - 80 HP)",
+          "moves": [
+            {
+              "name": "Slash",
+              "effects": [
+                {
+                  "name": "14",
+                  "color": "DAMAGE"
+                }
+              ]
+            },
+            {
+              "name": "Fury",
+              "effects": [
+                {
+                  "name": "7x3",
+                  "color": "DAMAGE"
+                }
+              ]
+            },
+            {
+              "name": "Defend",
+              "effects": [
+                {
+                  "name": "Ally: Block 15",
+                  "color": "BLOCK"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "min_asc": 7,
+          "desc": "While the Mystic is alive, 65% chance to #wDefend, 35% chance to #wSlash. Once the Mystic dies, #wDefend is replaced by #wFury.",
+          "notes": "Will #wDefend itself if it was attempting to #wDefend and the Mystic dies",
+          "hp": "(78 - 83 HP)",
+          "moves": [
+            {
+              "name": "Slash",
+              "effects": [
+                {
+                  "name": "14",
+                  "color": "DAMAGE"
+                }
+              ]
+            },
+            {
+              "name": "Fury",
+              "effects": [
+                {
+                  "name": "7x3",
+                  "color": "DAMAGE"
+                }
+              ]
+            },
+            {
+              "name": "Defend",
+              "effects": [
+                {
+                  "name": "Ally: Block 15",
+                  "color": "BLOCK"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "min_asc": 17,
+          "desc": "While the Mystic is alive, 65% chance to #wDefend, 35% chance to #wSlash. Once the Mystic dies, #wDefend is replaced by #wFury.",
+          "notes": "Will #wDefend itself if it was attempting to #wDefend and the Mystic dies",
           "hp": "(78 - 83 HP)",
           "moves": [
             {
@@ -3547,7 +4686,200 @@
         {
           "min_asc": 0,
           "desc": "Starts with #wDebilitate. Every 3 turns (starting turn 4), uses #wBuff. Otherwise, has an equal chance of either using #wBlood #wShots followed by #wEcho or #wEcho followed by #wBlood #wShots. NL NL Additional Buffs go in order as follows: #uArtifact #u2, #uBeat #uOf #uDeath #u1, #uPainful #uStabs, #uStr #u10, and then repeats of #uStr #u50.",
+          "hp": "(750 HP)",
+          "notes": "Innate #uInvincible #u300. Innate #uBeat #uof #uDeath #u1. All status cards go into the draw pile.",
+          "moves": [
+            {
+              "name": "Debilitate",
+              "effects": [
+                {
+                  "name": "Vuln 2",
+                  "color": "DEBUFF"
+                },
+                {
+                  "name": "Weak 2",
+                  "color": "DEBUFF"
+                },
+                {
+                  "name": "Frail 2",
+                  "color": "DEBUFF"
+                },
+                {
+                  "name": "All Status cards 1",
+                  "color": "DEBUFF"
+                }
+              ]
+            },
+            {
+              "name": "Blood Shots",
+              "effects": [
+                {
+                  "name": "2x12",
+                  "color": "DAMAGE"
+                }
+              ]
+            },
+            {
+              "name": "Echo",
+              "effects": [
+                {
+                  "name": "40",
+                  "color": "DAMAGE"
+                }
+              ]
+            },
+            {
+              "name": "Buff",
+              "effects": [
+                {
+                  "name": "Cleanse Str Down",
+                  "color": "SPECIAL"
+                },
+                {
+                  "name": "Str +2",
+                  "color": "BUFF"
+                },
+                {
+                  "name": "Additional Buff",
+                  "color": "BUFF"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "min_asc": 4,
+          "desc": "Starts with #wDebilitate. Every 3 turns (starting turn 4), uses #wBuff. Otherwise, has an equal chance of either using #wBlood #wShots followed by #wEcho or #wEcho followed by #wBlood #wShots. NL NL Additional Buffs go in order as follows: #uArtifact #u2, #uBeat #uOf #uDeath #u1, #uPainful #uStabs, #uStr #u10, and then repeats of #uStr #u50.",
+          "hp": "(750 HP)",
+          "notes": "Innate #uInvincible #u300. Innate #uBeat #uof #uDeath #u1. All status cards go into the draw pile.",
+          "moves": [
+            {
+              "name": "Debilitate",
+              "effects": [
+                {
+                  "name": "Vuln 2",
+                  "color": "DEBUFF"
+                },
+                {
+                  "name": "Weak 2",
+                  "color": "DEBUFF"
+                },
+                {
+                  "name": "Frail 2",
+                  "color": "DEBUFF"
+                },
+                {
+                  "name": "All Status cards 1",
+                  "color": "DEBUFF"
+                }
+              ]
+            },
+            {
+              "name": "Blood Shots",
+              "effects": [
+                {
+                  "name": "2x15",
+                  "color": "DAMAGE"
+                }
+              ]
+            },
+            {
+              "name": "Echo",
+              "effects": [
+                {
+                  "name": "45",
+                  "color": "DAMAGE"
+                }
+              ]
+            },
+            {
+              "name": "Buff",
+              "effects": [
+                {
+                  "name": "Cleanse Str Down",
+                  "color": "SPECIAL"
+                },
+                {
+                  "name": "Str +2",
+                  "color": "BUFF"
+                },
+                {
+                  "name": "Additional Buff",
+                  "color": "BUFF"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "min_asc": 9,
+          "desc": "Starts with #wDebilitate. Every 3 turns (starting turn 4), uses #wBuff. Otherwise, has an equal chance of either using #wBlood #wShots followed by #wEcho or #wEcho followed by #wBlood #wShots. NL NL Additional Buffs go in order as follows: #uArtifact #u2, #uBeat #uOf #uDeath #u1, #uPainful #uStabs, #uStr #u10, and then repeats of #uStr #u50.",
           "hp": "(800 HP)",
+          "notes": "Innate #uInvincible #u300. Innate #uBeat #uof #uDeath #u1. All status cards go into the draw pile.",
+          "moves": [
+            {
+              "name": "Debilitate",
+              "effects": [
+                {
+                  "name": "Vuln 2",
+                  "color": "DEBUFF"
+                },
+                {
+                  "name": "Weak 2",
+                  "color": "DEBUFF"
+                },
+                {
+                  "name": "Frail 2",
+                  "color": "DEBUFF"
+                },
+                {
+                  "name": "All Status cards 1",
+                  "color": "DEBUFF"
+                }
+              ]
+            },
+            {
+              "name": "Blood Shots",
+              "effects": [
+                {
+                  "name": "2x15",
+                  "color": "DAMAGE"
+                }
+              ]
+            },
+            {
+              "name": "Echo",
+              "effects": [
+                {
+                  "name": "45",
+                  "color": "DAMAGE"
+                }
+              ]
+            },
+            {
+              "name": "Buff",
+              "effects": [
+                {
+                  "name": "Cleanse Str Down",
+                  "color": "SPECIAL"
+                },
+                {
+                  "name": "Str +2",
+                  "color": "BUFF"
+                },
+                {
+                  "name": "Additional Buff",
+                  "color": "BUFF"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "min_asc": 19,
+          "desc": "Starts with #wDebilitate. Every 3 turns (starting turn 4), uses #wBuff. Otherwise, has an equal chance of either using #wBlood #wShots followed by #wEcho or #wEcho followed by #wBlood #wShots. NL NL Additional Buffs go in order as follows: #uArtifact #u2, #uBeat #uOf #uDeath #u1, #uPainful #uStabs, #uStr #u10, and then repeats of #uStr #u50.",
+          "hp": "(800 HP)",
+          "notes": "Innate #uInvincible #u200. Innate #uBeat #uof #uDeath #u2. All status cards go into the draw pile.",
           "moves": [
             {
               "name": "Debilitate",
@@ -3615,7 +4947,94 @@
       "ai": [
         {
           "min_asc": 0,
-          "desc": "40% chance to use #wRake, but cannot #wStab 3 times in a row or #wRake twice in a row",
+          "desc": "60% chance to use #wStab and 40% chance to #wRake, but cannot use the same move three times in a row.",
+          "hp": "(46 - 50 HP)",
+          "moves": [
+            {
+              "name": "Rake",
+              "effects": [
+                {
+                  "name": "7",
+                  "color": "DAMAGE"
+                },
+                {
+                  "name": "Weak 1",
+                  "color": "DEBUFF"
+                }
+              ]
+            },
+            {
+              "name": "Stab",
+              "effects": [
+                {
+                  "name": "12",
+                  "color": "DAMAGE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "min_asc": 2,
+          "desc": "60% chance to use #wStab and 40% chance to #wRake, but cannot use the same move three times in a row.",
+          "hp": "(46 - 50 HP)",
+          "moves": [
+            {
+              "name": "Rake",
+              "effects": [
+                {
+                  "name": "8",
+                  "color": "DAMAGE"
+                },
+                {
+                  "name": "Weak 1",
+                  "color": "DEBUFF"
+                }
+              ]
+            },
+            {
+              "name": "Stab",
+              "effects": [
+                {
+                  "name": "13",
+                  "color": "DAMAGE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "min_asc": 7,
+          "desc": "60% chance to use #wStab and 40% chance to #wRake, but cannot use the same move three times in a row.",
+          "hp": "(48 - 52 HP)",
+          "moves": [
+            {
+              "name": "Rake",
+              "effects": [
+                {
+                  "name": "8",
+                  "color": "DAMAGE"
+                },
+                {
+                  "name": "Weak 1",
+                  "color": "DEBUFF"
+                }
+              ]
+            },
+            {
+              "name": "Stab",
+              "effects": [
+                {
+                  "name": "13",
+                  "color": "DAMAGE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "min_asc": 17,
+          "desc": "60% chance to use #wStab and 40% chance to #wRake, but cannot #wStab three times in a row or #wRake twice in a row",
           "hp": "(48 - 52 HP)",
           "moves": [
             {
