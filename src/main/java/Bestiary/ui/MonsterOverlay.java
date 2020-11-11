@@ -1,6 +1,7 @@
 package Bestiary.ui;
 
 import Bestiary.database.MonsterDatabase;
+import Bestiary.database.MonsterInfo;
 import com.badlogic.gdx.graphics.Color;
 import com.badlogic.gdx.graphics.Texture;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
@@ -31,8 +32,10 @@ public class MonsterOverlay {
     }
 
     private void renderForeground(SpriteBatch sb) {
-        if (helper != null)
-            helper.render(sb);
+        if (helper == null)
+            helper = new MonsterInfoRenderHelper(MonsterInfo.getDefault());
+
+        helper.render(sb);
     }
 
     public void render(SpriteBatch sb) {

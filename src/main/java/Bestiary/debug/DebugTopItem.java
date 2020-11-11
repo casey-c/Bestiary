@@ -47,9 +47,9 @@ public class DebugTopItem extends TopPanelItem {
         }
         else if (KeyHelper.isAltPressed()) {
             System.out.println("Debug item alt+clicked");
-            index = index - 1;
-            if (index < 0)
-                index = 0;
+
+            index -= 2;
+            if (index < 0) index = 0;
         }
         else {
             System.out.println("Debug item clicked");

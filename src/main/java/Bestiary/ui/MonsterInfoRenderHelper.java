@@ -32,7 +32,8 @@ public class MonsterInfoRenderHelper {
     private static final float firstMoveBottom = 780.0f;
     private static final float movesVertSpacing = 80.0f;
 
-    private static final float firstMoveEffectLeft = movesLeft + 170.0f;
+    //private static final float firstMoveEffectLeft = movesLeft + 170.0f;
+    private static final float additionalMoveEffectPadding = 40.0f;
     private static final float moveEffectHorizSpacing = 50.0f;
 
     private static final float descLeft = 1086.0f;
@@ -43,6 +44,22 @@ public class MonsterInfoRenderHelper {
     private static final float descSpacing = 30.0f;
 
     // --------------------------------------------------------------------------------
+
+    private float computeMoveEffectLeft(AscensionMoveSet moveSet) {
+        if (moveSet == null)
+            return movesLeft + additionalMoveEffectPadding;
+
+        float max = -1.0f;
+
+        for (Move m: moveSet.getMoves()) {
+            float w = FontHelper.getSmartWidth(FontHelper.tipBodyFont, m.getName(), 1000000, 30) / Settings.scale;
+            if (w > max) {
+                max = w;
+            }
+        }
+
+        return movesLeft + max + additionalMoveEffectPadding;
+    }
 
     // Loads the proper details about the selected monster and caches them for rendering (so we don't have to recompute
     //   where to put all the labels and such each frame)
@@ -79,13 +96,11 @@ public class MonsterInfoRenderHelper {
                     labels.add(new Label(m.getName(), FontHelper.tipBodyFont, movesLeft, movesY, Settings.CREAM_COLOR));
 
                     // All its effects
-                    float effectX = firstMoveEffectLeft;
-                    System.out.println("Starting effectX: " + effectX);
+                    float effectX = computeMoveEffectLeft(moveSet);
+
                     for (MoveEffect e : m.getMoveEffects()) {
                         Label effectLabel = new Label(e.getName(), FontHelper.tipBodyFont, effectX, movesY, ExtraColors.stringToColor(e.getColor()));
-                        System.out.println("Made effect label " + e.getName() + " and it has width " + effectLabel.getTextWidth());
                         effectX += effectLabel.getTextWidth() + moveEffectHorizSpacing;
-                        System.out.println("Final effectX: " + effectX + " after spacing " + moveEffectHorizSpacing);
                         labels.add(effectLabel);
                     }
 
@@ -94,6 +109,17 @@ public class MonsterInfoRenderHelper {
             }
             else {
                 // Should show some placeholder text I guess
+                // Name of the mob (TODO: better [custom?] font)
+                labels.add(new Label("404: Mob Not Found", ExtraFonts.overlayTitleFont(), movesLeft, titleBottom, Settings.GOLD_COLOR));
+
+                // AI description
+                labels.add(new SmartLabel("This mob is not currently in our database! If this is a vanilla monster, please leave some feedback on the Workshop page or in a Github issue so we can get this fixed! This mod does not currently support any modded monsters, sorry!",
+                        FontHelper.tipBodyFont,
+                        descLeft,
+                        descTop,
+                        descWidth,
+                        descSpacing,
+                        ExtraColors.OJB_GRAY_COLOR));
             }
         }
 
