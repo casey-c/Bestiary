@@ -1,6 +1,7 @@
 package Bestiary.utils;
 
 import com.badlogic.gdx.graphics.Color;
+import com.badlogic.gdx.math.MathUtils;
 import com.megacrit.cardcrawl.core.Settings;
 
 public class ExtraColors {
@@ -18,6 +19,13 @@ public class ExtraColors {
     public static final Color OJB_RED_COLOR = Settings.RED_TEXT_COLOR.cpy();
 
     public static Color TEXT_BORDER_COLOR = new Color(0.23f, 0.26f, 0.317f, 1.0f);
+
+    public static Color rainbow() {
+        float r = (MathUtils.cosDeg((float) (System.currentTimeMillis() / 10L % 360L)) + 1.25F) / 2.3F;
+        float g = (MathUtils.cosDeg((float)((System.currentTimeMillis() + 1000L) / 10L % 360L)) + 1.25F) / 2.3F;
+        float b = (MathUtils.cosDeg((float)((System.currentTimeMillis() + 2000L) / 10L % 360L)) + 1.25F) / 2.3F;
+        return new Color(r, g, b, 1.0f);
+    }
 
     // --------------------------------------------------------------------------------
 

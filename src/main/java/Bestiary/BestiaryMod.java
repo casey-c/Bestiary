@@ -1,7 +1,9 @@
 package Bestiary;
 
+import Bestiary.config.Config;
 import Bestiary.database.MonsterDatabase;
 import Bestiary.ui.MonsterOverlay;
+import Bestiary.utils.KeyHelper;
 import Bestiary.utils.SoundHelper;
 import basemod.BaseMod;
 import basemod.interfaces.PostInitializeSubscriber;
@@ -43,6 +45,8 @@ public class BestiaryMod implements PostInitializeSubscriber, RenderSubscriber {
 
         db = new MonsterDatabase();
         overlay = new MonsterOverlay(db);
+
+        Config.setupConfigMenu();
         //BaseMod.addTopPanelItem(new DebugTopItem());
     }
 
@@ -59,6 +63,11 @@ public class BestiaryMod implements PostInitializeSubscriber, RenderSubscriber {
         if (showOverlay) {
             SoundHelper.closeSound();
             showOverlay = false;
+            return;
+        }
+
+        // Don't open if we require shift
+        if (Config.requiresShift() && !KeyHelper.isShiftPressed()) {
             return;
         }
 

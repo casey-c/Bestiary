@@ -4,11 +4,11 @@ import com.badlogic.gdx.graphics.Color;
 import com.badlogic.gdx.graphics.g2d.BitmapFont;
 import com.badlogic.gdx.graphics.g2d.GlyphLayout;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
+import com.badlogic.gdx.math.MathUtils;
 import com.megacrit.cardcrawl.core.Settings;
 import com.megacrit.cardcrawl.helpers.FontHelper;
 
 public class RenderingUtils {
-
 
     // Modified version can return null (instead of white) and can use newer colors
     // TODO: verify if the .cpy() copies are actually required (i doubt it, but original codebase does it)
@@ -37,6 +37,8 @@ public class RenderingUtils {
                     return ExtraColors.OJB_BLOCK_COLOR.cpy();
                 case 's':
                     return ExtraColors.OJB_SPECIAL_COLOR.cpy();
+                case 'm':
+                    return ExtraColors.rainbow();
                 default:
                     return null;
                 // NOTE: old version returned white; this returns null to let the modified smartText function handle it

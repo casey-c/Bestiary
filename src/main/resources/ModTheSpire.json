@@ -2,9 +2,10 @@
   "modid": "ojb_Bestiary",
   "name": "Bestiary",
   "author_list": ["ojb"],
-  "description": "Displays mob AI and movesets",
-  "version": "0.0.1",
+  "description": "Shift + Right Click a monster while in combat to open an overlay detailing their attack patterns. Right click again to close this overlay. You can disable requiring shift in the Main Menu -> Mods -> Bestiary -> Config menu.\n\nPlease report any bugs you find by leaving a comment on the Workshop page or creating an issue on the Github page. Thanks!",
+  "version": "0.1.0",
   "sts_version": "06-22-2020",
   "mts_version": "2.6.0",
-  "dependencies": ["basemod"]
+  "dependencies": ["basemod"],
+  "credits": "Special thanks to ForgottenArbiter and the Spire Reference spreadsheet, which managed to cut down the information gathering to a mere 12 hours instead of being many more."
 }
