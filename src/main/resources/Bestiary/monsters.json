@@ -8220,6 +8220,38 @@
         {
           "min_asc": 0,
           "desc": "Always uses #wTackle.",
+          "hp": "(10 - 14 HP)",
+          "moves": [
+            {
+              "name": "Tackle",
+              "effects": [
+                {
+                  "name": "5",
+                  "color": "DAMAGE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "min_asc": 2,
+          "desc": "Always uses #wTackle.",
+          "hp": "(10 - 14 HP)",
+          "moves": [
+            {
+              "name": "Tackle",
+              "effects": [
+                {
+                  "name": "6",
+                  "color": "DAMAGE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "min_asc": 7,
+          "desc": "Always uses #wTackle.",
           "hp": "(11 - 15 HP)",
           "moves": [
             {
@@ -8242,6 +8274,139 @@
         {
           "min_asc": 0,
           "desc": "#wMugs twice, then a 50% chance to #wLunge. After (or in place of) the #wLunge, uses #wSmoke #wBomb, and then #wEscape.",
+          "notes": "Innate #uThievery 15",
+          "hp": "(44 - 48 HP)",
+          "moves": [
+            {
+              "name": "Mug",
+              "effects": [
+                {
+                  "name": "10",
+                  "color": "DAMAGE"
+                }
+              ]
+            },
+            {
+              "name": "Lunge",
+              "effects": [
+                {
+                  "name": "12",
+                  "color": "DAMAGE"
+                }
+              ]
+            },
+            {
+              "name": "Smoke Bomb",
+              "effects": [
+                {
+                  "name": "Block 6",
+                  "color": "BLOCK"
+                }
+              ]
+            },
+            {
+              "name": "Escape",
+              "effects": [
+                {
+                  "name": "Leave Combat",
+                  "color": "SPECIAL"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "min_asc": 2,
+          "desc": "#wMugs twice, then a 50% chance to #wLunge. After (or in place of) the #wLunge, uses #wSmoke #wBomb, and then #wEscape.",
+          "notes": "Innate #uThievery 15",
+          "hp": "(44 - 48 HP)",
+          "moves": [
+            {
+              "name": "Mug",
+              "effects": [
+                {
+                  "name": "11",
+                  "color": "DAMAGE"
+                }
+              ]
+            },
+            {
+              "name": "Lunge",
+              "effects": [
+                {
+                  "name": "14",
+                  "color": "DAMAGE"
+                }
+              ]
+            },
+            {
+              "name": "Smoke Bomb",
+              "effects": [
+                {
+                  "name": "Block 6",
+                  "color": "BLOCK"
+                }
+              ]
+            },
+            {
+              "name": "Escape",
+              "effects": [
+                {
+                  "name": "Leave Combat",
+                  "color": "SPECIAL"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "min_asc": 7,
+          "desc": "#wMugs twice, then a 50% chance to #wLunge. After (or in place of) the #wLunge, uses #wSmoke #wBomb, and then #wEscape.",
+          "notes": "Innate #uThievery 15",
+          "hp": "(46 - 50 HP)",
+          "moves": [
+            {
+              "name": "Mug",
+              "effects": [
+                {
+                  "name": "11",
+                  "color": "DAMAGE"
+                }
+              ]
+            },
+            {
+              "name": "Lunge",
+              "effects": [
+                {
+                  "name": "14",
+                  "color": "DAMAGE"
+                }
+              ]
+            },
+            {
+              "name": "Smoke Bomb",
+              "effects": [
+                {
+                  "name": "Block 6",
+                  "color": "BLOCK"
+                }
+              ]
+            },
+            {
+              "name": "Escape",
+              "effects": [
+                {
+                  "name": "Leave Combat",
+                  "color": "SPECIAL"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "min_asc": 17,
+          "desc": "#wMugs twice, then a 50% chance to #wLunge. After (or in place of) the #wLunge, uses #wSmoke #wBomb, and then #wEscape.",
+          "notes": "Innate #uThievery 20",
           "hp": "(46 - 50 HP)",
           "moves": [
             {
@@ -8290,7 +8455,132 @@
       "ai": [
         {
           "min_asc": 0,
-          "desc": "Cannot use #wSwoop on turn 1. When flying, has a 50-20-30 split between #wPeck, #wSwoop, and #wCaw. #wPeck cannot be used three times in a row, and #wSwoop and #wCaw cannot be used twice in a row. When knocked down, is #w(Stunned), then uses #wHeadbutt, and then #w(Start #wFlying).",
+          "desc": "Cannot use #wSwoop on turn 1. When flying, has a 50-20-30 split between #wPeck, #wSwoop, and #wCaw. #wPeck cannot be used three times in a row, and #wSwoop and #wCaw cannot be used twice in a row. When knocked down, loses the #uFlying buff as it becomes #wStunned, followed by #wHeadbutt, and then #wStart #wFlying.",
+          "notes": "Innate #uFlying #u3",
+          "hp": "(25 - 31 HP)",
+          "moves": [
+            {
+              "name": "Peck",
+              "effects": [
+                {
+                  "name": "1x5",
+                  "color": "DAMAGE"
+                }
+              ]
+            },
+            {
+              "name": "Swoop",
+              "effects": [
+                {
+                  "name": "12",
+                  "color": "DAMAGE"
+                }
+              ]
+            },
+            {
+              "name": "Caw",
+              "effects": [
+                {
+                  "name": "Str +1",
+                  "color": "BUFF"
+                }
+              ]
+            },
+            {
+              "name": "Stunned",
+              "effects": [
+                {
+                  "name": "Skip Turn",
+                  "color": "SKIP"
+                }
+              ]
+            },
+            {
+              "name": "Headbutt",
+              "effects": [
+                {
+                  "name": "3",
+                  "color": "DAMAGE"
+                }
+              ]
+            },
+            {
+              "name": "Start Flying",
+              "effects": [
+                {
+                  "name": "Flight 3",
+                  "color": "BUFF"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "min_asc": 2,
+          "desc": "Cannot use #wSwoop on turn 1. When flying, has a 50-20-30 split between #wPeck, #wSwoop, and #wCaw. #wPeck cannot be used three times in a row, and #wSwoop and #wCaw cannot be used twice in a row. When knocked down, loses the #uFlying buff as it becomes #wStunned, followed by #wHeadbutt, and then #wStart #wFlying.",
+          "notes": "Innate #uFlying #u3",
+          "hp": "(25 - 31 HP)",
+          "moves": [
+            {
+              "name": "Peck",
+              "effects": [
+                {
+                  "name": "1x6",
+                  "color": "DAMAGE"
+                }
+              ]
+            },
+            {
+              "name": "Swoop",
+              "effects": [
+                {
+                  "name": "14",
+                  "color": "DAMAGE"
+                }
+              ]
+            },
+            {
+              "name": "Caw",
+              "effects": [
+                {
+                  "name": "Str +1",
+                  "color": "BUFF"
+                }
+              ]
+            },
+            {
+              "name": "Stunned",
+              "effects": [
+                {
+                  "name": "Skip Turn",
+                  "color": "SKIP"
+                }
+              ]
+            },
+            {
+              "name": "Headbutt",
+              "effects": [
+                {
+                  "name": "3",
+                  "color": "DAMAGE"
+                }
+              ]
+            },
+            {
+              "name": "Start Flying",
+              "effects": [
+                {
+                  "name": "Flight 3",
+                  "color": "BUFF"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "min_asc": 7,
+          "desc": "Cannot use #wSwoop on turn 1. When flying, has a 50-20-30 split between #wPeck, #wSwoop, and #wCaw. #wPeck cannot be used three times in a row, and #wSwoop and #wCaw cannot be used twice in a row. When knocked down, loses the #uFlying buff as it becomes #wStunned, followed by #wHeadbutt, and then #wStart #wFlying.",
+          "notes": "Innate #uFlying #u3",
           "hp": "(26 - 33 HP)",
           "moves": [
             {
@@ -8321,7 +8611,7 @@
               ]
             },
             {
-              "name": "(Stunned)",
+              "name": "Stunned",
               "effects": [
                 {
                   "name": "Skip Turn",
@@ -8339,7 +8629,69 @@
               ]
             },
             {
-              "name": "(Start Flying)",
+              "name": "Start Flying",
+              "effects": [
+                {
+                  "name": "Flight 3",
+                  "color": "BUFF"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "min_asc": 17,
+          "desc": "Cannot use #wSwoop on turn 1. When flying, has a 50-20-30 split between #wPeck, #wSwoop, and #wCaw. #wPeck cannot be used three times in a row, and #wSwoop and #wCaw cannot be used twice in a row. When knocked down, loses the #uFlying buff as it becomes #wStunned, followed by #wHeadbutt, and then #wStart #wFlying.",
+          "notes": "Innate #uFlying #u4",
+          "hp": "(26 - 33 HP)",
+          "moves": [
+            {
+              "name": "Peck",
+              "effects": [
+                {
+                  "name": "1x6",
+                  "color": "DAMAGE"
+                }
+              ]
+            },
+            {
+              "name": "Swoop",
+              "effects": [
+                {
+                  "name": "14",
+                  "color": "DAMAGE"
+                }
+              ]
+            },
+            {
+              "name": "Caw",
+              "effects": [
+                {
+                  "name": "Str +1",
+                  "color": "BUFF"
+                }
+              ]
+            },
+            {
+              "name": "Stunned",
+              "effects": [
+                {
+                  "name": "Skip Turn",
+                  "color": "SKIP"
+                }
+              ]
+            },
+            {
+              "name": "Headbutt",
+              "effects": [
+                {
+                  "name": "3",
+                  "color": "DAMAGE"
+                }
+              ]
+            },
+            {
+              "name": "Start Flying",
               "effects": [
                 {
                   "name": "Flight 4",
@@ -8358,6 +8710,70 @@
         {
           "min_asc": 0,
           "desc": "Always uses #wScouring #wWhip.",
+          "notes": "#dWound status cards go into the discard pile.",
+          "hp": "(54 - 60 HP)",
+          "moves": [
+            {
+              "name": "Scouring Whip",
+              "effects": [
+                {
+                  "name": "7",
+                  "color": "DAMAGE"
+                },
+                {
+                  "name": "Wound 1",
+                  "color": "DEBUFF"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "min_asc": 3,
+          "desc": "Always uses #wScouring #wWhip.",
+          "notes": "#dWound status cards go into the discard pile.",
+          "hp": "(54 - 60 HP)",
+          "moves": [
+            {
+              "name": "Scouring Whip",
+              "effects": [
+                {
+                  "name": "7",
+                  "color": "DAMAGE"
+                },
+                {
+                  "name": "Wound 2",
+                  "color": "DEBUFF"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "min_asc": 8,
+          "desc": "Always uses #wScouring #wWhip.",
+          "notes": "#dWound status cards go into the discard pile.",
+          "hp": "(57 - 64 HP)",
+          "moves": [
+            {
+              "name": "Scouring Whip",
+              "effects": [
+                {
+                  "name": "7",
+                  "color": "DAMAGE"
+                },
+                {
+                  "name": "Wound 2",
+                  "color": "DEBUFF"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "min_asc": 18,
+          "desc": "Always uses #wScouring #wWhip.",
+          "notes": "#dWound status cards go into the discard pile.",
           "hp": "(57 - 64 HP)",
           "moves": [
             {
@@ -8387,7 +8803,113 @@
       "ai": [
         {
           "min_asc": 0,
-          "desc": "Cycles in the order #wGoop #wSpray -> #wPreparing -> #wSlam. Will #wSplit into two slimes when the current HP is 50% or below, using the current HP as the new maximum HP values.",
+          "desc": "Cycles in the order #wGoop #wSpray -> #wPreparing -> #wSlam. ",
+          "notes": "Will #sSplit into two slimes when the current HP is 50% or below, using the current HP as the new maximum HP values. #dSlimed status cards go into the discard pile.",
+          "hp": "(140 HP)",
+          "moves": [
+            {
+              "name": "Goop Spray",
+              "effects": [
+                {
+                  "name": "Slimed 3",
+                  "color": "DEBUFF"
+                }
+              ]
+            },
+            {
+              "name": "Preparing",
+              "effects": [
+                {
+                  "name": "Skip Turn",
+                  "color": "SKIP"
+                }
+              ]
+            },
+            {
+              "name": "Slam",
+              "effects": [
+                {
+                  "name": "35",
+                  "color": "DAMAGE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "min_asc": 4,
+          "desc": "Cycles in the order #wGoop #wSpray -> #wPreparing -> #wSlam. ",
+          "notes": "Will #sSplit into two slimes when the current HP is 50% or below, using the current HP as the new maximum HP values. #dSlimed status cards go into the discard pile.",
+          "hp": "(140 HP)",
+          "moves": [
+            {
+              "name": "Goop Spray",
+              "effects": [
+                {
+                  "name": "Slimed 3",
+                  "color": "DEBUFF"
+                }
+              ]
+            },
+            {
+              "name": "Preparing",
+              "effects": [
+                {
+                  "name": "Skip Turn",
+                  "color": "SKIP"
+                }
+              ]
+            },
+            {
+              "name": "Slam",
+              "effects": [
+                {
+                  "name": "38",
+                  "color": "DAMAGE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "min_asc": 9,
+          "desc": "Cycles in the order #wGoop #wSpray -> #wPreparing -> #wSlam. ",
+          "notes": "Will #sSplit into two slimes when the current HP is 50% or below, using the current HP as the new maximum HP values. #dSlimed status cards go into the discard pile.",
+          "hp": "(150 HP)",
+          "moves": [
+            {
+              "name": "Goop Spray",
+              "effects": [
+                {
+                  "name": "Slimed 3",
+                  "color": "DEBUFF"
+                }
+              ]
+            },
+            {
+              "name": "Preparing",
+              "effects": [
+                {
+                  "name": "Skip Turn",
+                  "color": "SKIP"
+                }
+              ]
+            },
+            {
+              "name": "Slam",
+              "effects": [
+                {
+                  "name": "38",
+                  "color": "DAMAGE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "min_asc": 19,
+          "desc": "Cycles in the order #wGoop #wSpray -> #wPreparing -> #wSlam. ",
+          "notes": "Will #sSplit into two slimes when the current HP is 50% or below, using the current HP as the new maximum HP values. #dSlimed status cards go into the discard pile.",
           "hp": "(150 HP)",
           "moves": [
             {
@@ -8416,15 +8938,6 @@
                   "color": "DAMAGE"
                 }
               ]
-            },
-            {
-              "name": "Split",
-              "effects": [
-                {
-                  "name": "Split into Spike Slime (L) and Acid Slime (L)",
-                  "color": "SPECIAL"
-                }
-              ]
             }
           ]
         }
@@ -8437,6 +8950,136 @@
         {
           "min_asc": 0,
           "desc": "Always starts with #wChomp. Afterwards, has a 45-30-25 split between #wBellow, #wThrash, and #wChomp, but cannot use #wThrash three times in a row or #wChomp or #wBellow twice in a row.",
+          "notes": "The harder act 3 version of Jaw Worm follows the same rules but does not always start with #wChomp. This harder version starts with the effects of #wBellow innate.",
+          "hp": "(40 - 44 HP)",
+          "moves": [
+            {
+              "name": "Bellow",
+              "effects": [
+                {
+                  "name": "Str +3",
+                  "color": "BUFF"
+                },
+                {
+                  "name": "Block 6",
+                  "color": "BLOCK"
+                }
+              ]
+            },
+            {
+              "name": "Thrash",
+              "effects": [
+                {
+                  "name": "7",
+                  "color": "DAMAGE"
+                },
+                {
+                  "name": "Block 5",
+                  "color": "BLOCK"
+                }
+              ]
+            },
+            {
+              "name": "Chomp",
+              "effects": [
+                {
+                  "name": "11",
+                  "color": "DAMAGE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "min_asc": 2,
+          "desc": "Always starts with #wChomp. Afterwards, has a 45-30-25 split between #wBellow, #wThrash, and #wChomp, but cannot use #wThrash three times in a row or #wChomp or #wBellow twice in a row.",
+          "notes": "The harder act 3 version of Jaw Worm follows the same rules but does not always start with #wChomp. This harder version starts with the effects of #wBellow innate.",
+          "hp": "(40 - 44 HP)",
+          "moves": [
+            {
+              "name": "Bellow",
+              "effects": [
+                {
+                  "name": "Str +4",
+                  "color": "BUFF"
+                },
+                {
+                  "name": "Block 6",
+                  "color": "BLOCK"
+                }
+              ]
+            },
+            {
+              "name": "Thrash",
+              "effects": [
+                {
+                  "name": "7",
+                  "color": "DAMAGE"
+                },
+                {
+                  "name": "Block 5",
+                  "color": "BLOCK"
+                }
+              ]
+            },
+            {
+              "name": "Chomp",
+              "effects": [
+                {
+                  "name": "12",
+                  "color": "DAMAGE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "min_asc": 7,
+          "desc": "Always starts with #wChomp. Afterwards, has a 45-30-25 split between #wBellow, #wThrash, and #wChomp, but cannot use #wThrash three times in a row or #wChomp or #wBellow twice in a row.",
+          "notes": "The harder act 3 version of Jaw Worm follows the same rules but does not always start with #wChomp. This harder version starts with the effects of #wBellow innate.",
+          "hp": "(42 - 46 HP)",
+          "moves": [
+            {
+              "name": "Bellow",
+              "effects": [
+                {
+                  "name": "Str +4",
+                  "color": "BUFF"
+                },
+                {
+                  "name": "Block 6",
+                  "color": "BLOCK"
+                }
+              ]
+            },
+            {
+              "name": "Thrash",
+              "effects": [
+                {
+                  "name": "7",
+                  "color": "DAMAGE"
+                },
+                {
+                  "name": "Block 5",
+                  "color": "BLOCK"
+                }
+              ]
+            },
+            {
+              "name": "Chomp",
+              "effects": [
+                {
+                  "name": "12",
+                  "color": "DAMAGE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "min_asc": 17,
+          "desc": "Always starts with #wChomp. Afterwards, has a 45-30-25 split between #wBellow, #wThrash, and #wChomp, but cannot use #wThrash three times in a row or #wChomp or #wBellow twice in a row.",
+          "notes": "The harder act 3 version of Jaw Worm follows the same rules but does not always start with #wChomp. This harder version starts with the effects of #wBellow innate.",
           "hp": "(42 - 46 HP)",
           "moves": [
             {
@@ -8484,7 +9127,60 @@
       "ai": [
         {
           "min_asc": 0,
-          "desc": "20% chance of #wAttack and 80% chance of #wDebuff. Cannot #wAttack twice in a row.",
+          "desc": "80% chance of #wDebuff and 20% chance of #wAttack. Cannot #wAttack twice in a row.",
+          "notes": "#dDaze status cards go into the draw pile.",
+          "hp": "(29 - 35 HP)",
+          "moves": [
+            {
+              "name": "Attack",
+              "effects": [
+                {
+                  "name": "11",
+                  "color": "DAMAGE"
+                }
+              ]
+            },
+            {
+              "name": "Debuff",
+              "effects": [
+                {
+                  "name": "Daze 2",
+                  "color": "DEBUFF"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "min_asc": 2,
+          "desc": "80% chance of #wDebuff and 20% chance of #wAttack. Cannot #wAttack twice in a row.",
+          "notes": "#dDaze status cards go into the draw pile.",
+          "hp": "(29 - 35 HP)",
+          "moves": [
+            {
+              "name": "Attack",
+              "effects": [
+                {
+                  "name": "13",
+                  "color": "DAMAGE"
+                }
+              ]
+            },
+            {
+              "name": "Debuff",
+              "effects": [
+                {
+                  "name": "Daze 2",
+                  "color": "DEBUFF"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "min_asc": 7,
+          "desc": "80% chance of #wDebuff and 20% chance of #wAttack. Cannot #wAttack twice in a row.",
+          "notes": "#dDaze status cards go into the draw pile.",
           "hp": "(31 - 38 HP)",
           "moves": [
             {
@@ -8515,14 +9211,128 @@
       "ai": [
         {
           "min_asc": 0,
-          "desc": "Always starts with #wSummon. Otherwise, has an equal chance of all 3 moves, except cannot use #wSnake #wStrike twice in a row, #wSummon 3 times in a row, or #wBig #wBite twice in a row. Cannot #wSummon with 4 daggers alive (66-34 split between #wSnake #wStrike and #wBig #wBite in that case).",
+          "desc": "Always starts with #wSummon. Otherwise, has an equal chance of all three moves, except cannot use #wSnake #wStrike twice in a row, #wSummon three times in a row, or #wBig #wBite twice in a row. Cannot #wSummon with four daggers alive (66-34 split between #wSnake #wStrike and #wBig #wBite in that case).",
+          "hp": "(180 - 190 HP)",
+          "moves": [
+            {
+              "name": "Summon",
+              "effects": [
+                {
+                  "name": "Spawn a Dagger",
+                  "color": "SPECIAL"
+                }
+              ]
+            },
+            {
+              "name": "Snake Strike",
+              "effects": [
+                {
+                  "name": "13x2",
+                  "color": "DAMAGE"
+                },
+                {
+                  "name": "Weak 1",
+                  "color": "DEBUFF"
+                }
+              ]
+            },
+            {
+              "name": "Big Bite",
+              "effects": [
+                {
+                  "name": "30",
+                  "color": "DAMAGE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "min_asc": 3,
+          "desc": "Always starts with #wSummon. Otherwise, has an equal chance of all three moves, except cannot use #wSnake #wStrike twice in a row, #wSummon three times in a row, or #wBig #wBite twice in a row. Cannot #wSummon with four daggers alive (66-34 split between #wSnake #wStrike and #wBig #wBite in that case).",
+          "hp": "(180 - 190 HP)",
+          "moves": [
+            {
+              "name": "Summon",
+              "effects": [
+                {
+                  "name": "Spawn a Dagger",
+                  "color": "SPECIAL"
+                }
+              ]
+            },
+            {
+              "name": "Snake Strike",
+              "effects": [
+                {
+                  "name": "16x2",
+                  "color": "DAMAGE"
+                },
+                {
+                  "name": "Weak 1",
+                  "color": "DEBUFF"
+                }
+              ]
+            },
+            {
+              "name": "Big Bite",
+              "effects": [
+                {
+                  "name": "34",
+                  "color": "DAMAGE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "min_asc": 8,
+          "desc": "Always starts with #wSummon. Otherwise, has an equal chance of all three moves, except cannot use #wSnake #wStrike twice in a row, #wSummon three times in a row, or #wBig #wBite twice in a row. Cannot #wSummon with four daggers alive (66-34 split between #wSnake #wStrike and #wBig #wBite in that case).",
           "hp": "(190 - 200 HP)",
           "moves": [
             {
               "name": "Summon",
               "effects": [
                 {
-                  "name": "Spawn 2 Daggers (Up to 4)",
+                  "name": "Spawn a Dagger",
+                  "color": "SPECIAL"
+                }
+              ]
+            },
+            {
+              "name": "Snake Strike",
+              "effects": [
+                {
+                  "name": "16x2",
+                  "color": "DAMAGE"
+                },
+                {
+                  "name": "Weak 1",
+                  "color": "DEBUFF"
+                }
+              ]
+            },
+            {
+              "name": "Big Bite",
+              "effects": [
+                {
+                  "name": "34",
+                  "color": "DAMAGE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "min_asc": 18,
+          "desc": "Always starts with #wSummon. Otherwise, has an equal chance of all three moves, except cannot use #wSnake #wStrike twice in a row, #wSummon three times in a row, or #wBig #wBite twice in a row. Cannot #wSummon with four daggers alive (66-34 split between #wSnake #wStrike and #wBig #wBite in that case).",
+          "hp": "(190 - 200 HP)",
+          "moves": [
+            {
+              "name": "Summon",
+              "effects": [
+                {
+                  "name": "Spawn 2 Daggers (up to 4 total)",
                   "color": "SPECIAL"
                 }
               ]
@@ -8559,7 +9369,121 @@
       "ai": [
         {
           "min_asc": 0,
-          "desc": "Always starts with #wStab. Then, has a 25% chance of using #wEntangle until it is used. If #wEntangle has not been used yet, cycles in the order of #wScrape -> #wStab. Otherwise, has a 45% chance of #wStab and 55% chance of #wScrape, except #wStab cannot be used three times in a row and #wScrape cannot be used twice in a row.",
+          "desc": "Always starts with #wStab. Then, has a 25% chance of using #wEntangle until it is used. If #wEntangle has not been used yet, cycles in the order of #wScrape -> #wScrape -> #wStab. Otherwise, has a 45% chance of #wStab and 55% chance of #wScrape, except neither #wStab nor #wScrape can be used three times in a row.",
+          "hp": "(46 - 50 HP)",
+          "moves": [
+            {
+              "name": "Stab",
+              "effects": [
+                {
+                  "name": "13",
+                  "color": "DAMAGE"
+                }
+              ]
+            },
+            {
+              "name": "Scrape",
+              "effects": [
+                {
+                  "name": "8",
+                  "color": "DAMAGE"
+                },
+                {
+                  "name": "Vuln 1",
+                  "color": "DEBUFF"
+                }
+              ]
+            },
+            {
+              "name": "Entangle",
+              "effects": [
+                {
+                  "name": "Entangle 1",
+                  "color": "DEBUFF"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "min_asc": 2,
+          "desc": "Always starts with #wStab. Then, has a 25% chance of using #wEntangle until it is used. If #wEntangle has not been used yet, cycles in the order of #wScrape -> #wScrape -> #wStab. Otherwise, has a 45% chance of #wStab and 55% chance of #wScrape, except neither #wStab nor #wScrape can be used three times in a row.",
+          "hp": "(46 - 50 HP)",
+          "moves": [
+            {
+              "name": "Stab",
+              "effects": [
+                {
+                  "name": "14",
+                  "color": "DAMAGE"
+                }
+              ]
+            },
+            {
+              "name": "Scrape",
+              "effects": [
+                {
+                  "name": "9",
+                  "color": "DAMAGE"
+                },
+                {
+                  "name": "Vuln 1",
+                  "color": "DEBUFF"
+                }
+              ]
+            },
+            {
+              "name": "Entangle",
+              "effects": [
+                {
+                  "name": "Entangle 1",
+                  "color": "DEBUFF"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "min_asc": 7,
+          "desc": "Always starts with #wStab. Then, has a 25% chance of using #wEntangle until it is used. If #wEntangle has not been used yet, cycles in the order of #wScrape -> #wScrape -> #wStab. Otherwise, has a 45% chance of #wStab and 55% chance of #wScrape, except neither #wStab nor #wScrape can be used three times in a row.",
+          "hp": "(48 - 52 HP)",
+          "moves": [
+            {
+              "name": "Stab",
+              "effects": [
+                {
+                  "name": "14",
+                  "color": "DAMAGE"
+                }
+              ]
+            },
+            {
+              "name": "Scrape",
+              "effects": [
+                {
+                  "name": "9",
+                  "color": "DAMAGE"
+                },
+                {
+                  "name": "Vuln 1",
+                  "color": "DEBUFF"
+                }
+              ]
+            },
+            {
+              "name": "Entangle",
+              "effects": [
+                {
+                  "name": "Entangle 1",
+                  "color": "DEBUFF"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "min_asc": 17,
+          "desc": "Always starts with #wStab. Then, has a 25% chance of using #wEntangle until it is used. If #wEntangle has not been used yet, alternates in the order of #wScrape followed by #wStab. Otherwise, has a 45% chance of #wStab and 55% chance of #wScrape, except #wStab cannot be used three times in a row and #wScrape cannot be used twice in a row.",
           "hp": "(48 - 52 HP)",
           "moves": [
             {
@@ -8603,9 +9527,110 @@
       "ai": [
         {
           "min_asc": 0,
-          "desc": "Every 4 turns, uses #wTaunt. Otherwise, approximately 30-0-25-45 probability split between #wDefensive #wStance - #wGloat - #wFace #wSlap - #wHeavy #wSlash. No move can be used twice in a row, and #wDefensive #wStance cannot be used more than 2 times total. When attempting to use an invalid move, will use the next move in the order of #wDefensive #wStance -> #wGloat -> #wFace #wSlap -> #wHeavy #wSlash -> #wFace #wSlap. NL NL After dropping below 50% HP, the Champ will use #wAnger (not shown), which will cleanse all debuffs and add #uStrength #u12. Then, next turn and every three turns thereafter, uses #wExecute.",
-          "hp": "(440 HP)",
+          "desc": "Every 4 turns, uses #wTaunt. Otherwise, approximately 45-25-15-15 probability split between #wHeavy #wSlash - #wFace #wSlap - #wDefensive #wStance - #wGloat. No move can be used twice in a row, and #wDefensive #wStance cannot be used more than two times total. When attempting to use an invalid move, will use the next move in the order of #wDefensive #wStance -> #wGloat -> #wFace #wSlap -> #wHeavy #wSlash -> #wFace #wSlap (which complicates the probability distribution). NL NL After dropping below 50% HP, the Champ will use #wAnger. Then, next turn and every three turns thereafter, uses #wExecute. In between the #wExecute moves, follows the original rules and probabilities of the pre-enraged state.",
+          "notes": "Will enrage once dropped beneath 50% hp.",
+          "hp": "(420 HP)",
           "moves": [
+            {
+              "name": "Heavy Slash",
+              "effects": [
+                {
+                  "name": "16",
+                  "color": "DAMAGE"
+                }
+              ]
+            },
+            {
+              "name": "Face Slap",
+              "effects": [
+                {
+                  "name": "12",
+                  "color": "DAMAGE"
+                },
+                {
+                  "name": "Frail 2",
+                  "color": "DEBUFF"
+                },
+                {
+                  "name": "Vuln 2",
+                  "color": "DEBUFF"
+                }
+              ]
+            },
+            {
+              "name": "Defensive Stance",
+              "effects": [
+                {
+                  "name": "Block 15",
+                  "color": "BLOCK"
+                },
+                {
+                  "name": "Metallicize 5",
+                  "color": "BUFF"
+                }
+              ]
+            },
+            {
+              "name": "Gloat",
+              "effects": [
+                {
+                  "name": "Str +2",
+                  "color": "BUFF"
+                }
+              ]
+            },
+            {
+              "name": "Taunt",
+              "effects": [
+                {
+                  "name": "Weak 2",
+                  "color": "DEBUFF"
+                },
+                {
+                  "name": "Vuln 2",
+                  "color": "DEBUFF"
+                }
+              ]
+            },
+            {
+              "name": "Anger",
+              "effects": [
+                {
+                  "name": "Cleanse Debuffs",
+                  "color": "SPECIAL"
+                },
+                {
+                  "name": "Str +6",
+                  "color": "BUFF"
+                }
+              ]
+            },
+            {
+              "name": "Execute",
+              "effects": [
+                {
+                  "name": "10x2",
+                  "color": "DAMAGE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "min_asc": 4,
+          "desc": "Every 4 turns, uses #wTaunt. Otherwise, approximately 45-25-15-15 probability split between #wHeavy #wSlash - #wFace #wSlap - #wDefensive #wStance - #wGloat. No move can be used twice in a row, and #wDefensive #wStance cannot be used more than two times total. When attempting to use an invalid move, will use the next move in the order of #wDefensive #wStance -> #wGloat -> #wFace #wSlap -> #wHeavy #wSlash -> #wFace #wSlap (which complicates the probability distribution). NL NL After dropping below 50% HP, the Champ will use #wAnger. Then, next turn and every three turns thereafter, uses #wExecute. In between the #wExecute moves, follows the original rules and probabilities of the pre-enraged state.",
+          "notes": "Will enrage once dropped beneath 50% hp.",
+          "hp": "(420 HP)",
+          "moves": [
+            {
+              "name": "Heavy Slash",
+              "effects": [
+                {
+                  "name": "18",
+                  "color": "DAMAGE"
+                }
+              ]
+            },
             {
               "name": "Face Slap",
               "effects": [
@@ -8624,10 +9649,179 @@
               ]
             },
             {
+              "name": "Defensive Stance",
+              "effects": [
+                {
+                  "name": "Block 15",
+                  "color": "BLOCK"
+                },
+                {
+                  "name": "Metallicize 5",
+                  "color": "BUFF"
+                }
+              ]
+            },
+            {
+              "name": "Gloat",
+              "effects": [
+                {
+                  "name": "Str +3",
+                  "color": "BUFF"
+                }
+              ]
+            },
+            {
               "name": "Taunt",
               "effects": [
                 {
                   "name": "Weak 2",
+                  "color": "DEBUFF"
+                },
+                {
+                  "name": "Vuln 2",
+                  "color": "DEBUFF"
+                }
+              ]
+            },
+            {
+              "name": "Anger",
+              "effects": [
+                {
+                  "name": "Cleanse Debuffs",
+                  "color": "SPECIAL"
+                },
+                {
+                  "name": "Str +6",
+                  "color": "BUFF"
+                }
+              ]
+            },
+            {
+              "name": "Execute",
+              "effects": [
+                {
+                  "name": "10x2",
+                  "color": "DAMAGE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "min_asc": 9,
+          "desc": "Every 4 turns, uses #wTaunt. Otherwise, approximately 45-25-15-15 probability split between #wHeavy #wSlash - #wFace #wSlap - #wDefensive #wStance - #wGloat. No move can be used twice in a row, and #wDefensive #wStance cannot be used more than two times total. When attempting to use an invalid move, will use the next move in the order of #wDefensive #wStance -> #wGloat -> #wFace #wSlap -> #wHeavy #wSlash -> #wFace #wSlap (which complicates the probability distribution). NL NL After dropping below 50% HP, the Champ will use #wAnger. Then, next turn and every three turns thereafter, uses #wExecute. In between the #wExecute moves, follows the original rules and probabilities of the pre-enraged state.",
+          "notes": "Will enrage once dropped beneath 50% hp.",
+          "hp": "(440 HP)",
+          "moves": [
+            {
+              "name": "Heavy Slash",
+              "effects": [
+                {
+                  "name": "18",
+                  "color": "DAMAGE"
+                }
+              ]
+            },
+            {
+              "name": "Face Slap",
+              "effects": [
+                {
+                  "name": "14",
+                  "color": "DAMAGE"
+                },
+                {
+                  "name": "Frail 2",
+                  "color": "DEBUFF"
+                },
+                {
+                  "name": "Vuln 2",
+                  "color": "DEBUFF"
+                }
+              ]
+            },
+            {
+              "name": "Defensive Stance",
+              "effects": [
+                {
+                  "name": "Block 18",
+                  "color": "BLOCK"
+                },
+                {
+                  "name": "Metallicize 6",
+                  "color": "BUFF"
+                }
+              ]
+            },
+            {
+              "name": "Gloat",
+              "effects": [
+                {
+                  "name": "Str +3",
+                  "color": "BUFF"
+                }
+              ]
+            },
+            {
+              "name": "Taunt",
+              "effects": [
+                {
+                  "name": "Weak 2",
+                  "color": "DEBUFF"
+                },
+                {
+                  "name": "Vuln 2",
+                  "color": "DEBUFF"
+                }
+              ]
+            },
+            {
+              "name": "Anger",
+              "effects": [
+                {
+                  "name": "Cleanse Debuffs",
+                  "color": "SPECIAL"
+                },
+                {
+                  "name": "Str +6",
+                  "color": "BUFF"
+                }
+              ]
+            },
+            {
+              "name": "Execute",
+              "effects": [
+                {
+                  "name": "10x2",
+                  "color": "DAMAGE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "min_asc": 19,
+          "desc": "Every 4 turns, uses #wTaunt. Otherwise, approximately 45-25-30 probability split between #wHeavy #wSlash - #wFace #wSlap - #wDefensive #wStance. No move can be used twice in a row, and #wDefensive #wStance cannot be used more than two times total. When attempting to use an invalid move, will use the next move in the order of #wDefensive #wStance -> #wGloat -> #wFace #wSlap -> #wHeavy #wSlash -> #wFace #wSlap (which complicates the probability distribution). NL NL After dropping below 50% HP, the Champ will use #wAnger. Then, next turn and every three turns thereafter, uses #wExecute. In between the #wExecute moves, follows the original rules and probabilities of the pre-enraged state.",
+          "notes": "Will enrage once dropped beneath 50% hp.",
+          "hp": "(440 HP)",
+          "moves": [
+            {
+              "name": "Heavy Slash",
+              "effects": [
+                {
+                  "name": "18",
+                  "color": "DAMAGE"
+                }
+              ]
+            },
+            {
+              "name": "Face Slap",
+              "effects": [
+                {
+                  "name": "14",
+                  "color": "DAMAGE"
+                },
+                {
+                  "name": "Frail 2",
                   "color": "DEBUFF"
                 },
                 {
@@ -8659,16 +9853,33 @@
               ]
             },
             {
-              "name": "Heavy Slash",
+              "name": "Taunt",
               "effects": [
                 {
-                  "name": "18",
-                  "color": "DAMAGE"
+                  "name": "Weak 2",
+                  "color": "DEBUFF"
+                },
+                {
+                  "name": "Vuln 2",
+                  "color": "DEBUFF"
                 }
               ]
             },
             {
-              "name": "Execute (Below 50% HP)",
+              "name": "Anger",
+              "effects": [
+                {
+                  "name": "Cleanse Debuffs",
+                  "color": "SPECIAL"
+                },
+                {
+                  "name": "Str +6",
+                  "color": "BUFF"
+                }
+              ]
+            },
+            {
+              "name": "Execute",
               "effects": [
                 {
                   "name": "10x2",
