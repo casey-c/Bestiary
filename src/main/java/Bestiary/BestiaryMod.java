@@ -7,15 +7,12 @@ import Bestiary.utils.KeyHelper;
 import Bestiary.utils.SoundHelper;
 import basemod.BaseMod;
 import basemod.interfaces.PostInitializeSubscriber;
-import basemod.interfaces.PostRenderSubscriber;
-import basemod.interfaces.PostUpdateSubscriber;
 import basemod.interfaces.RenderSubscriber;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 import com.evacipated.cardcrawl.modthespire.lib.SpireInitializer;
 import com.megacrit.cardcrawl.core.CardCrawlGame;
 import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
 import com.megacrit.cardcrawl.helpers.input.InputHelper;
-import com.megacrit.cardcrawl.monsters.MonsterGroup;
 import com.megacrit.cardcrawl.rooms.AbstractRoom;
 
 @SpireInitializer
@@ -98,22 +95,4 @@ public class BestiaryMod implements PostInitializeSubscriber, RenderSubscriber {
             }
         }
     }
-
-
-//    @Override
-//    public void receivePostUpdate() {
-//        if (!CardCrawlGame.isInARun())
-//            return;
-//
-//        // Right clicks
-//        if (InputHelper.isMouseDown_R) {
-//            mouseDownRight = true;
-//        } else {
-//            // We already had the mouse down, and now we released, so fire our right click event
-//            if (mouseDownRight) {
-//                handleRightClick();
-//                mouseDownRight = false;
-//            }
-//        }
-//    }
 }

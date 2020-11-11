@@ -76,47 +76,4 @@ public class AlternateConfigPanel extends ModPanel {
 
         }
     }
-
-    //        @Override
-//        public void render(SpriteBatch sb) {
-//            renderBg(sb);
-//            super.render(sb);
-//
-//            // Render kids
-//            screen.render(sb);
-//        }
-
-//        private boolean visible = false;
-//
-//        @Override
-//        public void update() {
-//            // TODO: Update all children
-//            screen.update();
-//
-//            if (InputHelper.pressedEscape) {
-//                InputHelper.pressedEscape = false;
-//                BaseMod.modSettingsUp = false;
-//            }
-//
-//            if (!BaseMod.modSettingsUp) {
-//                this.waitingOnEvent = false;
-//                Gdx.input.setInputProcessor(this.oldInputProcessor);
-//                CardCrawlGame.mainMenuScreen.lighten();
-//                CardCrawlGame.mainMenuScreen.screen = MainMenuScreen.CurScreen.MAIN_MENU;
-//                CardCrawlGame.cancelButton.hideInstantly();
-//                this.isUp = false;
-//            }
-//
-//            // Enable and disable hitboxes
-//            if (isUp && !visible) {
-//                visible = true;
-//                screen.enableHitboxes(true);
-//            }
-//            else if (!isUp && visible) {
-//                visible = false;
-//                screen.enableHitboxes(false);
-//            }
-//
-//        }
-    //}
 }

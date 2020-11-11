@@ -16,8 +16,6 @@ public class SmartLabel extends Label {
         this.lineSpacing = lineSpacing;
 
         this.textHeight = font.getLineHeight();
-        //this.textWidth = FontHelper.getSmartWidth(font, text, lineWidth * Settings.scale, lineSpacing * Settings.scale);
-        // TODO: determine if this lineWidth / lineSpacing should actually be scaled before calling getSmartWidth
         this.textWidth = FontHelper.getSmartWidth(font, text, lineWidth, lineSpacing) / Settings.scale;
     }
 

@@ -4,7 +4,6 @@ import com.badlogic.gdx.graphics.Color;
 import com.badlogic.gdx.graphics.g2d.BitmapFont;
 import com.badlogic.gdx.graphics.g2d.GlyphLayout;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
-import com.badlogic.gdx.math.MathUtils;
 import com.megacrit.cardcrawl.core.Settings;
 import com.megacrit.cardcrawl.helpers.FontHelper;
 
@@ -23,6 +22,7 @@ public class RenderingUtils {
                 //    #d    debuff
                 //    #u    buff ("upgrade")
                 //    #b    block
+                //    #m    magic (rainbow)
                 case 'w':
                     return Settings.CREAM_COLOR.cpy();
                 case 'g':

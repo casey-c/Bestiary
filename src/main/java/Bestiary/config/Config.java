@@ -1,14 +1,9 @@
 package Bestiary.config;
 
-import Bestiary.utils.ExtraColors;
 import basemod.BaseMod;
-import basemod.ModLabeledToggleButton;
-import basemod.ModPanel;
 import com.badlogic.gdx.graphics.Texture;
 import com.evacipated.cardcrawl.modthespire.lib.SpireConfig;
 import com.evacipated.cardcrawl.modthespire.lib.SpireInitializer;
-import com.megacrit.cardcrawl.core.Settings;
-import com.megacrit.cardcrawl.helpers.FontHelper;
 
 import java.io.IOException;
 import java.util.Properties;
@@ -52,8 +47,6 @@ public class Config {
     }
 
     public static void setupConfigMenu() {
-        //ModPanel settingsPanel = new ModPanel();
-
         BaseMod.registerModBadge(new Texture("Bestiary/badge.png"),
                 "Bestiary",
                 "ojb",
