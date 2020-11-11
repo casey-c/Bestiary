@@ -752,10 +752,6 @@
                   "color": "DAMAGE"
                 }
               ]
-            },
-            {
-              "name": "Split",
-              "effects": []
             }
           ]
         },
@@ -795,10 +791,6 @@
                   "color": "DAMAGE"
                 }
               ]
-            },
-            {
-              "name": "Split",
-              "effects": []
             }
           ]
         },
@@ -838,10 +830,6 @@
                   "color": "DAMAGE"
                 }
               ]
-            },
-            {
-              "name": "Split",
-              "effects": []
             }
           ]
         },
@@ -881,10 +869,6 @@
                   "color": "DAMAGE"
                 }
               ]
-            },
-            {
-              "name": "Split",
-              "effects": []
             }
           ]
         }
