@@ -1,6 +1,7 @@
 package Bestiary;
 
 import Bestiary.database.MonsterDatabase;
+import Bestiary.debug.DebugTopItem;
 import Bestiary.ui.MonsterOverlay;
 import basemod.BaseMod;
 import basemod.interfaces.PostInitializeSubscriber;
@@ -11,8 +12,7 @@ import com.megacrit.cardcrawl.core.CardCrawlGame;
 
 @SpireInitializer
 public class BestiaryMod implements PostInitializeSubscriber, RenderSubscriber {
-    private MonsterDatabase db;
-    private MonsterOverlay overlay;
+    public static MonsterDatabase db;
 
     public static void initialize() { new BestiaryMod(); }
 
@@ -25,18 +25,10 @@ public class BestiaryMod implements PostInitializeSubscriber, RenderSubscriber {
         System.out.println("Mob Info init, creating database");
 
         db = new MonsterDatabase();
+        BaseMod.addTopPanelItem(new DebugTopItem());
     }
 
     @Override
     public void receiveRender(SpriteBatch sb) {
-        if (CardCrawlGame.isInARun()) {
-            if (overlay == null) {
-                overlay = new MonsterOverlay(db);
-                //overlay.setCurrMonsterByID("Darkling");
-                //overlay.setCurrMonsterByID("CorruptHeart");
-                overlay.setCurrMonsterByID("TheGuardian");
-            }
-            overlay.render(sb);
-        }
     }
 }

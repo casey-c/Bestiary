@@ -6,7 +6,9 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
+import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.Set;
 
 public class MonsterDatabase {
     private HashMap<String, MonsterInfo> monsters = new HashMap<>(); // a graveyard smash
@@ -25,6 +27,10 @@ public class MonsterDatabase {
 
     public void insert(MonsterInfo monster) {
         monsters.put(monster.getId(), monster);
+    }
+
+    public ArrayList<String> getAllIDs() {
+        return new ArrayList<>(monsters.keySet());
     }
 
     // --------------------------------------------------------------------------------
