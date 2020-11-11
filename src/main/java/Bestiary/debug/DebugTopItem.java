@@ -10,6 +10,7 @@ import com.megacrit.cardcrawl.core.CardCrawlGame;
 
 import java.util.ArrayList;
 
+/*
 public class DebugTopItem extends TopPanelItem {
     private static final Texture image = new Texture("Bestiary/debug.png");
 
@@ -66,3 +67,5 @@ public class DebugTopItem extends TopPanelItem {
         }
     }
 }
+
+ */

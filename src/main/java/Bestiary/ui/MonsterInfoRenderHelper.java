@@ -20,7 +20,7 @@ public class MonsterInfoRenderHelper {
 
     public MonsterInfoRenderHelper(MonsterInfo monster) {
         setCurrMonster(monster);
-        System.out.println("Set current monster to " + monster);
+        //System.out.println("Set current monster to " + monster);
     }
 
     // --------------------------------------------------------------------------------

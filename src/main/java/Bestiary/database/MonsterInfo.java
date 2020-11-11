@@ -36,7 +36,6 @@ public class MonsterInfo {
         for (AscensionMoveSet moveset : moveSets) {
             int curr = moveset.getMinAsc();
             // TODO: need to verify if it is < or <= here probably
-            System.out.println("Checking if the moveset with asc level " + curr + " is applicable here at " + asc_level);
             if (curr > max && curr <= asc_level) {
                 max = curr;
                 target = moveset;
