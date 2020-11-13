@@ -11,7 +11,7 @@ You can disable the *Shift* key modifier requirement in the Main Menu -> Mods ->
 
 ## Installation
 
-* Steam Workshop Link: [todo]
+* Steam Workshop Link: https://steamcommunity.com/sharedfiles/filedetails/?id=2285965269
 
 * Manually: Requires ModTheSpire and BaseMod. Download the latest .jar file from the [Releases page](https://github.com/casey-c/bestiary/releases) and place it into the SlayTheSpire/mods folder.
 
