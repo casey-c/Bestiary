@@ -3,6 +3,10 @@ Shift+Right click a monster while in combat to view its AI patterns and abilitie
 
 ![Screenshot](github/example.png)
 
+## Controller Support
+
+As of v0.1.2 - there should now be support for controller users to open the overlay! Target a monster using the D-Pad, and then press the "view draw pile" button (left trigger by default). To close the overlay, press the cancel button (B by default).
+
 ## Config
 
 You can disable the *Shift* key modifier requirement in the Main Menu -> Mods -> Bestiary -> Config menu. This feature is enabled by default since it can be quite annoying to open up the menu if you right click while holding a card (e.g. canceling a card play after picking it up).
