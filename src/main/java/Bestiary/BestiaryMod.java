@@ -6,13 +6,20 @@ import Bestiary.ui.MonsterOverlay;
 import Bestiary.utils.KeyHelper;
 import Bestiary.utils.SoundHelper;
 import basemod.BaseMod;
+import basemod.ReflectionHacks;
 import basemod.interfaces.PostInitializeSubscriber;
 import basemod.interfaces.RenderSubscriber;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 import com.evacipated.cardcrawl.modthespire.lib.SpireInitializer;
+import com.megacrit.cardcrawl.characters.AbstractPlayer;
+import com.megacrit.cardcrawl.core.AbstractCreature;
 import com.megacrit.cardcrawl.core.CardCrawlGame;
+import com.megacrit.cardcrawl.core.Settings;
 import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
+import com.megacrit.cardcrawl.helpers.controller.CInputActionSet;
 import com.megacrit.cardcrawl.helpers.input.InputHelper;
+import com.megacrit.cardcrawl.monsters.AbstractMonster;
+import com.megacrit.cardcrawl.monsters.MonsterGroup;
 import com.megacrit.cardcrawl.rooms.AbstractRoom;
 
 @SpireInitializer
@@ -70,21 +77,46 @@ public class BestiaryMod implements PostInitializeSubscriber, RenderSubscriber {
 
         AbstractRoom room = AbstractDungeon.getCurrRoom();
         if (room != null && room.monsters != null && room.monsters.hoveredMonster != null) {
-            String id = room.monsters.hoveredMonster.id;
-            System.out.println("Currently hovered on: " + id);
-
-            SoundHelper.openSound();
-            overlay.setCurrMonsterByID(id);
-            showOverlay = true;
+            openOverlayForMonster(room.monsters.hoveredMonster.id);
         }
-
     }
 
-    public static void update() {
-        if (!CardCrawlGame.isInARun())
-            return;
+    private void openOverlayForMonster(String id) {
+        System.out.println("Currently hovered on: " + id);
+        SoundHelper.openSound();
+        overlay.setCurrMonsterByID(id);
+        showOverlay = true;
+    }
 
-        // Right clicks
+    public static AbstractMonster intentRenderingMonster = null;
+
+    public static void update() {
+        if (!CardCrawlGame.isInARun()) {
+            intentRenderingMonster = null;
+            return;
+        }
+
+        // Controller support
+        if (Settings.isControllerMode) {
+            if (CInputActionSet.drawPile.isJustPressed()) {
+                if (intentRenderingMonster != null) {
+                    if (!showOverlay)
+                        instance.openOverlayForMonster(intentRenderingMonster.id);
+                }
+            }
+
+            if (CInputActionSet.cancel.isJustPressed()) {
+                if (showOverlay) {
+                    SoundHelper.closeSound();
+                    showOverlay = false;
+                }
+            }
+        }
+
+        // Reset (it will update on the next rendering call anyway)
+        intentRenderingMonster = null;
+
+        // No controller / normal right clicks
         if (InputHelper.isMouseDown_R) {
             instance.mouseDownRight = true;
         } else {
