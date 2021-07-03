@@ -14,10 +14,11 @@ import com.megacrit.cardcrawl.helpers.ImageMaster;
 
 public class AlternateConfigPanel extends ModPanel {
         private static Texture TEX_BG = new Texture("Bestiary/config.png");
+        private static final float startX = (Settings.WIDTH - (TEX_BG.getWidth() * Settings.scale)) * 0.5f;
 
         public AlternateConfigPanel() {
             addUIElement(new ModLabeledToggleButton("Require holding Shift to open overlay (prevents accidental openings)",
-                    395,
+                    startX + 79 * Settings.scale,
                     668,
                     ExtraColors.OJB_GRAY_COLOR,
                     FontHelper.tipBodyFont,
@@ -39,7 +40,7 @@ public class AlternateConfigPanel extends ModPanel {
             // Draw our screen texture in the center
             sb.setColor(Color.WHITE);
             sb.draw(TEX_BG,
-                    (Settings.WIDTH - (TEX_BG.getWidth() * Settings.scale)) * 0.5f,
+                    startX,
                     (Settings.HEIGHT - (TEX_BG.getHeight() * Settings.scale)) * 0.5f,
                     TEX_BG.getWidth() * Settings.scale,
                     TEX_BG.getHeight() * Settings.scale
@@ -51,13 +52,13 @@ public class AlternateConfigPanel extends ModPanel {
         super.render(sb);
 
         // Render title
-        FontHelper.renderFontLeftDownAligned(sb, ExtraFonts.overlayTitleFont(), "Bestiary", 395.0f * Settings.scale, 825.0f * Settings.scale, Settings.GOLD_COLOR);
+        FontHelper.renderFontLeftDownAligned(sb, ExtraFonts.overlayTitleFont(), "Bestiary", startX + 79 * Settings.scale, 825.0f * Settings.scale, Settings.GOLD_COLOR);
 
         if (Config.requiresShift()) {
             RenderingUtils.renderSmartText(sb,
                     FontHelper.tipBodyFont,
                     "#mBestiary lets you see which moves a monster can use! NL NL Open up the overlay by #wShift #wRight #wClicking a monster while in combat. You can close this overlay with just a right click. NL NL Bestiary supports all vanilla mobs for all ascension levels. Please let me know on the Steam Workshop page or on the Github issues page if you find any problems. Thanks!",
-                    1133 * Settings.scale,
+                    Settings.WIDTH - startX - (471 * Settings.scale),
                     702 * Settings.scale,
                     400 * Settings.scale,
                     32 * Settings.scale,
@@ -68,7 +69,7 @@ public class AlternateConfigPanel extends ModPanel {
             RenderingUtils.renderSmartText(sb,
                     FontHelper.tipBodyFont,
                     "#mBestiary lets you see which moves a monster can use! NL NL Open up the overlay by #wRight #wClicking a monster while in combat. You can close this overlay with another right click. NL NL Bestiary supports all vanilla mobs for all ascension levels. Please let me know on the Steam Workshop page or on the Github issues page if you find any problems. Thanks!",
-                    1133 * Settings.scale,
+                    Settings.WIDTH - startX - (471 * Settings.scale),
                     702 * Settings.scale,
                     400 * Settings.scale,
                     32 * Settings.scale,
