@@ -26,7 +26,7 @@ public class MonsterInfoRenderHelper {
     // --------------------------------------------------------------------------------
     // UI layout information (WIP - to be tweaked as needed)
 
-    private static final float movesLeft = 315.0f;
+    private static final float movesLeft = MonsterOverlay.startX + (97 * Settings.scale);
     private static final float titleBottom = 886.0f;
 
     private static final float firstMoveBottom = 780.0f;
@@ -36,7 +36,7 @@ public class MonsterInfoRenderHelper {
     private static final float additionalMoveEffectPadding = 40.0f;
     private static final float moveEffectHorizSpacing = 50.0f;
 
-    private static final float descLeft = 1086.0f;
+    private static final float descLeft = Settings.WIDTH - MonsterOverlay.startX - (616 * Settings.scale);
     private static final float descTop = 847.0f;
     private static final float notesTop = 334.0f;
 

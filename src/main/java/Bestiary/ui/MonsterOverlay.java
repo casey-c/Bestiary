@@ -11,6 +11,7 @@ import com.megacrit.cardcrawl.helpers.ImageMaster;
 
 public class MonsterOverlay {
     private static final Texture TEX_BG = new Texture("Bestiary/screen.png");
+    public static final float startX = (Settings.WIDTH - (TEX_BG.getWidth() * Settings.scale)) * 0.5f;
 
     private MonsterDatabase db;
     private MonsterInfoRenderHelper helper;
@@ -30,7 +31,7 @@ public class MonsterOverlay {
 
         sb.setColor(Color.WHITE);
         sb.draw(TEX_BG,
-                (Settings.WIDTH - (TEX_BG.getWidth() * Settings.scale)) * 0.5f,
+                startX,
                 (Settings.HEIGHT - (TEX_BG.getHeight() * Settings.scale)) * 0.5f,
                 TEX_BG.getWidth() * Settings.scale,
                 TEX_BG.getHeight() * Settings.scale
