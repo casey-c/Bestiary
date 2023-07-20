@@ -2320,11 +2320,11 @@
               "name": "Siphon Soul",
               "effects": [
                 {
-                  "name": "Player Str -1",
+                  "name": "Player Dex -1",
                   "color": "DEBUFF"
                 },
                 {
-                  "name": "Player Dex -1",
+                  "name": "Player Str -1",
                   "color": "DEBUFF"
                 }
               ]
